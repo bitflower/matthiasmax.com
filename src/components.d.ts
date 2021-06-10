@@ -35,11 +35,6 @@ export namespace Components {
         "name"?: string;
         "sourceUrl"?: string;
     }
-    interface DocComponent {
-        "page"?: string;
-    }
-    interface DsPage {
-    }
     interface FeaturePill {
         "link": string;
     }
@@ -78,8 +73,6 @@ export namespace Components {
         "vert": string;
     }
     interface PwasPage {
-    }
-    interface ResourcesPage {
     }
     interface SearchBar {
         "debounce"?: number;
@@ -150,18 +143,6 @@ declare global {
     var HTMLDemoCardElement: {
         prototype: HTMLDemoCardElement;
         new (): HTMLDemoCardElement;
-    };
-    interface HTMLDocComponentElement extends Components.DocComponent, HTMLStencilElement {
-    }
-    var HTMLDocComponentElement: {
-        prototype: HTMLDocComponentElement;
-        new (): HTMLDocComponentElement;
-    };
-    interface HTMLDsPageElement extends Components.DsPage, HTMLStencilElement {
-    }
-    var HTMLDsPageElement: {
-        prototype: HTMLDsPageElement;
-        new (): HTMLDsPageElement;
     };
     interface HTMLFeaturePillElement extends Components.FeaturePill, HTMLStencilElement {
     }
@@ -241,12 +222,6 @@ declare global {
         prototype: HTMLPwasPageElement;
         new (): HTMLPwasPageElement;
     };
-    interface HTMLResourcesPageElement extends Components.ResourcesPage, HTMLStencilElement {
-    }
-    var HTMLResourcesPageElement: {
-        prototype: HTMLResourcesPageElement;
-        new (): HTMLResourcesPageElement;
-    };
     interface HTMLSearchBarElement extends Components.SearchBar, HTMLStencilElement {
     }
     var HTMLSearchBarElement: {
@@ -281,8 +256,6 @@ declare global {
         "contributor-list": HTMLContributorListElement;
         "custom-clock": HTMLCustomClockElement;
         "demo-card": HTMLDemoCardElement;
-        "doc-component": HTMLDocComponentElement;
-        "ds-page": HTMLDsPageElement;
         "feature-pill": HTMLFeaturePillElement;
         "guide-callout": HTMLGuideCalloutElement;
         "highlight-code": HTMLHighlightCodeElement;
@@ -296,7 +269,6 @@ declare global {
         "pre-footer": HTMLPreFooterElement;
         "pro-glshader": HTMLProGlshaderElement;
         "pwas-page": HTMLPwasPageElement;
-        "resources-page": HTMLResourcesPageElement;
         "search-bar": HTMLSearchBarElement;
         "site-header": HTMLSiteHeaderElement;
         "site-menu": HTMLSiteMenuElement;
@@ -331,11 +303,6 @@ declare namespace LocalJSX {
         "imgPath"?: string;
         "name"?: string;
         "sourceUrl"?: string;
-    }
-    interface DocComponent {
-        "page"?: string;
-    }
-    interface DsPage {
     }
     interface FeaturePill {
         "link"?: string;
@@ -378,8 +345,6 @@ declare namespace LocalJSX {
     }
     interface PwasPage {
     }
-    interface ResourcesPage {
-    }
     interface SearchBar {
         "debounce"?: number;
         "handleInput"?: (ev: any) => void;
@@ -404,8 +369,6 @@ declare namespace LocalJSX {
         "contributor-list": ContributorList;
         "custom-clock": CustomClock;
         "demo-card": DemoCard;
-        "doc-component": DocComponent;
-        "ds-page": DsPage;
         "feature-pill": FeaturePill;
         "guide-callout": GuideCallout;
         "highlight-code": HighlightCode;
@@ -419,7 +382,6 @@ declare namespace LocalJSX {
         "pre-footer": PreFooter;
         "pro-glshader": ProGlshader;
         "pwas-page": PwasPage;
-        "resources-page": ResourcesPage;
         "search-bar": SearchBar;
         "site-header": SiteHeader;
         "site-menu": SiteMenu;
@@ -439,8 +401,6 @@ declare module "@stencil/core" {
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
             "custom-clock": LocalJSX.CustomClock & JSXBase.HTMLAttributes<HTMLCustomClockElement>;
             "demo-card": LocalJSX.DemoCard & JSXBase.HTMLAttributes<HTMLDemoCardElement>;
-            "doc-component": LocalJSX.DocComponent & JSXBase.HTMLAttributes<HTMLDocComponentElement>;
-            "ds-page": LocalJSX.DsPage & JSXBase.HTMLAttributes<HTMLDsPageElement>;
             "feature-pill": LocalJSX.FeaturePill & JSXBase.HTMLAttributes<HTMLFeaturePillElement>;
             "guide-callout": LocalJSX.GuideCallout & JSXBase.HTMLAttributes<HTMLGuideCalloutElement>;
             "highlight-code": LocalJSX.HighlightCode & JSXBase.HTMLAttributes<HTMLHighlightCodeElement>;
@@ -454,7 +414,6 @@ declare module "@stencil/core" {
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
             "pro-glshader": LocalJSX.ProGlshader & JSXBase.HTMLAttributes<HTMLProGlshaderElement>;
             "pwas-page": LocalJSX.PwasPage & JSXBase.HTMLAttributes<HTMLPwasPageElement>;
-            "resources-page": LocalJSX.ResourcesPage & JSXBase.HTMLAttributes<HTMLResourcesPageElement>;
             "search-bar": LocalJSX.SearchBar & JSXBase.HTMLAttributes<HTMLSearchBarElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
             "site-menu": LocalJSX.SiteMenu & JSXBase.HTMLAttributes<HTMLSiteMenuElement>;

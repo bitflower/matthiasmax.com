@@ -39,11 +39,7 @@ export class AppRoot {
   private setHistory = ({ history }: { history: RouterHistory }) => {
     if (!this.history) {
       this.history = history;
-      this.history.listen((_location: LocationSegments) => {
-        // Hubspot
-        // (window as any)._hsq.push(['setPath', location.pathname + location.search ]);
-        // (window as any)._hsq.push(['trackPageView']);
-      });
+      this.history.listen((_location: LocationSegments) => {});
     }
   };
 
@@ -87,23 +83,17 @@ export class AppRoot {
     return (
       <SiteProviderConsumer.Provider state={siteState}>
         <site-root>
-          {/* <platform-bar productName="Stencil" /> */}
-          <announcement-bar />
           <site-header />
           <main>
             <stencil-router scrollTopOffset={0}>
               <stencil-route style={{ display: 'none' }} routeRender={this.setHistory} />
               <stencil-route-switch>
                 <stencil-route url="/" component="landing-page" exact={true} />
-                <stencil-route url="/docs/:pageName" routeRender={({ match }) => <doc-component page={match!.url}></doc-component>} />
 
                 <stencil-route url="/blog" component="blog-list" exact={true} />
-
                 <stencil-route url="/blog/:pageName" routeRender={({ match }) => <blog-component page={match!.url}></blog-component>} />
 
-                {/* <stencil-route url="/design-systems" component="ds-page" /> */}
-                <stencil-route url="/pwa" component="pwas-page" />
-                <stencil-route url="/resources" component="resources-page" />
+                <stencil-route url="/cv" component="pwas-page" />
                 <stencil-route component="notfound-page"></stencil-route>
               </stencil-route-switch>
             </stencil-router>
@@ -111,20 +101,15 @@ export class AppRoot {
               <ResponsiveContainer>
                 <div class="footer-col">
                   <app-icon name="logo" />
-                  <p>© 2020 StencilJS. Released under MIT License</p>
+                  <p>© 2021 Matthias Max.</p>
                   <ul class="external-links list--unstyled">
                     <li>
-                      <a rel="noopener" class="link--external" target="_blank" href="https://twitter.com/stenciljs" aria-label="Twitter">
+                      <a rel="noopener" class="link--external" target="_blank" href="https://twitter.com/bitflowertweets" aria-label="Twitter">
                         <app-icon name="twitter"></app-icon>
                       </a>
                     </li>
                     <li>
-                      <a rel="noopener" class="link--external" target="_blank" href="https://stencil-worldwide.herokuapp.com" aria-label="Slack">
-                        <app-icon name="slack"></app-icon>
-                      </a>
-                    </li>
-                    <li>
-                      <a rel="noopener" class="link--external" target="_blank" href="https://github.com/ionic-team/stencil" aria-label="Github">
+                      <a rel="noopener" class="link--external" target="_blank" href="https://github.com/bitflower" aria-label="Github">
                         <app-icon name="github"></app-icon>
                       </a>
                     </li>

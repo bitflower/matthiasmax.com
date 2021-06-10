@@ -3,13 +3,13 @@ import marked from 'marked';
 import glob from 'glob';
 import { promisify } from 'util';
 import path from 'path';
-import {readFile, writeFile, mkdirp, remove} from 'fs-extra';
+import { readFile, writeFile, mkdirp, remove } from 'fs-extra';
 
 import { collectHeadingMetadata, changeCodeCreation, localizeMarkdownLink } from './markdown-renderer';
 import frontMatter from 'front-matter';
 import { SiteStructureItem, MarkdownContent } from '../src/global/definitions';
-import { getGithubData } from './lib/github';
-import { convertHtmlToHypertextData } from './lib/hypertext'
+// import { getGithubData } from './lib/github';
+import { convertHtmlToHypertextData } from './lib/hypertext';
 
 const globAsync = promisify(glob);
 
@@ -17,7 +17,7 @@ const DESTINATION_DIR = './src/assets/docs';
 const SOURCE_DIR = './src/docs';
 const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
 
-(async function() {
+(async function () {
   const siteStructure = await readFile(SITE_STRUCTURE_FILE, { encoding: 'utf8' });
   const siteStructureJson: SiteStructureItem[] = JSON.parse(siteStructure);
   console.log(`running glob: ${SOURCE_DIR}/**/*.md`);
@@ -25,46 +25,39 @@ const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
 
   await remove(DESTINATION_DIR);
 
-  const filePromises = files.map(async (filePath) => {
+  const filePromises = files.map(async filePath => {
     if (filePath === './src/docs/README.md') {
       return Promise.resolve();
     }
     let htmlContents = '';
     let markdownMetadata: MarkdownContent = {};
     const jsonFileName = path.relative(SOURCE_DIR, filePath);
-    const destinationFileName = path.join(
-      DESTINATION_DIR,
-      path.dirname(jsonFileName),
-      path.basename(jsonFileName, '.md') + '.json'
-    );
+    const destinationFileName = path.join(DESTINATION_DIR, path.dirname(jsonFileName), path.basename(jsonFileName, '.md') + '.json');
     markdownMetadata.headings = [];
 
     const markdownContents = await readFile(filePath, { encoding: 'utf8' });
 
     try {
       let parsedMarkdown = frontMatter<any>(markdownContents);
-      parsedMarkdown = await getGithubData(filePath, parsedMarkdown);
+      // parsedMarkdown = await getGithubData(filePath, parsedMarkdown);
 
       const renderer = new marked.Renderer();
 
       collectHeadingMetadata(renderer, markdownMetadata);
       changeCodeCreation(renderer);
-      localizeMarkdownLink(renderer, destinationFileName.replace('src',''), siteStructureJson);
+      localizeMarkdownLink(renderer, destinationFileName.replace('src', ''), siteStructureJson);
       htmlContents = marked(parsedMarkdown.body, {
         renderer,
-        headerIds: true
+        headerIds: true,
       }).trim();
 
-      await mkdirp(path.join(
-        DESTINATION_DIR,
-        path.dirname(jsonFileName)
-      ));
+      await mkdirp(path.join(DESTINATION_DIR, path.dirname(jsonFileName)));
 
       const data = {
         ...parsedMarkdown.attributes,
         ...markdownMetadata,
         srcPath: filePath,
-        hypertext: convertHtmlToHypertextData(htmlContents)
+        hypertext: convertHtmlToHypertextData(htmlContents),
       };
 
       if (typeof data.title !== 'string') {
@@ -74,9 +67,8 @@ const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
       }
 
       await writeFile(destinationFileName, JSON.stringify(data), {
-        encoding: 'utf8'
+        encoding: 'utf8',
       });
-
     } catch (e) {
       console.error(filePath);
       throw e;
