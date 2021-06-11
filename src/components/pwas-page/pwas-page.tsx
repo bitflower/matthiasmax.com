@@ -79,6 +79,7 @@ export class pwasPage {
             </div>
           </div>
           <div class="new-page">
+            <h1>Projekterfahrung</h1>
             <project-list />
           </div>
         </ResponsiveContainer>

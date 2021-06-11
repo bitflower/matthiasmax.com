@@ -6,6 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { MarkdownHeading, SiteStructureItem } from "./global/definitions";
+import { Project } from "@matthiasmax/cv-api";
 export namespace Components {
     interface AnnouncementBar {
     }
@@ -26,6 +27,8 @@ export namespace Components {
         "contributors"?: string[];
     }
     interface CustomClock {
+    }
+    interface DeliverableList {
     }
     interface DemoCard {
         "SourceBufferList"?: string;
@@ -71,6 +74,9 @@ export namespace Components {
         "retina": boolean;
         "uniforms": any;
         "vert": string;
+    }
+    interface ProjectCard {
+        "project": Project;
     }
     interface ProjectList {
     }
@@ -139,6 +145,12 @@ declare global {
     var HTMLCustomClockElement: {
         prototype: HTMLCustomClockElement;
         new (): HTMLCustomClockElement;
+    };
+    interface HTMLDeliverableListElement extends Components.DeliverableList, HTMLStencilElement {
+    }
+    var HTMLDeliverableListElement: {
+        prototype: HTMLDeliverableListElement;
+        new (): HTMLDeliverableListElement;
     };
     interface HTMLDemoCardElement extends Components.DemoCard, HTMLStencilElement {
     }
@@ -218,6 +230,12 @@ declare global {
         prototype: HTMLProGlshaderElement;
         new (): HTMLProGlshaderElement;
     };
+    interface HTMLProjectCardElement extends Components.ProjectCard, HTMLStencilElement {
+    }
+    var HTMLProjectCardElement: {
+        prototype: HTMLProjectCardElement;
+        new (): HTMLProjectCardElement;
+    };
     interface HTMLProjectListElement extends Components.ProjectList, HTMLStencilElement {
     }
     var HTMLProjectListElement: {
@@ -263,6 +281,7 @@ declare global {
         "blog-list": HTMLBlogListElement;
         "contributor-list": HTMLContributorListElement;
         "custom-clock": HTMLCustomClockElement;
+        "deliverable-list": HTMLDeliverableListElement;
         "demo-card": HTMLDemoCardElement;
         "feature-pill": HTMLFeaturePillElement;
         "guide-callout": HTMLGuideCalloutElement;
@@ -276,6 +295,7 @@ declare global {
         "notfound-page": HTMLNotfoundPageElement;
         "pre-footer": HTMLPreFooterElement;
         "pro-glshader": HTMLProGlshaderElement;
+        "project-card": HTMLProjectCardElement;
         "project-list": HTMLProjectListElement;
         "pwas-page": HTMLPwasPageElement;
         "search-bar": HTMLSearchBarElement;
@@ -304,6 +324,8 @@ declare namespace LocalJSX {
         "contributors"?: string[];
     }
     interface CustomClock {
+    }
+    interface DeliverableList {
     }
     interface DemoCard {
         "SourceBufferList"?: string;
@@ -352,6 +374,9 @@ declare namespace LocalJSX {
         "uniforms"?: any;
         "vert"?: string;
     }
+    interface ProjectCard {
+        "project": Project;
+    }
     interface ProjectList {
     }
     interface PwasPage {
@@ -379,6 +404,7 @@ declare namespace LocalJSX {
         "blog-list": BlogList;
         "contributor-list": ContributorList;
         "custom-clock": CustomClock;
+        "deliverable-list": DeliverableList;
         "demo-card": DemoCard;
         "feature-pill": FeaturePill;
         "guide-callout": GuideCallout;
@@ -392,6 +418,7 @@ declare namespace LocalJSX {
         "notfound-page": NotfoundPage;
         "pre-footer": PreFooter;
         "pro-glshader": ProGlshader;
+        "project-card": ProjectCard;
         "project-list": ProjectList;
         "pwas-page": PwasPage;
         "search-bar": SearchBar;
@@ -412,6 +439,7 @@ declare module "@stencil/core" {
             "blog-list": LocalJSX.BlogList & JSXBase.HTMLAttributes<HTMLBlogListElement>;
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
             "custom-clock": LocalJSX.CustomClock & JSXBase.HTMLAttributes<HTMLCustomClockElement>;
+            "deliverable-list": LocalJSX.DeliverableList & JSXBase.HTMLAttributes<HTMLDeliverableListElement>;
             "demo-card": LocalJSX.DemoCard & JSXBase.HTMLAttributes<HTMLDemoCardElement>;
             "feature-pill": LocalJSX.FeaturePill & JSXBase.HTMLAttributes<HTMLFeaturePillElement>;
             "guide-callout": LocalJSX.GuideCallout & JSXBase.HTMLAttributes<HTMLGuideCalloutElement>;
@@ -425,6 +453,7 @@ declare module "@stencil/core" {
             "notfound-page": LocalJSX.NotfoundPage & JSXBase.HTMLAttributes<HTMLNotfoundPageElement>;
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
             "pro-glshader": LocalJSX.ProGlshader & JSXBase.HTMLAttributes<HTMLProGlshaderElement>;
+            "project-card": LocalJSX.ProjectCard & JSXBase.HTMLAttributes<HTMLProjectCardElement>;
             "project-list": LocalJSX.ProjectList & JSXBase.HTMLAttributes<HTMLProjectListElement>;
             "pwas-page": LocalJSX.PwasPage & JSXBase.HTMLAttributes<HTMLPwasPageElement>;
             "search-bar": LocalJSX.SearchBar & JSXBase.HTMLAttributes<HTMLSearchBarElement>;

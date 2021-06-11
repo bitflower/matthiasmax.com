@@ -1,0 +1,16 @@
+project-card {
+  display: block;
+}
+
+project-card .label {
+  width: 100px;
+  display: inline-block;
+}
+
+.project-card__info-block {
+  margin: 0;
+}
+
+.project-card__info-block-heading {
+  margin-bottom: 6px;
+}

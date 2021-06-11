@@ -117,7 +117,6 @@ export class AppRoot {
                 </div>
               </ResponsiveContainer>
             </footer>
-            <hubspot-modal active={this.isModalOpen} />
           </main>
         </site-root>
       </SiteProviderConsumer.Provider>
