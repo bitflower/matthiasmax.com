@@ -80,7 +80,7 @@ landing-page .hero .landing-page__bg {
   z-index: 1;
   top: 50%;
   left: 50%;
-  transform: translate(-64px, -40%);
+  transform: translate(-64px, -32%);
   margin-top: 20px;
   height: 573px;
 }
