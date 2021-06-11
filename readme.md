@@ -2,7 +2,7 @@
 
 # Matthias Max Personal Site
 
-The [Stencil site](https://matthiasmax.com/) is the place for documentation on how to use Stencil.
+This is the source code of the website of [Matthias Max](https://matthiasmax.com/).
 
 ## Building the Site
 
