@@ -28,6 +28,7 @@ export class SiteHeader {
   }
 
   showNav() {
+    console.log(`BF SHOW NAV`);
     if (this.isMobileMenuShown) return;
     this.isMobileMenuShown = true;
 
@@ -41,6 +42,7 @@ export class SiteHeader {
   }
 
   hideNav() {
+    console.log(`BF HIDE NAV`);
     if (!this.isMobileMenuShown) return;
     this.isMobileMenuShown = false;
 
@@ -56,7 +58,7 @@ export class SiteHeader {
   render() {
     return (
       <ResponsiveContainer>
-        <stencil-route class="burger-menu" url="/docs" component="app-burger" />
+        {/* <stencil-route class="burger-menu" url="/docs" component="app-burger" /> */}
         <stencil-route-link url="/" class="logo-link" anchorTitle="Matthias Max Web Expert logo">
           <app-icon name="logo" />
         </stencil-route-link>
