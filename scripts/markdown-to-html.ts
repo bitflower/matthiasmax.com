@@ -61,9 +61,9 @@ const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
       };
 
       if (typeof data.title !== 'string') {
-        data.title = 'Matthias Max Web Expert';
+        data.title = 'Matthias Max Web Technologies Expert';
       } else {
-        data.title = data.title.trim() + ' - Matthias Max Web Expert';
+        data.title = data.title.trim() + ' - Matthias Max Web Technologies Expert';
       }
 
       await writeFile(destinationFileName, JSON.stringify(data), {

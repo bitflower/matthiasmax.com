@@ -7,7 +7,7 @@ import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 })
 export class LandingPage {
   constructor() {
-    document.title = `Matthias Max Web Expert`;
+    document.title = `Matthias Max Web Technologies Expert`;
   }
 
   render() {
