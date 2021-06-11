@@ -17,7 +17,10 @@ export class LandingPage {
           <hgroup>
             <h1>Let‘s build your best digital self.</h1>
             <h2>Hi 👋 I'm Matt!</h2>
-            <p>I help companies utilize web technologies to their advantage to create real business value.</p>
+            <p>
+              I help companies utilize web technologies to their advantage to create real business value. <br />
+              As former professional platin songwriter & EDM artist I share my creative experiences to turn challenges into success.
+            </p>
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">
               Let's talk
             </stencil-route-link>
