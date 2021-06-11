@@ -28,7 +28,6 @@ export class SiteHeader {
   }
 
   showNav() {
-    console.log(`BF SHOW NAV`);
     if (this.isMobileMenuShown) return;
     this.isMobileMenuShown = true;
 
@@ -42,7 +41,6 @@ export class SiteHeader {
   }
 
   hideNav() {
-    console.log(`BF HIDE NAV`);
     if (!this.isMobileMenuShown) return;
     this.isMobileMenuShown = false;
 
