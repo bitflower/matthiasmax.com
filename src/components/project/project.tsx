@@ -20,7 +20,12 @@ export class ProjectCard {
   render() {
     return (
       <Fragment>
-        <h3 class="project-card__info-block-heading">{this.project.title}</h3>
+        <h3 class="project-card__info-block-heading">
+          <span class="project-card__info-block-heading-title">{this.project.title}</span>
+          {this.project.deliveryTypes.map(item => (
+            <info-badge class="project-card__info-block-heading-delivarable">{item}</info-badge>
+          ))}
+        </h3>
         {this.project.description ? (
           <p class="project-card__info-block">
             <span>{this.project.description}</span>

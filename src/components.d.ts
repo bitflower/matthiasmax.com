@@ -53,6 +53,8 @@ export namespace Components {
         "pageLinks": MarkdownHeading[];
         "srcUrl": string;
     }
+    interface InfoBadge {
+    }
     interface LandingPage {
     }
     interface LifecycleChart {
@@ -188,6 +190,12 @@ declare global {
         prototype: HTMLInPageNavigationElement;
         new (): HTMLInPageNavigationElement;
     };
+    interface HTMLInfoBadgeElement extends Components.InfoBadge, HTMLStencilElement {
+    }
+    var HTMLInfoBadgeElement: {
+        prototype: HTMLInfoBadgeElement;
+        new (): HTMLInfoBadgeElement;
+    };
     interface HTMLLandingPageElement extends Components.LandingPage, HTMLStencilElement {
     }
     var HTMLLandingPageElement: {
@@ -288,6 +296,7 @@ declare global {
         "highlight-code": HTMLHighlightCodeElement;
         "hubspot-modal": HTMLHubspotModalElement;
         "in-page-navigation": HTMLInPageNavigationElement;
+        "info-badge": HTMLInfoBadgeElement;
         "landing-page": HTMLLandingPageElement;
         "lifecycle-chart": HTMLLifecycleChartElement;
         "lower-content-nav": HTMLLowerContentNavElement;
@@ -352,6 +361,8 @@ declare namespace LocalJSX {
         "pageLinks"?: MarkdownHeading[];
         "srcUrl"?: string;
     }
+    interface InfoBadge {
+    }
     interface LandingPage {
     }
     interface LifecycleChart {
@@ -411,6 +422,7 @@ declare namespace LocalJSX {
         "highlight-code": HighlightCode;
         "hubspot-modal": HubspotModal;
         "in-page-navigation": InPageNavigation;
+        "info-badge": InfoBadge;
         "landing-page": LandingPage;
         "lifecycle-chart": LifecycleChart;
         "lower-content-nav": LowerContentNav;
@@ -446,6 +458,7 @@ declare module "@stencil/core" {
             "highlight-code": LocalJSX.HighlightCode & JSXBase.HTMLAttributes<HTMLHighlightCodeElement>;
             "hubspot-modal": LocalJSX.HubspotModal & JSXBase.HTMLAttributes<HTMLHubspotModalElement>;
             "in-page-navigation": LocalJSX.InPageNavigation & JSXBase.HTMLAttributes<HTMLInPageNavigationElement>;
+            "info-badge": LocalJSX.InfoBadge & JSXBase.HTMLAttributes<HTMLInfoBadgeElement>;
             "landing-page": LocalJSX.LandingPage & JSXBase.HTMLAttributes<HTMLLandingPageElement>;
             "lifecycle-chart": LocalJSX.LifecycleChart & JSXBase.HTMLAttributes<HTMLLifecycleChartElement>;
             "lower-content-nav": LocalJSX.LowerContentNav & JSXBase.HTMLAttributes<HTMLLowerContentNavElement>;

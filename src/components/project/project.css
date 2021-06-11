@@ -13,4 +13,13 @@ project-card .label {
 
 .project-card__info-block-heading {
   margin-bottom: 6px;
+  display: flex;
+}
+
+.project-card__info-block-heading-title {
+  flex-grow: 1;
+}
+
+.project-card__info-block-heading-delivarable {
+  margin-left: 4px;
 }

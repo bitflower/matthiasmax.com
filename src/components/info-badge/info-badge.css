@@ -1,0 +1,8 @@
+info-badge {
+  display: inline-block;
+  background-color: var(--color-secondary-rgb);
+  border-radius: 6px;
+
+  font-size: 85%;
+  padding: 2px 5px;
+}
