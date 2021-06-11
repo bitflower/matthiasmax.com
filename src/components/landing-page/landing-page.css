@@ -97,9 +97,15 @@ landing-page .hero .landing-page__bg {
 
 @media screen and (max-width: 768px) {
   landing-page .hero .landing-page__bg {
-    height: 300px;
-    transform: translate(-50%, 10%);
-    margin-top: 50px;
+    height: auto;
+    width: 90%;
+    transform: none;
+    left: auto;
+    margin-top: 120px;
+  }
+
+  landing-page .hero hgroup p {
+    max-width: 100%;
   }
 }
 
