@@ -6,10 +6,10 @@ import { compare } from '../../global/common';
 
 @Component({
   tag: 'project-list',
-  //   styleUrl: 'project-list.css',
+  styleUrl: 'project-list.css',
 })
 export class ProjectList {
   render() {
-    return projects.sort(compare('title')).map(project => <project-card project={project} />);
+    return projects.sort(compare('title')).map(project => <project-card class="project-list__project" project={project} />);
   }
 }

@@ -1,5 +1,6 @@
 info-badge {
   display: inline-block;
+  /* background-color: red; */
   background-color: var(--color-secondary-rgb);
   border-radius: 6px;
 

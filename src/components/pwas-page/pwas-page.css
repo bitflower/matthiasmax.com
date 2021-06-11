@@ -96,7 +96,9 @@ pwas-page h3 + .demo-card-list {
     margin-top: 6px;
   }
 
-  p {
+  p,
+  span,
+  div {
     font-size: 10px !important;
   }
 
