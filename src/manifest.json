@@ -1,13 +1,15 @@
 {
-  "name": "Stencil",
-  "short_name": "Stencil",
+  "name": "Matthias Max Web Expert",
+  "short_name": "MatthiasMaxWebExpert",
   "start_url": "/",
   "display": "standalone",
-  "icons": [{
-    "src": "assets/img/icon.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
+  "icons": [
+    {
+      "src": "assets/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "background_color": "#16161d",
   "theme_color": "#16161d"
 }

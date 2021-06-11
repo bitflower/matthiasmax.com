@@ -13,7 +13,7 @@ export class LandingPage {
   @State() copiedState = 0;
 
   constructor() {
-    document.title = `Stencil`;
+    document.title = `Matthias Max Web Expert`;
   }
 
   copyCommand = () => {

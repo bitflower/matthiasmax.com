@@ -22,15 +22,6 @@ export class NewsletterSignup {
     // const email = this.email;
     this.isLoading = true;
 
-    // const _hsq = (window as any)['_hsq'] = (window as any)['_hsq'] || [];
-    // _hsq.push(["identify",{
-    //   email: email
-    // }]);
-    //  _hsq.push(["trackEvent", {
-    //     id: "Signed up for Stencil newsletter",
-    //     value: true
-    // }]);
-
     // Send
     var xhr = new XMLHttpRequest();
     var url = ['https://api.hsforms.com/submissions/v3/integration/submit', '3776657', '2d5d92d3-d3e5-4d7e-ac77-aac0ac59c1f1'].join('/');
