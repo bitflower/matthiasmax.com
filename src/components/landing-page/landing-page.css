@@ -82,8 +82,27 @@ landing-page .hero .landing-page__bg {
   left: 50%;
   transform: translate(-64px, -40%);
   margin-top: 20px;
-  /* width: 661px; */
   height: 573px;
+}
+
+@media screen and (max-width: 1024px) {
+  landing-page .hero .landing-page__bg {
+    position: relative;
+    height: 450px;
+    left: 50%;
+    transform: translate(-25%, -20%);
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  landing-page .hero .landing-page__bg {
+    position: relative;
+    height: 450px;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    margin-top: 50px;
+  }
 }
 
 landing-page .companies {

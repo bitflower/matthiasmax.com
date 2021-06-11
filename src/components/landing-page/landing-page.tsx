@@ -39,7 +39,7 @@ export class LandingPage {
           </hgroup>
           <img class="landing-page__bg" src="/assets/img/profile.jpg" loading="lazy" />
         </ResponsiveContainer>
-
+        {/* 
         <div class="companies">
           <ResponsiveContainer>
             <h3>Powering design systems and cross-framework components at</h3>
@@ -441,7 +441,7 @@ export class LandingPage {
           </ResponsiveContainer>
         </section>
 
-        <newsletter-signup />
+        <newsletter-signup /> */}
       </div>
     );
   }
