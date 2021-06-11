@@ -30,6 +30,7 @@ landing-page .hero hgroup p {
   font-weight: 400;
   color: var(--color-dolphin);
   margin-bottom: 40px;
+  max-width: 78%;
 }
 
 .btn-get-started,
@@ -41,7 +42,7 @@ landing-page .hero hgroup p {
   padding: 20px;
   border-radius: 100px;
   color: white;
-  background: rgb(76, 72, 255);
+  background: var(--color-dodger-blue);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -62,7 +63,7 @@ landing-page .hero hgroup p {
 .btn-why-stencil:hover {
   text-decoration: none;
   transform: translateY(-1px);
-  box-shadow: 0px 4px 8px rgba(2,8,20,0.1),0px 2px 4px rgba(2,8,20,0.08);
+  box-shadow: 0px 4px 8px rgba(2, 8, 20, 0.1), 0px 2px 4px rgba(2, 8, 20, 0.08);
 }
 
 .btn-why-stencil {
@@ -79,13 +80,14 @@ landing-page .hero .landing-page__bg {
   z-index: 1;
   top: 50%;
   left: 50%;
-  transform: translate(-64px, -43%);
+  transform: translate(-64px, -40%);
   margin-top: 20px;
+  /* width: 661px; */
+  height: 573px;
 }
 
 landing-page .companies {
   position: relative;
-  /* z-index: 2; */
   padding-bottom: 80px;
   border-bottom: 1px solid var(--color-whisper);
 }
@@ -111,7 +113,7 @@ landing-page .companies ul li {
 }
 
 landing-page .cta {
-  background: #F4F7FA;
+  background: #f4f7fa;
   text-align: center;
   padding: 18px;
   margin-top: 36px;
@@ -134,7 +136,7 @@ landing-page .cta__primary code {
   user-select: none;
   border-radius: 8px;
   background-color: #161525;
-  color: #E0E0F1;
+  color: #e0e0f1;
   margin: 4px 0 4px;
   cursor: copy;
   transition: background-color 0.2s, color 0.2s;
@@ -160,12 +162,12 @@ landing-page .cta__primary span a,
 landing-page .cta__secondary a {
   transition: border 0.3s;
   text-decoration: none;
-  border-bottom: 1px solid #D7DBE6;
+  border-bottom: 1px solid #d7dbe6;
 }
 
 landing-page .cta__primary span a:hover,
 landing-page .cta__secondary a:hover {
-  border-bottom-color: #C3C8D8;
+  border-bottom-color: #c3c8d8;
 }
 
 landing-page .cta__secondary {
@@ -207,14 +209,14 @@ landing-page h2 {
   font-size: 32px;
   line-height: 1.2;
   letter-spacing: -0.018em;
-  color: #7A798D;
+  color: #7a798d;
   margin-top: 0;
   max-width: 416px;
 }
 
 landing-page h2 strong {
   font-weight: 600;
-  color: #100F22;
+  color: #100f22;
 }
 
 landing-page h4 {
@@ -251,12 +253,12 @@ landing-page .overview ul li {
   backface-visibility: hidden;
 }
 
-landing-page .overview ul li+ li {
+landing-page .overview ul li + li {
   margin-top: 12px;
 }
 
 landing-page .gradient-bg {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F9FAFB 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
 }
 
 landing-page .stencil-story {
@@ -317,7 +319,7 @@ landing-page .video-thumbnail::before {
   background-size: cover;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 
   position: absolute;
   top: 0;
@@ -341,7 +343,7 @@ landing-page .video-thumbnail--announcement::before {
 
 landing-page .video-thumbnail:hover::before {
   transform: scale(0.982);
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 landing-page .video-thumbnail span,
@@ -444,7 +446,6 @@ landing-page .video-thumbnail:hover svg circle {
   }
 }
 
-
 @media screen and (max-width: 375px) {
   landing-page .hero hgroup .hero-button,
   landing-page .hero hgroup .hero-button a {
@@ -472,7 +473,6 @@ h2 + .feature-list {
 
 .feature-list__item app-icon {
   padding: 1px;
-
 }
 .feature-list__item svg {
   fill: #000 !important;
@@ -553,7 +553,6 @@ h2 + .feature-list {
   background-position: 0 -105px;
 }
 
-
 .card-links {
   display: flex;
   flex-wrap: wrap;
@@ -572,7 +571,7 @@ h2 + .feature-list {
   font-weight: 400;
   padding: 4px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -594,7 +593,7 @@ h2 + .feature-list {
 
 .card-links__item a:hover {
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-links__item .fw-icon {
