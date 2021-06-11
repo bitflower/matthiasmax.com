@@ -1,5 +1,5 @@
-import { Component, Element, State, h } from '@stencil/core';
-import copy from 'copy-text-to-clipboard';
+import { Component, Element, h } from '@stencil/core';
+// import copy from 'copy-text-to-clipboard';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
@@ -7,21 +7,21 @@ import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
   styleUrl: 'landing-page.css',
 })
 export class LandingPage {
-  private timer: any;
+  // private timer: any;
   @Element() el!: Element;
 
-  @State() copiedState = 0;
+  // @State() copiedState = 0;
 
   constructor() {
     document.title = `Matthias Max Web Expert`;
   }
 
-  copyCommand = () => {
-    copy('npm init stencil');
-    this.copiedState = Math.min(COPY_STATES.length - 1, this.copiedState + 1);
-    clearTimeout(this.timer);
-    this.timer = setTimeout(() => (this.copiedState = 0), 1500);
-  };
+  // copyCommand = () => {
+  //   copy('npm init stencil');
+  //   this.copiedState = Math.min(COPY_STATES.length - 1, this.copiedState + 1);
+  //   clearTimeout(this.timer);
+  //   this.timer = setTimeout(() => (this.copiedState = 0), 1500);
+  // };
 
   render() {
     return (
@@ -31,8 +31,6 @@ export class LandingPage {
             <h1>Let‘s build your best digital self.</h1>
             <h2>Hi 👋 I'm Matt!</h2>
             <p>I help companies utilize web technologies to their advantage to create real business value.</p>
-            {/* <p>I fell in love with HTML in 2001. Ever since it has
-              enabled me to create real business value with it. I you have an asset that needs a digital lift - hit me up!</p> */}
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">
               Let's talk
             </stencil-route-link>
@@ -447,18 +445,18 @@ export class LandingPage {
   }
 }
 
-const COPY_STATES = [
-  '$ npm init stencil',
-  'copied!',
-  'double copied!',
-  'triple copied!',
-  'super copied!',
-  'hyper copied!!!',
-  'definitively copied',
-  'seriously?',
-  "trust me, it's copied",
-  'you can paste it already',
-  'WTF',
-  'PLEASE STOP',
-  'ok, i am out',
-];
+// const COPY_STATES = [
+//   '$ npm init stencil',
+//   'copied!',
+//   'double copied!',
+//   'triple copied!',
+//   'super copied!',
+//   'hyper copied!!!',
+//   'definitively copied',
+//   'seriously?',
+//   "trust me, it's copied",
+//   'you can paste it already',
+//   'WTF',
+//   'PLEASE STOP',
+//   'ok, i am out',
+// ];
