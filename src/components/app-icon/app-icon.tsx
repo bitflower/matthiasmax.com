@@ -9,7 +9,7 @@ export class AppIcon {
 
   render() {
     return (
-      <svg class={`icon icon-${this.name}`} width="40" height="23">
+      <svg class={`icon icon-${this.name}`} width="45" height="30">
         <use xlinkHref={`#icon-${this.name}`} />
       </svg>
     );
