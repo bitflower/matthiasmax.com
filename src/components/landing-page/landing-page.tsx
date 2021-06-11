@@ -27,23 +27,17 @@ export class LandingPage {
     return (
       <div>
         <ResponsiveContainer class="hero">
-          <feature-pill link="https://ionic.io/resources/webinars/stencil-enterprise-design-systems-at-scale">
-            <strong>Register now</strong> • 
-            Stencil Enterprise Webinar: Design Systems at Scale
-          </feature-pill>
           <hgroup>
-            <h1>Build. Customize. Distribute. Adopt.</h1>
-            <p>
-              Stencil is a toolchain for building reusable, scalable Design Systems. Generate small, blazing fast, and 100% standards based Web Components that run in every browser.
-            </p>
+            <h1>Let‘s build your best digital self.</h1>
+            <h2>Hi 👋 I'm Matt!</h2>
+            <p>I help companies to utilize web technologies to their advantage to create real business value.</p>
+            {/* <p>I fell in love with HTML in 2001. Ever since it has
+              enabled me to create real business value with it. I you have an asset that needs a digital lift - hit me up!</p> */}
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">
-              Get started
-            </stencil-route-link>
-            <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-stencil">
-              Why Stencil?
+              Let's talk
             </stencil-route-link>
           </hgroup>
-          <svg class="landing-page__bg" width="661" height="573" viewBox="0 0 661 573" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* <svg class="landing-page__bg" width="661" height="573" viewBox="0 0 661 573" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.5" d="M301.972 460.59H459.711L374.445 553H217.555L301.972 460.59Z" fill="#EFF1FF" />
             <path opacity="0.4" d="M585.269 95.2073H660.886L620.011 140.163H544.801L585.269 95.2073Z" fill="#EBEEFF" />
             <path opacity="0.5" d="M90.1233 373.915H177.864L130.436 426.012H43.1665L90.1233 373.915Z" fill="#F4F6FF" />
@@ -57,7 +51,7 @@ export class LandingPage {
             <path opacity="0.7" d="M602.805 205.808H152.133L33.6135 333.933H484.286L602.805 205.808Z" fill="#EBEEFF" />
             <path opacity="0.7" d="M293.465 53.9561H512.026L393.989 182.081H175.254L293.465 53.9561Z" fill="#E6EAFF" />
             <path opacity="0.43" d="M273.266 9H374.089L319.589 67.6927H219.309L273.266 9Z" fill="#F4F6FF" />
-          </svg>
+          </svg> */}
         </ResponsiveContainer>
 
         <div class="companies">
