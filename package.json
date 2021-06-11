@@ -49,5 +49,8 @@
   "bugs": {
     "url": "https://github.com/ionic-team/stencil-site"
   },
-  "homepage": "https://stenciljs.com/"
+  "homepage": "https://stenciljs.com/",
+  "dependencies": {
+    "@matthiasmax/cv-api": "^1.0.1"
+  }
 }

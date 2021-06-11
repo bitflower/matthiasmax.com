@@ -31,7 +31,7 @@ export class pwasPage {
   ];
 
   constructor() {
-    document.title = `PWAs`;
+    document.title = `CV of Matthias Max`;
   }
 
   render() {
@@ -77,6 +77,9 @@ export class pwasPage {
                 <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" />
               </div>
             </div>
+          </div>
+          <div class="new-page">
+            <project-list />
           </div>
         </ResponsiveContainer>
       </Fragment>

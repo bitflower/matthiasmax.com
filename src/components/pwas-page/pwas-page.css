@@ -108,7 +108,8 @@ pwas-page h3 + .demo-card-list {
     page-break-after: always;
   }
 
-  site-header {
+  site-header,
+  footer {
     display: none;
   }
 }

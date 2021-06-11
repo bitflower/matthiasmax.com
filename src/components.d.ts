@@ -72,6 +72,8 @@ export namespace Components {
         "uniforms": any;
         "vert": string;
     }
+    interface ProjectList {
+    }
     interface PwasPage {
     }
     interface SearchBar {
@@ -216,6 +218,12 @@ declare global {
         prototype: HTMLProGlshaderElement;
         new (): HTMLProGlshaderElement;
     };
+    interface HTMLProjectListElement extends Components.ProjectList, HTMLStencilElement {
+    }
+    var HTMLProjectListElement: {
+        prototype: HTMLProjectListElement;
+        new (): HTMLProjectListElement;
+    };
     interface HTMLPwasPageElement extends Components.PwasPage, HTMLStencilElement {
     }
     var HTMLPwasPageElement: {
@@ -268,6 +276,7 @@ declare global {
         "notfound-page": HTMLNotfoundPageElement;
         "pre-footer": HTMLPreFooterElement;
         "pro-glshader": HTMLProGlshaderElement;
+        "project-list": HTMLProjectListElement;
         "pwas-page": HTMLPwasPageElement;
         "search-bar": HTMLSearchBarElement;
         "site-header": HTMLSiteHeaderElement;
@@ -343,6 +352,8 @@ declare namespace LocalJSX {
         "uniforms"?: any;
         "vert"?: string;
     }
+    interface ProjectList {
+    }
     interface PwasPage {
     }
     interface SearchBar {
@@ -381,6 +392,7 @@ declare namespace LocalJSX {
         "notfound-page": NotfoundPage;
         "pre-footer": PreFooter;
         "pro-glshader": ProGlshader;
+        "project-list": ProjectList;
         "pwas-page": PwasPage;
         "search-bar": SearchBar;
         "site-header": SiteHeader;
@@ -413,6 +425,7 @@ declare module "@stencil/core" {
             "notfound-page": LocalJSX.NotfoundPage & JSXBase.HTMLAttributes<HTMLNotfoundPageElement>;
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
             "pro-glshader": LocalJSX.ProGlshader & JSXBase.HTMLAttributes<HTMLProGlshaderElement>;
+            "project-list": LocalJSX.ProjectList & JSXBase.HTMLAttributes<HTMLProjectListElement>;
             "pwas-page": LocalJSX.PwasPage & JSXBase.HTMLAttributes<HTMLPwasPageElement>;
             "search-bar": LocalJSX.SearchBar & JSXBase.HTMLAttributes<HTMLSearchBarElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
