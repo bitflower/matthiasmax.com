@@ -15,7 +15,7 @@ export class LandingPage {
       <div>
         <ResponsiveContainer class="hero">
           <hgroup>
-            <h1>Let‘s build your best digital self.</h1>
+            <h1>Let's build your best digital self.</h1>
             <h2>Hi 👋 I'm Matt!</h2>
             <p>
               I help companies utilize web technologies to their advantage to create real business value. <br />
