@@ -23,6 +23,8 @@ export namespace Components {
     }
     interface BlogList {
     }
+    interface ContactPage {
+    }
     interface ContributorList {
         "contributors"?: string[];
     }
@@ -135,6 +137,12 @@ declare global {
     var HTMLBlogListElement: {
         prototype: HTMLBlogListElement;
         new (): HTMLBlogListElement;
+    };
+    interface HTMLContactPageElement extends Components.ContactPage, HTMLStencilElement {
+    }
+    var HTMLContactPageElement: {
+        prototype: HTMLContactPageElement;
+        new (): HTMLContactPageElement;
     };
     interface HTMLContributorListElement extends Components.ContributorList, HTMLStencilElement {
     }
@@ -287,6 +295,7 @@ declare global {
         "app-root": HTMLAppRootElement;
         "blog-component": HTMLBlogComponentElement;
         "blog-list": HTMLBlogListElement;
+        "contact-page": HTMLContactPageElement;
         "contributor-list": HTMLContributorListElement;
         "custom-clock": HTMLCustomClockElement;
         "deliverable-list": HTMLDeliverableListElement;
@@ -328,6 +337,8 @@ declare namespace LocalJSX {
         "page"?: string;
     }
     interface BlogList {
+    }
+    interface ContactPage {
     }
     interface ContributorList {
         "contributors"?: string[];
@@ -413,6 +424,7 @@ declare namespace LocalJSX {
         "app-root": AppRoot;
         "blog-component": BlogComponent;
         "blog-list": BlogList;
+        "contact-page": ContactPage;
         "contributor-list": ContributorList;
         "custom-clock": CustomClock;
         "deliverable-list": DeliverableList;
@@ -449,6 +461,7 @@ declare module "@stencil/core" {
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "blog-component": LocalJSX.BlogComponent & JSXBase.HTMLAttributes<HTMLBlogComponentElement>;
             "blog-list": LocalJSX.BlogList & JSXBase.HTMLAttributes<HTMLBlogListElement>;
+            "contact-page": LocalJSX.ContactPage & JSXBase.HTMLAttributes<HTMLContactPageElement>;
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
             "custom-clock": LocalJSX.CustomClock & JSXBase.HTMLAttributes<HTMLCustomClockElement>;
             "deliverable-list": LocalJSX.DeliverableList & JSXBase.HTMLAttributes<HTMLDeliverableListElement>;

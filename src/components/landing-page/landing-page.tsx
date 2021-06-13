@@ -19,10 +19,10 @@ export class LandingPage {
             <h2>Hi 👋 I'm Matt!</h2>
             <p>
               I help companies utilize web technologies to their advantage to create real business value. <br />
-              As former professional platin songwriter & EDM artist I share my creative experiences to turn challenges into success.
+              As a former professional platin songwriter and EDM artist I know what it means to "deliver creativity" and to turn challenges into success.
             </p>
-            <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">
-              Let's talk
+            <stencil-route-link url="/contact" class="hero-button" anchorClass="btn-get-started">
+              Start a conversation
             </stencil-route-link>
           </hgroup>
           <img class="landing-page__bg" src="/assets/img/profile.jpg" loading="lazy" />
