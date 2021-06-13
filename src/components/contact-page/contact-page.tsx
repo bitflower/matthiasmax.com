@@ -1,4 +1,4 @@
-import { Component, Element, Listen, State, h } from '@stencil/core';
+import { Component, Element, h } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
