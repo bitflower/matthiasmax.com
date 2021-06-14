@@ -72,12 +72,13 @@ export class SiteHeader {
           </stencil-route-link>
 
           <stencil-route-link
+            class="say-hello"
             url="/contact"
             onClick={() => {
               this.hideNav();
             }}
           >
-            Contact
+            Say Hello
           </stencil-route-link>
 
           {/* <stencil-route-link
