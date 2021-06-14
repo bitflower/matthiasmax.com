@@ -22,7 +22,7 @@ export class ProjectList {
   }
 
   private sort(tobesorted: Project[]) {
-    return tobesorted.sort(compare('title'));
+    return tobesorted.sort(compare('timestamp', -1));
   }
 
   componentWillLoad() {

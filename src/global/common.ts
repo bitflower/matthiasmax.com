@@ -12,10 +12,10 @@ export function slugify(text: string) {
     .replace(/-+$/, ''); // Trim - from end of text
 }
 
-export function compare<T>(prop?: keyof T) {
+export function compare<T>(prop?: keyof T, dir = 1) {
   return (a: T, b: T) => {
     const valA = prop ? a[prop] : a;
     const valB = prop ? b[prop] : b;
-    return valA > valB ? 1 : valA < valB ? -1 : 0;
+    return valA > valB ? dir : valA < valB ? -dir : 0;
   };
 }
