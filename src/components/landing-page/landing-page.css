@@ -29,7 +29,7 @@ landing-page .hero hgroup p {
   line-height: 1.6;
   font-weight: 400;
   color: var(--color-dolphin);
-  margin-bottom: 40px;
+  margin-bottom: 150px;
   max-width: 78%;
 }
 
@@ -84,6 +84,10 @@ landing-page .hero .landing-page__bg {
   margin-top: 20px;
   height: 673px;
 }
+
+/* .landing-page__intro {
+  margin-bottom: 90px;
+} */
 
 @media screen and (max-width: 1024px) {
   landing-page .hero {

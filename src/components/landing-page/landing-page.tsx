@@ -17,10 +17,7 @@ export class LandingPage {
           <hgroup>
             <h1>Let's build your best digital self.</h1>
             <h2>Hi 👋 I'm Matt!</h2>
-            <p>
-              I help companies utilize web technologies to their advantage to create real business value. <br />
-              As a former professional platin songwriter and EDM artist I know what it means to "deliver creativity" and to turn challenges into success.
-            </p>
+            <p class="landing-page__intro">I help companies utilize web technologies to their advantage to create real business value.</p>
             <stencil-route-link url="/contact" class="hero-button" anchorClass="btn-get-started">
               Start a conversation
             </stencil-route-link>
@@ -325,6 +322,12 @@ export class LandingPage {
             </ul>
           </ResponsiveContainer>
         </div>
+
+        {/* <div>
+          <p>
+            As a former professional platin songwriter and EDM artist I know what it means to "deliver creativity" and to turn challenges into success.
+          </p>
+        </div> */}
       </div>
     );
   }
