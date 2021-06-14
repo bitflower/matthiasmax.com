@@ -2,34 +2,10 @@ import { Component, Fragment, h } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
-  tag: 'pwas-page',
-  styleUrl: 'pwas-page.css',
+  tag: 'cv-page',
+  styleUrl: 'cv-page.css',
 })
-export class pwasPage {
-  demos = [
-    {
-      title: 'Stenciljs.com',
-      description: 'Yep, this site is built as a PWA!',
-      imgPath: '/assets/img/demos/demo-stenciljs',
-      demoUrl: '/',
-      sourceUrl: 'https://github.com/ionic-team/stencil-site',
-    },
-    {
-      title: 'IonicHN',
-      description: 'Hacker News PWA built with @stencil/core and @ionic/core',
-      imgPath: '/assets/img/demos/demo-ionichn',
-      demoUrl: 'https://corehacker-10883.firebaseapp.com/',
-      sourceUrl: 'https://github.com/ionic-team/ionic-stencil-hn-app',
-    },
-    {
-      title: 'Stencil Fiber demo',
-      description: 'This showcases the runtime performance of stencil using our async rendering',
-      imgPath: '/assets/img/demos/demo-fiber',
-      demoUrl: 'https://stencil-fiber-demo.firebaseapp.com/',
-      sourceUrl: 'https://github.com/ionic-team/stencil-fiber-demo',
-    },
-  ];
-
+export class cvPage {
   constructor() {
     document.title = `CV of Matthias Max`;
   }

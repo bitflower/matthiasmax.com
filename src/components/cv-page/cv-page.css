@@ -1,9 +1,9 @@
-pwas-page h3 + .demo-card-list {
+cv-page h3 + .demo-card-list {
   margin-top: 32px;
 }
 
 @media screen and (max-width: 768px) {
-  pwas-page .measure-xl {
+  cv-page .measure-xl {
     text-align: center;
   }
 }

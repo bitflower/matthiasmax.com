@@ -30,6 +30,8 @@ export namespace Components {
     }
     interface CustomClock {
     }
+    interface CvPage {
+    }
     interface DeliverableList {
     }
     interface DemoCard {
@@ -83,8 +85,6 @@ export namespace Components {
         "project": Project;
     }
     interface ProjectList {
-    }
-    interface PwasPage {
     }
     interface SearchBar {
         "debounce"?: number;
@@ -155,6 +155,12 @@ declare global {
     var HTMLCustomClockElement: {
         prototype: HTMLCustomClockElement;
         new (): HTMLCustomClockElement;
+    };
+    interface HTMLCvPageElement extends Components.CvPage, HTMLStencilElement {
+    }
+    var HTMLCvPageElement: {
+        prototype: HTMLCvPageElement;
+        new (): HTMLCvPageElement;
     };
     interface HTMLDeliverableListElement extends Components.DeliverableList, HTMLStencilElement {
     }
@@ -258,12 +264,6 @@ declare global {
         prototype: HTMLProjectListElement;
         new (): HTMLProjectListElement;
     };
-    interface HTMLPwasPageElement extends Components.PwasPage, HTMLStencilElement {
-    }
-    var HTMLPwasPageElement: {
-        prototype: HTMLPwasPageElement;
-        new (): HTMLPwasPageElement;
-    };
     interface HTMLSearchBarElement extends Components.SearchBar, HTMLStencilElement {
     }
     var HTMLSearchBarElement: {
@@ -298,6 +298,7 @@ declare global {
         "contact-page": HTMLContactPageElement;
         "contributor-list": HTMLContributorListElement;
         "custom-clock": HTMLCustomClockElement;
+        "cv-page": HTMLCvPageElement;
         "deliverable-list": HTMLDeliverableListElement;
         "demo-card": HTMLDemoCardElement;
         "feature-pill": HTMLFeaturePillElement;
@@ -315,7 +316,6 @@ declare global {
         "pro-glshader": HTMLProGlshaderElement;
         "project-card": HTMLProjectCardElement;
         "project-list": HTMLProjectListElement;
-        "pwas-page": HTMLPwasPageElement;
         "search-bar": HTMLSearchBarElement;
         "site-header": HTMLSiteHeaderElement;
         "site-menu": HTMLSiteMenuElement;
@@ -344,6 +344,8 @@ declare namespace LocalJSX {
         "contributors"?: string[];
     }
     interface CustomClock {
+    }
+    interface CvPage {
     }
     interface DeliverableList {
     }
@@ -401,8 +403,6 @@ declare namespace LocalJSX {
     }
     interface ProjectList {
     }
-    interface PwasPage {
-    }
     interface SearchBar {
         "debounce"?: number;
         "handleInput"?: (ev: any) => void;
@@ -427,6 +427,7 @@ declare namespace LocalJSX {
         "contact-page": ContactPage;
         "contributor-list": ContributorList;
         "custom-clock": CustomClock;
+        "cv-page": CvPage;
         "deliverable-list": DeliverableList;
         "demo-card": DemoCard;
         "feature-pill": FeaturePill;
@@ -444,7 +445,6 @@ declare namespace LocalJSX {
         "pro-glshader": ProGlshader;
         "project-card": ProjectCard;
         "project-list": ProjectList;
-        "pwas-page": PwasPage;
         "search-bar": SearchBar;
         "site-header": SiteHeader;
         "site-menu": SiteMenu;
@@ -464,6 +464,7 @@ declare module "@stencil/core" {
             "contact-page": LocalJSX.ContactPage & JSXBase.HTMLAttributes<HTMLContactPageElement>;
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
             "custom-clock": LocalJSX.CustomClock & JSXBase.HTMLAttributes<HTMLCustomClockElement>;
+            "cv-page": LocalJSX.CvPage & JSXBase.HTMLAttributes<HTMLCvPageElement>;
             "deliverable-list": LocalJSX.DeliverableList & JSXBase.HTMLAttributes<HTMLDeliverableListElement>;
             "demo-card": LocalJSX.DemoCard & JSXBase.HTMLAttributes<HTMLDemoCardElement>;
             "feature-pill": LocalJSX.FeaturePill & JSXBase.HTMLAttributes<HTMLFeaturePillElement>;
@@ -481,7 +482,6 @@ declare module "@stencil/core" {
             "pro-glshader": LocalJSX.ProGlshader & JSXBase.HTMLAttributes<HTMLProGlshaderElement>;
             "project-card": LocalJSX.ProjectCard & JSXBase.HTMLAttributes<HTMLProjectCardElement>;
             "project-list": LocalJSX.ProjectList & JSXBase.HTMLAttributes<HTMLProjectListElement>;
-            "pwas-page": LocalJSX.PwasPage & JSXBase.HTMLAttributes<HTMLPwasPageElement>;
             "search-bar": LocalJSX.SearchBar & JSXBase.HTMLAttributes<HTMLSearchBarElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
             "site-menu": LocalJSX.SiteMenu & JSXBase.HTMLAttributes<HTMLSiteMenuElement>;
