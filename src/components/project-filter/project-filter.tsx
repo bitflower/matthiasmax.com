@@ -1,0 +1,44 @@
+import { projects } from '@matthiasmax/cv-api';
+import { Component, Event, EventEmitter, Fragment, h, State } from '@stencil/core';
+
+import { compare } from '../../global/common';
+// import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
+
+@Component({
+  tag: 'project-filter',
+  styleUrl: 'project-filter.css',
+})
+export class ProjectList {
+  constructor() {
+    const uniqueIndustries = new Set<string>();
+    projects.forEach(project => {
+      uniqueIndustries.add(project.industry);
+    });
+    this.industries = Array.from(uniqueIndustries);
+  }
+
+  @Event()
+  public mmChange!: EventEmitter<string>;
+
+  @State()
+  private industries: string[];
+
+  private onClick = (industry: string) => {
+    this.mmChange.emit(industry);
+  };
+
+  render() {
+    return (
+      <Fragment>
+        <button class="btn btn--secondary btn--small project-filter__industry-btn" onClick={() => this.onClick('all')}>
+          Alle
+        </button>
+        {this.industries.sort(compare()).map(industry => (
+          <button class="btn btn--primary btn--small project-filter__industry-btn" onClick={() => this.onClick(industry)}>
+            {industry}
+          </button>
+        ))}
+      </Fragment>
+    );
+  }
+}

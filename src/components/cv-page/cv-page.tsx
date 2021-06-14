@@ -1,4 +1,4 @@
-import { Component, Fragment, h } from '@stencil/core';
+import { Component, Fragment, h, State } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
@@ -9,6 +9,13 @@ export class cvPage {
   constructor() {
     document.title = `CV of Matthias Max`;
   }
+
+  @State()
+  private selected: string | undefined = undefined;
+
+  private onIndustryChange = (e: CustomEvent<string>) => {
+    this.selected = e.detail === 'all' ? undefined : e.detail;
+  };
 
   render() {
     return (
@@ -56,7 +63,8 @@ export class cvPage {
           </div>
           <div class="new-page">
             <h1>Projekterfahrung</h1>
-            <project-list />
+            <project-filter onMmChange={this.onIndustryChange} />
+            <project-list industry={this.selected} />
           </div>
         </ResponsiveContainer>
       </Fragment>
