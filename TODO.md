@@ -8,6 +8,7 @@
 - [ ] Analytics
 - [ ] Fix all Stencil images, etc
 - [ ] Clean up all the folders and repos!
+- [ ] Cookie Hinweis
 
 ## Ideas
 
