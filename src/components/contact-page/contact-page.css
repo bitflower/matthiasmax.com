@@ -9,6 +9,10 @@
   opacity: 0.15;
 }
 
+.anding-page_intro {
+  max-width: 530px;
+}
+
 @media screen and (max-width: 1200px) {
   .contact-page__logo-bg {
     top: 5%;

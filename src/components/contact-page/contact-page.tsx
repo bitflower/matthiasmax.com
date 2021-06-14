@@ -16,7 +16,7 @@ export class ContactPage {
     return (
       <ResponsiveContainer>
         <h2>"The best ideas start as conversations" —— Jonathan Ive.</h2>
-        <p>I strongly believe in that approach. I'm looking forward to exchange thoughts about technology, digital strategy, design, app ideas.</p>
+        <p class="landing-page_intro">I strongly believe in that approach. I'm looking forward to exchange thoughts about technology, digital strategy, design, app ideas.</p>
         <h3 class="contact-page__first-heading">You're welcome to have a coffee with me at my office:</h3>
         <p>
           bitflower e.K. / attn. Matthias Max
