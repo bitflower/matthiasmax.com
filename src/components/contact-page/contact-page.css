@@ -1,0 +1,26 @@
+.contact-page__first-heading {
+  margin-top: 100px;
+}
+
+.contact-page__logo-bg {
+  position: absolute;
+  right: 5%;
+  top: 11%;
+  opacity: 0.15;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-page__logo-bg {
+    top: 5%;
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page__logo-bg {
+    top: 0%;
+    width: 400%;
+    left: -210%;
+    transform: translateX(17%);
+  }
+}

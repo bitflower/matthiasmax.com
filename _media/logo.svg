@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="logo-new" transform="translate(0.000000, 128.000000)">
+            <g id="Group" transform="translate(64.000000, 144.000000)">
+                <path d="M0,336 L192,96" id="A" stroke="#7510F7" stroke-width="128" fill-rule="nonzero"></path>
+                <path d="M192,96 L384,336" id="A" stroke="#7510F7" stroke-width="128" fill-rule="nonzero"></path>
+                <path d="M576,96 L768,336" id="A" stroke="#7510F7" stroke-width="128" fill-rule="nonzero"></path>
+                <path d="M576,336 L832,0" id="B-Copy" stroke="#00FFF4" stroke-width="128" fill-rule="nonzero"></path>
+                <path d="M384,96 L576,336" id="B" stroke="#00FFF4" stroke-width="128" fill-rule="nonzero"></path>
+                <path d="M384,336 L576,96" id="A" stroke="#7510F7" stroke-width="128" fill-rule="nonzero"></path>
+                <path d="M0,576 L384,96" id="B-Copy-2" stroke="#00FFF4" stroke-width="128" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
