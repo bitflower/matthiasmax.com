@@ -202,7 +202,9 @@ landing-page .cta__secondary a:hover {
 }
 
 landing-page .cta__secondary {
+  margin-top: 20px;
   font-size: 13px;
+  text-align: center;
 }
 
 landing-page section {

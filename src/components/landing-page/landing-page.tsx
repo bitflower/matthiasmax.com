@@ -28,7 +28,7 @@ export class LandingPage {
         <div class="companies">
           <ResponsiveContainer>
             <h3>Some brands I've worked with directly or as sub contrator</h3>
-            <ul>
+            <ul class="brands">
               <li>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 57.2" height="20">
                   <title>Bosch logo</title>
@@ -320,6 +320,9 @@ export class LandingPage {
                 </svg>
               </li>
             </ul>
+            <p class="cta__secondary">
+              Explore my projects and skills in the <stencil-route-link url="/cv">interactive CV</stencil-route-link>
+            </p>
           </ResponsiveContainer>
         </div>
 
