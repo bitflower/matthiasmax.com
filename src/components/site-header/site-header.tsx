@@ -71,6 +71,15 @@ export class SiteHeader {
             CV
           </stencil-route-link>
 
+          <stencil-route-link
+            url="/contact"
+            onClick={() => {
+              this.hideNav();
+            }}
+          >
+            Contact
+          </stencil-route-link>
+
           {/* <stencil-route-link
             url="/blog"
             onClick={() => {

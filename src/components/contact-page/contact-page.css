@@ -21,6 +21,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .contact-page__logo-bg {
     top: 0%;
     width: 400%;
