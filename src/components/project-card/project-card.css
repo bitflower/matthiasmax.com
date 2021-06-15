@@ -87,6 +87,9 @@ project-card .kpi-rows {
 project-card .kpi-rows .kpis:first-child {
   border-bottom: 1px solid var(--color-whisper);
 }
+project-card .kpi-rows .kpis:last-child {
+  margin-top: 10px;
+}
 
 /* .project-card__info-block {
   padding: 0 6px;
