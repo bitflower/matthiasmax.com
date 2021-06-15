@@ -32,6 +32,15 @@ cv-page .left {
   padding-right: 60px;
 }
 
+cv-page time-line {
+  --label-width: 110px;
+  --color: var(--color-dodger-blue);
+}
+
+cv-page .time-line__container {
+  left: -120px;
+}
+
 cv-page .cv-page__profileimg {
   width: 100%;
 }

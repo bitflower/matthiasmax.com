@@ -7,6 +7,7 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { MarkdownHeading, SiteStructureItem } from "./global/definitions";
 import { Project } from "@matthiasmax/cv-api";
+import { TimeLineItem } from "./components/time-line/time-line-item.interface";
 export namespace Components {
     interface AnnouncementBar {
     }
@@ -107,6 +108,7 @@ export namespace Components {
     interface SiteTopBar {
     }
     interface TimeLine {
+        "items": TimeLineItem[];
     }
 }
 declare global {
@@ -455,6 +457,7 @@ declare namespace LocalJSX {
     interface SiteTopBar {
     }
     interface TimeLine {
+        "items": TimeLineItem[];
     }
     interface IntrinsicElements {
         "announcement-bar": AnnouncementBar;

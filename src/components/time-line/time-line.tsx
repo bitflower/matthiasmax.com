@@ -1,12 +1,14 @@
-import { Component, Fragment, h } from '@stencil/core';
+import { Component, Fragment, h, Prop } from '@stencil/core';
+
+import { TimeLineItem } from './time-line-item.interface';
 
 @Component({
   tag: 'time-line',
-  //   styleUrl: 'time-line.css',
+  styleUrl: 'time-line.css',
 })
 export class TimeLine {
-  //   @Prop()
-  //   project!: Project;
+  @Prop()
+  items!: TimeLineItem[];
 
   // --------------------------------------------------------------------------
   //
@@ -17,7 +19,16 @@ export class TimeLine {
   render() {
     return (
       <Fragment>
-        <div class="project-card__left">Bla</div>
+        <div class="time-line__container">
+          <div class="time-line__line"></div>
+          {this.items.map(item => (
+            <div class="time-line__item">
+              <span class="time-line__label">{item.label}</span>
+              <div class="time-line__dot"></div>
+              <div class="time-line__content">{item.content}</div>
+            </div>
+          ))}
+        </div>
       </Fragment>
     );
   }

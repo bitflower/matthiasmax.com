@@ -1,0 +1,41 @@
+time-line {
+  --base-padding: 10px;
+  --label-width: 60px;
+  --line-width: 3px;
+  --dot-size: 20px;
+  --color: red;
+}
+
+.time-line__container {
+  position: relative;
+}
+
+.time-line__item {
+  display: flex;
+  padding: var(--base-padding);
+}
+
+.time-line__label {
+  width: var(--label-width);
+}
+
+.time-line__dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+.time-line__line {
+  position: absolute;
+  left: calc(var(--label-width) + (2 * var(--base-padding)) - 1px);
+  /* left: calc(var(--label-width) + (var(--base-padding) - 1)); */
+  width: var(--line-width);
+  height: calc(100% - (2 * var(--base-padding)));
+  background-color: var(--color);
+  top: var(--base-padding);
+}
+
+.time-line__content {
+  padding-left: var(--base-padding);
+}
