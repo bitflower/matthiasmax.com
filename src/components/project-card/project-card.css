@@ -2,8 +2,12 @@ project-card {
   display: flex;
 }
 
+project-card p {
+  margin: 4px 0;
+}
+
 project-card .dots {
-  --bg-color: white;
+  --bg-color: var(--color-white);
   --dot-color: var(--color-cadet-blue);
 
   --dot-size: 3px;
@@ -27,8 +31,8 @@ project-card .dots {
 
 .content-card {
   position: relative;
-  margin-top: 30px;
-  background: var(--color-white-lilac);
+  margin-top: 32px;
+  background: var(--color-almost-white-gray);
   margin-right: 35px;
   box-shadow: -1px 6px 17px 3px #dadada;
   padding: 20px 30px;

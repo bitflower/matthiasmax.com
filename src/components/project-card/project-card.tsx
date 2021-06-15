@@ -31,11 +31,11 @@ export class ProjectCard {
             ) : null}
 
             <div class="project-card__info-block">
-              <h4 class="label">Tätigkeiten:</h4>
+              <h4 class="label">Tätigkeiten</h4>
               <p>{this.project.taskTypes.sort(compare()).join(', ')}</p>
             </div>
             <div class="project-card__info-block">
-              <h4 class="label">Einsatz von:</h4>
+              <h4 class="label">Tools und Methoden</h4>
               <p>{this.project.toolsUsed.sort(compare()).join(', ')}</p>
             </div>
           </div>
