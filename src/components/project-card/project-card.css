@@ -139,6 +139,6 @@ project-card .kpi-rows .kpis:last-child {
 
 @media print {
   project-card .project-card__right {
-    width: 9cm;
+    width: 4cm;
   }
 }
