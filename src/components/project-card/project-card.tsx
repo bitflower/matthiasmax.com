@@ -55,7 +55,7 @@ export class ProjectCard {
               </h2>
             </div>
           </div>
-          <div class="kpis equal-kpis">
+          <div class="kpis equal-kpis kpis-wrap">
             <div class="project-card__info-block">
               <h4 class="label">Branche</h4>
               <h2 class="kpi large-kpi">{this.project.industry}</h2>

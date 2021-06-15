@@ -3,6 +3,9 @@
 ## Musts
 
 - [ ] Translations
+- [ ] Timeline
+- [ ] Startseite
+- [ ] Konsolidierte Skills, Tools, etc
 - [x] Finish CV data
   - [x From power point
   - [ ] Korrekturlesen
