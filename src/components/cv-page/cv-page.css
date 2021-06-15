@@ -17,6 +17,25 @@ cv-page project-deliverables-filter .btn--white {
   color: var(--color-woodsmoke);
 }
 
+cv-page .page {
+  display: flex;
+}
+
+cv-page .right {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 310px;
+}
+
+cv-page .left {
+  flex-grow: 1;
+  padding-right: 60px;
+}
+
+cv-page .cv-page__profileimg {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   cv-page .measure-xl {
     text-align: center;
@@ -55,20 +74,16 @@ cv-page project-deliverables-filter .btn--white {
     left: 0;
   }
 
-  .page {
-    display: flex;
-    /* margin: 2cm; */
-    /* padding-left: 2cm; */
-  }
+  /* .page {
+    margin: 2cm;
+    padding-left: 2cm;
+  } */
 
   .left {
-    flex-grow: 1;
     padding-right: 1.5cm;
   }
 
   .right {
-    flex-grow: 0;
-    flex-shrink: 0;
     width: 5.1cm;
   }
 
@@ -78,7 +93,6 @@ cv-page project-deliverables-filter .btn--white {
 
   .bla {
     width: 100%;
-    /* margin: 0 auto; */
     padding: 0 2cm;
     display: flex;
     align-items: center;
@@ -115,10 +129,6 @@ cv-page project-deliverables-filter .btn--white {
   span,
   div {
     font-size: 10px !important;
-  }
-
-  .cv-page__profileimg {
-    width: 100%;
   }
 
   .new-page {

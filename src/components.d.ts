@@ -106,6 +106,9 @@ export namespace Components {
     }
     interface SiteTopBar {
     }
+    interface TimeLine {
+        "project": Project;
+    }
 }
 declare global {
     interface HTMLAnnouncementBarElement extends Components.AnnouncementBar, HTMLStencilElement {
@@ -306,6 +309,12 @@ declare global {
         prototype: HTMLSiteTopBarElement;
         new (): HTMLSiteTopBarElement;
     };
+    interface HTMLTimeLineElement extends Components.TimeLine, HTMLStencilElement {
+    }
+    var HTMLTimeLineElement: {
+        prototype: HTMLTimeLineElement;
+        new (): HTMLTimeLineElement;
+    };
     interface HTMLElementTagNameMap {
         "announcement-bar": HTMLAnnouncementBarElement;
         "app-burger": HTMLAppBurgerElement;
@@ -340,6 +349,7 @@ declare global {
         "site-header": HTMLSiteHeaderElement;
         "site-menu": HTMLSiteMenuElement;
         "site-top-bar": HTMLSiteTopBarElement;
+        "time-line": HTMLTimeLineElement;
     }
 }
 declare namespace LocalJSX {
@@ -445,6 +455,9 @@ declare namespace LocalJSX {
     }
     interface SiteTopBar {
     }
+    interface TimeLine {
+        "project": Project;
+    }
     interface IntrinsicElements {
         "announcement-bar": AnnouncementBar;
         "app-burger": AppBurger;
@@ -479,6 +492,7 @@ declare namespace LocalJSX {
         "site-header": SiteHeader;
         "site-menu": SiteMenu;
         "site-top-bar": SiteTopBar;
+        "time-line": TimeLine;
     }
 }
 export { LocalJSX as JSX };
@@ -518,6 +532,7 @@ declare module "@stencil/core" {
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
             "site-menu": LocalJSX.SiteMenu & JSXBase.HTMLAttributes<HTMLSiteMenuElement>;
             "site-top-bar": LocalJSX.SiteTopBar & JSXBase.HTMLAttributes<HTMLSiteTopBarElement>;
+            "time-line": LocalJSX.TimeLine & JSXBase.HTMLAttributes<HTMLTimeLineElement>;
         }
     }
 }

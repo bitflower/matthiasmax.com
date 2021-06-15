@@ -2,10 +2,12 @@
 
 ## Musts
 
-- [ ] Translations
 - [ ] Timeline
-- [ ] Startseite
+- [ ] CV Startseite
 - [ ] Konsolidierte Skills, Tools, etc
+- [ ] Translations
+- [ ] `links` aus CV daten verwenden
+- [ ] PDF Download Button
 - [x] Finish CV data
   - [x From power point
   - [ ] Korrekturlesen
@@ -15,6 +17,7 @@
 - [ ] Fix all Stencil images, etc
 - [ ] Clean up all the folders and repos!
 - [ ] Cookie Hinweis
+- [ ] Im PDF: "Interaktiven Online-CV öffnen!"
 
 ## Ideas
 
