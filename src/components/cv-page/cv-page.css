@@ -86,7 +86,7 @@ cv-page .cv-page__profileimg {
 }
 
 @page {
-  size: letter;
+  size: 21cm 29.7cm;
   /* margin: 2cm; */
   /* padding-left: 2cm; */
 }
