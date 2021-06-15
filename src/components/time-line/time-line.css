@@ -4,6 +4,7 @@ time-line {
   --line-width: 3px;
   --border-width: 3px;
   --dot-size: 20px;
+  --line-correction: 0;
   --color: red;
   --color-tint: orange;
 
@@ -49,7 +50,7 @@ time-line {
 
 .time-line__line {
   position: absolute;
-  left: calc(var(--label-width) + (2 * var(--base-padding)) - 1px);
+  left: calc(var(--label-width) + (2 * var(--base-padding)) - 1px + var(--line-correction));
   width: var(--line-width);
   height: calc(100% - (2 * var(--base-padding)) - (2 * var(--border-width)));
   background-color: var(--color-tint);

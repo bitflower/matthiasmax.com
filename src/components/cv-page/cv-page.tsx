@@ -60,7 +60,7 @@ export class cvPage {
           </div>
           <div class="new-page">
             <h2>Projekterfahrung</h2>
-            <div class="filters">
+            <div class="filters hide-print">
               <h4>Branchen: {this.selectedIndustry || 'Alle'}</h4>
               <project-industry-filter onMmChange={this.onIndustryChange} />
               <h4>Deliverables: {this.selectedDeliverable || 'Alle'}</h4>

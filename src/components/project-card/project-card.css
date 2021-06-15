@@ -75,6 +75,7 @@ project-card .project-card__left {
   flex-grow: 1;
   padding-right: 30px;
 }
+
 project-card .project-card__right {
   width: 530px;
   flex-grow: 0;
@@ -133,5 +134,11 @@ project-card .kpi-rows .kpis:last-child {
   .content-card {
     padding: 15px 20px;
     margin-right: 19px;
+  }
+}
+
+@media print {
+  project-card .project-card__right {
+    width: 9cm;
   }
 }

@@ -116,16 +116,16 @@ cv-page .cv-page__profileimg {
     padding-left: 2cm;
   } */
 
-  .left {
+  cv-page .left {
     padding-right: 1.5cm;
   }
 
-  .right {
+  cv-page .right {
     width: 5.1cm;
   }
 
   main {
-    padding-top: 3cm;
+    padding-top: 2.5cm;
   }
 
   .bla {
@@ -141,11 +141,13 @@ cv-page .cv-page__profileimg {
   }
 
   .cv-page__first-heading {
-    margin-top: 2cm;
+    margin-top: 1.7cm;
   }
 
   cv-page time-line {
     --label-width: 75px;
+    --base-padding: 4px;
+    --line-correction: 5px;
   }
 
   cv-page .time-line__container {
