@@ -1,15 +1,40 @@
 project-card {
-  display: block;
+  display: flex;
+}
+
+.equal-kpis {
+  justify-content: space-between;
+}
+
+project-card .kpis {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+project-card .kpi {
+  font-size: 180%;
+  font-weight: 900;
+  margin-top: 3px;
 }
 
 project-card .label {
-  width: 100px;
-  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 14px;
 }
 
-.project-card__info-block {
-  margin: 0;
+.project-card__left {
+  flex-grow: 1;
 }
+.project-card__right {
+  width: 550px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/* .project-card__info-block {
+  padding: 0 6px;
+} */
 
 .project-card__info-block-heading {
   margin-bottom: 6px;
