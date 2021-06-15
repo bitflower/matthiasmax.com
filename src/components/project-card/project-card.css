@@ -105,7 +105,7 @@ project-card .kpi-rows .kpis:last-child {
 
 @media screen and (max-width: 1200px) {
   project-card {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   project-card .kpi-rows {
@@ -123,9 +123,9 @@ project-card .kpi-rows .kpis:last-child {
   }
 
   .dots-block {
-    top: unset;
+    /* top: unset; */
     right: -19px;
-    bottom: -36px;
+    /* bottom: -36px; */
   }
 
   project-card .project-card__left {
