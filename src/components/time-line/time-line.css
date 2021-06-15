@@ -4,7 +4,7 @@ time-line {
   --line-width: 3px;
   --border-width: 3px;
   --dot-size: 20px;
-  --line-correction: 0;
+  --line-correction: 0px;
   --color: red;
   --color-tint: orange;
 
