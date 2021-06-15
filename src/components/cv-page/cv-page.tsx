@@ -1,47 +1,6 @@
 import { Component, Fragment, h, State } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
-import { TimeLineItem } from '../time-line/time-line-item.interface';
-
-// Kunden: Auftakt Medien e.K. BeOne Stuttgart GmbH Bosch.IO GmbH P3 automotive GmbH Remondis Süd GmbH RTS Steuerberatungsgesellschaft KG Securikett Ulrich & Horn GmbH Als Sublieferant: Wohnbau Oberriexingen Daimler Postbank Commerzbank Equens Worldline
-// Freelancer, Qtobe AG, 2006 – 2010
-// Diplomarbeit - Qtobe AG, 2006
-// Freelancer, 2001 - ecce AG Schweiz Qtobe AG Schweiz
-// Verleger & Plattenlabel - Breeze Records, 2004 - 2006
-
-const items: TimeLineItem[] = [
-  {
-    label: '1999 - 2001',
-    content: 'Schüler, Softwareentwickler',
-  },
-  {
-    label: '2000 – 2006',
-    content: 'EDM-Artist & Musikproduzent - Mind One',
-  },
-  {
-    label: '2003 - 2006',
-    content: 'Musikverleger & Plattenlabel - Breeze Records',
-  },
-  {
-    label: '2002 - 2006',
-    content: 'Studium Wirtschaftsinformatik - Fachhochschule Pforzheim',
-  },
-  {
-    label: '2006',
-    content: 'Diplom Wirtschaftsinformatik (FH)',
-  },
-  {
-    label: '2006 - 2010',
-    content: 'Freelance IT-Consultant - diverse Kunden',
-  },
-  {
-    label: '2010 – 2014',
-    content: 'Songwriter und Autor - BMG Rights Management Berlin',
-  },
-  {
-    label: 'seit 2014',
-    content: 'Geschäftsführer – bitflower',
-  },
-];
+import { milestones } from '@matthiasmax/cv-api';
 
 @Component({
   tag: 'cv-page',
@@ -78,7 +37,7 @@ export class cvPage {
             <div class="left">
               <h1>Web Technologie Consultant und Fullstack Developer</h1>
               <h2 class="cv-page__first-heading">Praxiserfahrung</h2>
-              <time-line items={items.reverse()} />
+              <time-line items={milestones.reverse()} />
 
               <h2>Ausbildung</h2>
               <p>
