@@ -66,7 +66,9 @@ export class ProjectCard {
             </div>
             <div class="project-card__info-block">
               <h4 class="label">Dauer</h4>
-              <h2 class="kpi large-kpi">6 Monate</h2>
+              <h2 class="kpi large-kpi">
+                {this.project.duration[0]} {this.project.duration[1]}
+              </h2>
             </div>
           </div>
         </div>

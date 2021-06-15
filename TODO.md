@@ -2,8 +2,10 @@
 
 ## Musts
 
-- [ ] Finish CV data
-  - [ ] From power point
+- [x] Finish CV data
+  - [x From power point
+  - [ ] Korrekturlesen
+  - [ ] Sub-Contract Fakt checken /Visualisieren
 - [ ] Connect domain
 - [ ] Analytics
 - [ ] Fix all Stencil images, etc
