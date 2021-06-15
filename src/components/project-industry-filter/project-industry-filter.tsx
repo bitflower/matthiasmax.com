@@ -5,10 +5,10 @@ import { compare } from '../../global/common';
 // import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
-  tag: 'project-filter',
-  styleUrl: 'project-filter.css',
+  tag: 'project-industry-filter',
+  styleUrl: 'project-industry-filter.css',
 })
-export class ProjectList {
+export class ProjectIndustryFilter {
   constructor() {
     const uniqueIndustries = new Set<string>();
     projects.forEach(project => {
