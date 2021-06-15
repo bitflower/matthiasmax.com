@@ -84,9 +84,12 @@ export namespace Components {
     interface ProjectCard {
         "project": Project;
     }
+    interface ProjectDeliverablesFilter {
+    }
     interface ProjectIndustryFilter {
     }
     interface ProjectList {
+        "deliverable"?: string;
         "industry"?: string;
     }
     interface SearchBar {
@@ -261,6 +264,12 @@ declare global {
         prototype: HTMLProjectCardElement;
         new (): HTMLProjectCardElement;
     };
+    interface HTMLProjectDeliverablesFilterElement extends Components.ProjectDeliverablesFilter, HTMLStencilElement {
+    }
+    var HTMLProjectDeliverablesFilterElement: {
+        prototype: HTMLProjectDeliverablesFilterElement;
+        new (): HTMLProjectDeliverablesFilterElement;
+    };
     interface HTMLProjectIndustryFilterElement extends Components.ProjectIndustryFilter, HTMLStencilElement {
     }
     var HTMLProjectIndustryFilterElement: {
@@ -324,6 +333,7 @@ declare global {
         "pre-footer": HTMLPreFooterElement;
         "pro-glshader": HTMLProGlshaderElement;
         "project-card": HTMLProjectCardElement;
+        "project-deliverables-filter": HTMLProjectDeliverablesFilterElement;
         "project-industry-filter": HTMLProjectIndustryFilterElement;
         "project-list": HTMLProjectListElement;
         "search-bar": HTMLSearchBarElement;
@@ -411,10 +421,14 @@ declare namespace LocalJSX {
     interface ProjectCard {
         "project": Project;
     }
+    interface ProjectDeliverablesFilter {
+        "onMmChange"?: (event: CustomEvent<string>) => void;
+    }
     interface ProjectIndustryFilter {
         "onMmChange"?: (event: CustomEvent<string>) => void;
     }
     interface ProjectList {
+        "deliverable"?: string;
         "industry"?: string;
     }
     interface SearchBar {
@@ -458,6 +472,7 @@ declare namespace LocalJSX {
         "pre-footer": PreFooter;
         "pro-glshader": ProGlshader;
         "project-card": ProjectCard;
+        "project-deliverables-filter": ProjectDeliverablesFilter;
         "project-industry-filter": ProjectIndustryFilter;
         "project-list": ProjectList;
         "search-bar": SearchBar;
@@ -496,6 +511,7 @@ declare module "@stencil/core" {
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
             "pro-glshader": LocalJSX.ProGlshader & JSXBase.HTMLAttributes<HTMLProGlshaderElement>;
             "project-card": LocalJSX.ProjectCard & JSXBase.HTMLAttributes<HTMLProjectCardElement>;
+            "project-deliverables-filter": LocalJSX.ProjectDeliverablesFilter & JSXBase.HTMLAttributes<HTMLProjectDeliverablesFilterElement>;
             "project-industry-filter": LocalJSX.ProjectIndustryFilter & JSXBase.HTMLAttributes<HTMLProjectIndustryFilterElement>;
             "project-list": LocalJSX.ProjectList & JSXBase.HTMLAttributes<HTMLProjectListElement>;
             "search-bar": LocalJSX.SearchBar & JSXBase.HTMLAttributes<HTMLSearchBarElement>;

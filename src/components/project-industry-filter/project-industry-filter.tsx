@@ -6,7 +6,6 @@ import { compare } from '../../global/common';
 
 @Component({
   tag: 'project-industry-filter',
-  styleUrl: 'project-industry-filter.css',
 })
 export class ProjectIndustryFilter {
   constructor() {
@@ -30,11 +29,11 @@ export class ProjectIndustryFilter {
   render() {
     return (
       <Fragment>
-        <button class="btn btn--secondary btn--small project-filter__industry-btn" onClick={() => this.onClick('all')}>
+        <button class="btn btn--white btn--small filter-btn" onClick={() => this.onClick('all')}>
           Alle
         </button>
         {this.industries.sort(compare()).map(industry => (
-          <button class="btn btn--primary btn--small project-filter__industry-btn" onClick={() => this.onClick(industry)}>
+          <button class="btn btn--primary btn--small filter-btn" onClick={() => this.onClick(industry)}>
             {industry}
           </button>
         ))}

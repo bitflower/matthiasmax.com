@@ -1,6 +1,5 @@
-
 .btn {
-  transition: all .15s ease;
+  transition: all 0.15s ease;
   text-decoration: none;
   border: none;
   outline: none;
@@ -14,7 +13,6 @@
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-
 }
 
 .btn a {
@@ -39,12 +37,17 @@
 }
 
 .btn--secondary {
+  background: var(--color-secondary-rgb);
+  color: var(--color-woodsmoke);
+}
+
+.btn--white {
   background: var(--color-white);
   color: var(--color-dodger-blue);
 }
 
 .btn--tertiary {
-  background: #F4F4FD;
+  background: #f4f4fd;
   color: var(--color-dodger-blue);
   box-shadow: none;
 }

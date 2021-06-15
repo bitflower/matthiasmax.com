@@ -12,9 +12,14 @@ export class cvPage {
 
   @State()
   private selectedIndustry: string | undefined = undefined;
+  @State()
+  private selectedDeliverable: string | undefined = undefined;
 
   private onIndustryChange = (e: CustomEvent<string>) => {
     this.selectedIndustry = e.detail === 'all' ? undefined : e.detail;
+  };
+  private onDeliverableChange = (e: CustomEvent<string>) => {
+    this.selectedDeliverable = e.detail === 'all' ? undefined : e.detail;
   };
 
   render() {
@@ -65,9 +70,9 @@ export class cvPage {
             <h1>Projekterfahrung</h1>
             <h4>Branchen: {this.selectedIndustry || 'Alle'}</h4>
             <project-industry-filter onMmChange={this.onIndustryChange} />
-            <h4>Deliverables: Alle</h4>
-            {/* <h2>Ergebnisse</h2> */}
-            <project-list industry={this.selectedIndustry} />
+            <h4>Deliverables: {this.selectedDeliverable || 'Alle'}</h4>
+            <project-deliverables-filter onMmChange={this.onDeliverableChange} />
+            <project-list industry={this.selectedIndustry} deliverable={this.selectedDeliverable} />
           </div>
         </ResponsiveContainer>
       </Fragment>

@@ -8,6 +8,15 @@ cv-page project-list {
   display: block;
 }
 
+cv-page .filter-btn {
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+cv-page project-deliverables-filter .btn--white {
+  color: var(--color-woodsmoke);
+}
+
 @media screen and (max-width: 768px) {
   cv-page .measure-xl {
     text-align: center;
