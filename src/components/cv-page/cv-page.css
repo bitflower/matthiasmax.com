@@ -107,7 +107,7 @@ cv-page .cv-page__profileimg {
     position: fixed;
     display: flex;
     align-items: center;
-    top: 1.2cm;
+    top: 1cm;
     left: 0;
   }
 
@@ -148,6 +148,7 @@ cv-page .cv-page__profileimg {
     --label-width: 75px;
     --base-padding: 4px;
     --line-correction: 5px;
+    padding-bottom: 15px;
   }
 
   cv-page .time-line__container {
