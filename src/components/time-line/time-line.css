@@ -7,6 +7,9 @@ time-line {
   --color: red;
   --color-tint: orange;
 
+  --initial-delay: 0.25s;
+  --stack-delay: 0.05s;
+
   display: block;
 }
 
@@ -17,6 +20,12 @@ time-line {
 .time-line__item {
   display: flex;
   padding: var(--base-padding);
+}
+
+.text-ani {
+  opacity: 0;
+  animation: fadeIn 0.25s normal forwards;
+  animation-delay: calc(var(--initial-delay) + (var(--stack-delay) * (var(--total) - var(--index))));
 }
 
 .time-line__label {
@@ -31,6 +40,9 @@ time-line {
   background-color: var(--color);
   border-radius: 50%;
   border: var(--border-width) solid var(--color-tint);
+  animation: pulse 1.5s normal forwards;
+  animation-delay: calc(var(--initial-delay) + (var(--stack-delay) * (var(--total) - var(--index))));
+  z-index: 1;
 }
 
 .time-line__line {
@@ -38,10 +50,35 @@ time-line {
   left: calc(var(--label-width) + (2 * var(--base-padding)) - 1px);
   width: var(--line-width);
   height: calc(100% - (2 * var(--base-padding)) - (2 * var(--border-width)));
-  background-color: var(--color);
+  background-color: var(--color-tint);
+  opacity: 0.38;
   top: calc(var(--base-padding) + var(--border-width));
 }
 
 .time-line__content {
   padding-left: var(--base-padding);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--color);
+  }
+  70% {
+    box-shadow: 0 0 0 0.5rem transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
 }

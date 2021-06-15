@@ -36,7 +36,7 @@ export class cvPage {
           <div class="page new-page">
             <div class="left">
               <h1>Web Technologie Consultant und Fullstack Developer</h1>
-              <h2 class="cv-page__first-heading">Praxiserfahrung</h2>
+              <h2 class="cv-page__first-heading">Professionelle Laufbahn</h2>
               <time-line items={milestones.reverse()} />
 
               <h2>Ausbildung</h2>
