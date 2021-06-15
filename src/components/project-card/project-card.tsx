@@ -5,7 +5,7 @@ import { compare } from '../../global/common';
 
 @Component({
   tag: 'project-card',
-  styleUrl: 'project.css',
+  styleUrl: 'project-card.css',
 })
 export class ProjectCard {
   @Prop()
