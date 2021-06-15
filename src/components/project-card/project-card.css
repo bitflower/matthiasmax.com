@@ -123,9 +123,7 @@ project-card .kpi-rows .kpis:last-child {
   }
 
   .dots-block {
-    /* top: unset; */
     right: -19px;
-    /* bottom: -36px; */
   }
 
   project-card .project-card__left {
