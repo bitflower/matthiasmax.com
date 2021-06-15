@@ -46,7 +46,7 @@ cv-page .filters {
 
 cv-page time-line {
   --base-padding: 10px;
-  --label-width: 100px;
+  --label-width: 102px;
   --color: var(--color-dodger-blue);
   --color-tint: var(--color-dodger-blue-tint);
   color: var(--color-gunpowder);
