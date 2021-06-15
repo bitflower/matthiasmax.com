@@ -32,6 +32,7 @@ time-line {
   width: var(--label-width);
   text-align: right;
   padding-right: var(--base-padding);
+  flex-shrink: 0;
 }
 
 .time-line__dot {
@@ -43,6 +44,7 @@ time-line {
   animation: pulse 1.5s normal forwards;
   animation-delay: calc(var(--initial-delay) + (var(--stack-delay) * (var(--total) - var(--index))));
   z-index: 1;
+  flex-shrink: 0;
 }
 
 .time-line__line {

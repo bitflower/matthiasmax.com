@@ -33,7 +33,8 @@ cv-page .left {
 }
 
 cv-page time-line {
-  --label-width: 110px;
+  --base-padding: 10px;
+  --label-width: 100px;
   --color: var(--color-dodger-blue);
   --color-tint: var(--color-dodger-blue-tint);
   color: var(--color-gunpowder);
@@ -43,6 +44,7 @@ cv-page time-line {
 
 cv-page .time-line__container {
   left: -120px;
+  width: calc(100% + 120px);
 }
 
 cv-page .cv-page__profileimg {
@@ -50,8 +52,19 @@ cv-page .cv-page__profileimg {
 }
 
 @media screen and (max-width: 768px) {
+  cv-page .page {
+    flex-direction: column-reverse;
+  }
+
   cv-page .measure-xl {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  cv-page .time-line__container {
+    left: calc(var(--base-padding) * -1);
+    width: calc(100% + var(--base-padding));
   }
 }
 
