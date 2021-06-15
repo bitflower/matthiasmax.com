@@ -2,6 +2,7 @@
 
 ## Musts
 
+- [ ] Translations
 - [x] Finish CV data
   - [x From power point
   - [ ] Korrekturlesen
@@ -21,7 +22,7 @@
 
 ## Blog posts
 
--  [ ] Explain MM logo:
-   -  [ ] Ms from my name
-   -  [ ] chart curve => going up
-   -  [ ] sich umarmende Ms = collaboration
+- [ ] Explain MM logo:
+  - [ ] Ms from my name
+  - [ ] chart curve => going up
+  - [ ] sich umarmende Ms = collaboration

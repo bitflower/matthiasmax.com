@@ -91,20 +91,26 @@ project-card .kpi-rows .kpis:last-child {
   margin-top: 10px;
 }
 
-/* .project-card__info-block {
-  padding: 0 6px;
-} */
-
-/* .project-card__info-block-heading {
-  margin-bottom: 6px;
-  display: flex;
-  margin-bottom: 0;
-} */
-
 .project-card__info-block-heading-title {
   flex-grow: 1;
 }
 
 .project-card__info-block-heading-delivarable {
   margin-left: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  project-card {
+    flex-direction: column;
+  }
+
+  project-card .kpi-rows {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .dots-block {
+    top: unset;
+    bottom: -36px;
+  }
 }
