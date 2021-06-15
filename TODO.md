@@ -2,6 +2,7 @@
 
 ## Musts
 
+- [ ] SEO: Headings!
 - [ ] Timeline
 - [ ] CV Startseite
 - [ ] Konsolidierte Skills, Tools, etc

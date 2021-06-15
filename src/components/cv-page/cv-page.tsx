@@ -72,15 +72,16 @@ export class cvPage {
         <ResponsiveContainer>
           <div class="page new-page">
             <div class="left">
-              <h1 class="cv-page__first-heading">Praxiserfahrung</h1>
+              <h1>Web Technologie Consultant und Fullstack Developer</h1>
+              <h2 class="cv-page__first-heading">Praxiserfahrung</h2>
               <time-line items={items.reverse()} />
 
-              <h1>Ausbildung</h1>
+              <h2>Ausbildung</h2>
               <p>
                 Studium der Wirtschaftsinformatik - Fachhochschule Pforzheim, 2001 – 2006 <br />
                 Thema der Diplomarbeit: Integrationsmöglichkeiten geographischer Daten in relationalen Datenbanken
               </p>
-              <h1>Fremdsprachen</h1>
+              <h2>Fremdsprachen</h2>
               <p>
                 Englisch: fließend in Wort und Schrift <br />
                 Französisch: Schulkenntnisse
@@ -88,14 +89,14 @@ export class cvPage {
             </div>
             <div class="right">
               <div class="profile">
-                <h1>Matthias Max</h1>
+                <h2>Matthias Max</h2>
                 <h3>Diplom-Wirtschaftsinformatiker (FH)</h3>
                 <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" />
               </div>
             </div>
           </div>
           <div class="new-page">
-            <h1>Projekterfahrung</h1>
+            <h2>Projekterfahrung</h2>
             <h4>Branchen: {this.selectedIndustry || 'Alle'}</h4>
             <project-industry-filter onMmChange={this.onIndustryChange} />
             <h4>Deliverables: {this.selectedDeliverable || 'Alle'}</h4>
