@@ -35,6 +35,7 @@ export class cvPage {
           <div class="page new-page">
             <div class="left">
               <h1 class="cv-page__first-heading">Praxiserfahrung</h1>
+              <time-line />
               <p>
                 Geschäftsführer – bitflower, seit 2014 <br />
                 Kunden: Auftakt Medien e.K. BeOne Stuttgart GmbH Bosch.IO GmbH P3 automotive GmbH Remondis Süd GmbH RTS Steuerberatungsgesellschaft KG Securikett Ulrich & Horn GmbH

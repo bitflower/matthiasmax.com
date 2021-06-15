@@ -107,7 +107,6 @@ export namespace Components {
     interface SiteTopBar {
     }
     interface TimeLine {
-        "project": Project;
     }
 }
 declare global {
@@ -456,7 +455,6 @@ declare namespace LocalJSX {
     interface SiteTopBar {
     }
     interface TimeLine {
-        "project": Project;
     }
     interface IntrinsicElements {
         "announcement-bar": AnnouncementBar;

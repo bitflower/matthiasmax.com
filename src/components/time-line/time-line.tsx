@@ -1,13 +1,12 @@
-import { Component, Fragment, h, Prop } from '@stencil/core';
-import { Project } from '@matthiasmax/cv-api';
+import { Component, Fragment, h } from '@stencil/core';
 
 @Component({
   tag: 'time-line',
   //   styleUrl: 'time-line.css',
 })
 export class TimeLine {
-  @Prop()
-  project!: Project;
+  //   @Prop()
+  //   project!: Project;
 
   // --------------------------------------------------------------------------
   //
