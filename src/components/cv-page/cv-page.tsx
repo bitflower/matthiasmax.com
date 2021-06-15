@@ -35,7 +35,7 @@ export class cvPage {
         <ResponsiveContainer>
           <div class="page new-page">
             <div class="left">
-              <h1>Web Technologie Consultant und Fullstack Developer</h1>
+              <h1 class="hide-print">Web Technologie Consultant und Fullstack Developer</h1>
               <h2 class="cv-page__first-heading">Professionelle Laufbahn</h2>
               <time-line items={milestones.reverse()} />
 
@@ -60,10 +60,12 @@ export class cvPage {
           </div>
           <div class="new-page">
             <h2>Projekterfahrung</h2>
-            <h4>Branchen: {this.selectedIndustry || 'Alle'}</h4>
-            <project-industry-filter onMmChange={this.onIndustryChange} />
-            <h4>Deliverables: {this.selectedDeliverable || 'Alle'}</h4>
-            <project-deliverables-filter onMmChange={this.onDeliverableChange} />
+            <div class="filters">
+              <h4>Branchen: {this.selectedIndustry || 'Alle'}</h4>
+              <project-industry-filter onMmChange={this.onIndustryChange} />
+              <h4>Deliverables: {this.selectedDeliverable || 'Alle'}</h4>
+              <project-deliverables-filter onMmChange={this.onDeliverableChange} />
+            </div>
             <project-list industry={this.selectedIndustry} deliverable={this.selectedDeliverable} />
           </div>
         </ResponsiveContainer>
