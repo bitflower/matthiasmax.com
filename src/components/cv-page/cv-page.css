@@ -35,6 +35,10 @@ cv-page .left {
 cv-page time-line {
   --label-width: 110px;
   --color: var(--color-dodger-blue);
+  --color-tint: var(--color-dodger-blue-tint);
+  color: var(--color-gunpowder);
+  font-size: 15px;
+  padding-bottom: 60px;
 }
 
 cv-page .time-line__container {

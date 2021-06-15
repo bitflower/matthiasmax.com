@@ -2,8 +2,12 @@ time-line {
   --base-padding: 10px;
   --label-width: 60px;
   --line-width: 3px;
+  --border-width: 3px;
   --dot-size: 20px;
   --color: red;
+  --color-tint: orange;
+
+  display: block;
 }
 
 .time-line__container {
@@ -17,6 +21,8 @@ time-line {
 
 .time-line__label {
   width: var(--label-width);
+  text-align: right;
+  padding-right: var(--base-padding);
 }
 
 .time-line__dot {
@@ -24,16 +30,16 @@ time-line {
   height: var(--dot-size);
   background-color: var(--color);
   border-radius: 50%;
+  border: var(--border-width) solid var(--color-tint);
 }
 
 .time-line__line {
   position: absolute;
   left: calc(var(--label-width) + (2 * var(--base-padding)) - 1px);
-  /* left: calc(var(--label-width) + (var(--base-padding) - 1)); */
   width: var(--line-width);
-  height: calc(100% - (2 * var(--base-padding)));
+  height: calc(100% - (2 * var(--base-padding)) - (2 * var(--border-width)));
   background-color: var(--color);
-  top: var(--base-padding);
+  top: calc(var(--base-padding) + var(--border-width));
 }
 
 .time-line__content {
