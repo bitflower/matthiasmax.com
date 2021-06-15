@@ -42,7 +42,7 @@ export class cvPage {
               <h2>Ausbildung</h2>
               <p>
                 Studium der Wirtschaftsinformatik - Fachhochschule Pforzheim, 2001 – 2006 <br />
-                Thema der Diplomarbeit: Integrationsmöglichkeiten geographischer Daten in relationalen Datenbanken
+                Thema der Diplomarbeit: TITEL DIPLOMARBEIT
               </p>
               <h2>Fremdsprachen</h2>
               <p>
