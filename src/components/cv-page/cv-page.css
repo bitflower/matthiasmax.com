@@ -32,6 +32,10 @@ cv-page .left {
   padding-right: 60px;
 }
 
+cv-page .profile {
+  padding-top: 10px;
+}
+
 cv-page time-line {
   --base-padding: 10px;
   --label-width: 100px;
