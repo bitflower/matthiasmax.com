@@ -1,4 +1,16 @@
 {
+  "cv": {
+    "cv": "Professionelle Laufbahn",
+    "education": "Ausbildung",
+    "experience": "Projekterfahrung",
+    "heading": "Web Technologie Consultant und Fullstack Developer",
+    "languages": "Fremdsprachen",
+    "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer"
+  },
+  "deliverable": {
+    "singular": "Arbeitsergebnis",
+    "plural": "Arbeitsergebnisse"
+  },
   "deliverables": {
     "all": "Alle",
     "content": "Content",
@@ -9,5 +21,12 @@
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
     "website": "Website"
+  },
+  "industry": {
+    "singular": "Branche",
+    "plural": "Branchen"
+  },
+  "industries": {
+    "all": "Alle"
   }
 }
