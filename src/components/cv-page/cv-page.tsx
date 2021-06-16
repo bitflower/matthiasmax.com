@@ -68,7 +68,7 @@ export class cvPage {
               </h4>
               <project-industry-filter onMmChange={this.onIndustryChange} />
               <h4>
-                {i18n.deliverable.singular}: {this.selectedDeliverable || i18n.deliverables.all}
+                {i18n.deliverable.singular}: {this.selectedDeliverable ? (i18n.deliverables as any)[this.selectedDeliverable] : i18n.deliverables.all}
               </h4>
               <project-deliverables-filter onMmChange={this.onDeliverableChange} />
             </div>
