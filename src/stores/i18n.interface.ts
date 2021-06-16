@@ -10,6 +10,7 @@ interface I18nCV {
   heading: string;
   languages: string;
   title: string;
+  dataSource: string;
 }
 interface I18nCommon {
   durations: {

@@ -4,6 +4,8 @@ import { milestones } from '@matthiasmax/cv-api';
 
 import i18n from '../../stores/i18n.store';
 
+const lebenslauf = [...milestones.reverse()];
+
 @Component({
   tag: 'cv-page',
   styleUrl: 'cv-page.css',
@@ -39,7 +41,7 @@ export class cvPage {
             <div class="left">
               <h1 class="hide-print">{i18n.cv.heading}</h1>
               <h2 class="cv-page__first-heading">{i18n.cv.cv}</h2>
-              <time-line items={milestones.reverse()} />
+              <time-line items={lebenslauf} />
 
               <h2>{i18n.cv.education}</h2>
               <p>
@@ -72,6 +74,13 @@ export class cvPage {
               </h4>
               <project-deliverables-filter onMmChange={this.onDeliverableChange} />
             </div>
+            <p class="cta__secondary">
+              {i18n.cv.dataSource}{' '}
+              <a href="https://github.com/bitflower/CV" target="_blank">
+                GitHub
+              </a>
+            </p>
+
             <project-list industry={this.selectedIndustry} deliverable={this.selectedDeliverable} />
           </div>
         </ResponsiveContainer>
