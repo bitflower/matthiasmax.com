@@ -1,6 +1,7 @@
 @page {
   size: 21cm 29.7cm;
-  margin: 0cm;
+  margin: 0;
+  padding: 0;
   /* margin: 3cm 3cm 3cm 3cm; */
 }
 
@@ -14,9 +15,10 @@
     padding-left: 2cm;
     padding-right: 2cm;
   }
-  body {
+  /* body {
     padding-top: 3cm;
-  }
+    padding-bottom: 1cm !important;
+  } */
 
   header,
   .cv-page__footer {
@@ -31,7 +33,7 @@
     top: 1cm;
   }
   .cv-page__footer {
-    bottom: 0.7cm;
+    bottom: 0cm;
     background: none;
   }
 

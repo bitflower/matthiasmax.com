@@ -23,7 +23,7 @@ export class ProjectCard {
     return (
       <Fragment>
         <div class="project-card__left">
-          <div class="dots-block dots"></div>
+          <div class="dots-block dots hide-print"></div>
           <div class="content-card">
             <h3 class="project-card__info-block-heading-title">{this.project.title}</h3>
             {this.project.description ? (

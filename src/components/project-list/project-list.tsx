@@ -43,6 +43,28 @@ export class ProjectList {
   private selected: Project[] = sort(projects);
 
   render() {
-    return this.selected.map(project => <project-card class="project-list__project" project={project} />);
+    return (
+      <table>
+        <thead>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </thead>
+        <tbody>
+          {this.selected.map(project => (
+            <tr>
+              <td class="project-list__cell">
+                <project-card class="project-list__project" project={project} />
+              </td>
+            </tr>
+          ))}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </tfoot>
+      </table>
+    );
   }
 }

@@ -141,10 +141,41 @@ project-card .kpi-rows .kpis:last-child {
 @media print {
   project-card .project-card__right {
     width: 4cm;
+    padding-left: 0;
   }
 
   project-card .kpi-rows {
     display: block;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+  }
+
+  .content-card {
+    position: unset;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+  }
+
+  project-card .dots-block {
+    display: none;
+  }
+
+  project-card .label {
+    font-size: 9px;
+    margin-top: 0;
+  }
+
+  project-card .small-kpi {
+    font-size: 115% !important;
+  }
+
+  project-card .large-kpi {
+    font-size: 110% !important;
+  }
+
+  project-card .kpi-rows .kpis:last-child {
+    margin-top: 0;
   }
 }
