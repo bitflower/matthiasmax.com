@@ -21,8 +21,10 @@
   display: inline-block;
 }
 .unbreakable:after {
+  content: '';
   display: block;
-  height: 0px;
+  /* Didn't work with 0px */
+  height: 1px;
   visibility: hidden;
 }
 
