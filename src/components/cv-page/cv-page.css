@@ -1,3 +1,5 @@
+@import url('./cv-page.print.css');
+
 cv-page h3 + .demo-card-list {
   margin-top: 32px;
 }
@@ -85,110 +87,5 @@ cv-page .cv-page__profileimg {
   cv-page .time-line__container {
     left: calc(var(--base-padding) * -1);
     width: calc(100% + var(--base-padding));
-  }
-}
-
-@page {
-  size: 21cm 29.7cm;
-  /* margin: 2cm; */
-  /* padding-left: 2cm; */
-}
-
-@media print {
-  .hide-print {
-    display: none;
-  }
-
-  .ui-container {
-    width: 100% !important;
-    padding-left: 2cm;
-    padding-right: 2cm;
-  }
-
-  header {
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    top: 1cm;
-    left: 0;
-  }
-
-  /* .page {
-    margin: 2cm;
-    padding-left: 2cm;
-  } */
-
-  cv-page .left {
-    padding-right: 1.5cm;
-  }
-
-  cv-page .right {
-    width: 5.1cm;
-  }
-
-  main {
-    padding-top: 2.5cm;
-  }
-
-  .bla {
-    width: 100%;
-    padding: 0 2cm;
-    display: flex;
-    align-items: center;
-  }
-
-  .cv-page__kopfzeiletitle {
-    flex-grow: 1;
-    text-align: right;
-  }
-
-  .cv-page__first-heading {
-    margin-top: 1.7cm;
-  }
-
-  cv-page time-line {
-    --label-width: 75px;
-    --base-padding: 4px;
-    --line-correction: 5px;
-    padding-bottom: 15px;
-  }
-
-  cv-page .time-line__container {
-    left: -10px;
-    width: calc(100% + 10px);
-  }
-
-  h1 {
-    font-size: 14px !important;
-    line-height: 17px !important;
-    margin-bottom: 6px;
-  }
-
-  h2 {
-    font-size: 13px !important;
-    margin-bottom: 6px;
-    color: var(--color-dodger-blue);
-  }
-
-  h3 {
-    font-size: 10px !important;
-    color: var(--color-gandalf);
-    margin-top: 6px;
-  }
-
-  p,
-  span,
-  div {
-    font-size: 10px !important;
-  }
-
-  .new-page {
-    page-break-after: always;
-  }
-
-  site-header,
-  footer {
-    display: none;
   }
 }
