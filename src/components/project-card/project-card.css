@@ -77,7 +77,7 @@ project-card .project-card__left {
 }
 
 project-card .project-card__right {
-  width: 530px;
+  width: 360px;
   flex-grow: 0;
   flex-shrink: 0;
   padding-left: 30px;
@@ -102,6 +102,7 @@ project-card .kpi-rows .kpis:last-child {
 
 .project-card__info-block-heading-delivarable {
   margin-right: 4px;
+  margin-bottom: 2px;
 }
 
 @media screen and (max-width: 1200px) {
