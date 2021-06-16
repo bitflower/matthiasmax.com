@@ -47,7 +47,10 @@ export class ProjectList {
       <table>
         <thead>
           <tr>
-            <td class="bg-red">&nbsp;</td>
+            <td class="bg-red">
+              &nbsp;
+              {/* <div class="footer-space">&nbsp;</div> */}
+            </td>
           </tr>
         </thead>
         <tbody>
@@ -68,7 +71,10 @@ export class ProjectList {
         </tbody>
         <tfoot>
           <tr>
-            <td class="bg-blue">&nbsp;</td>
+            <td class="bg-blue">
+              &nbsp;
+              {/* <div class="footer-space">&nbsp;</div> */}
+            </td>
           </tr>
         </tfoot>
       </table>

@@ -46,8 +46,8 @@ project-list tbody td {
 
 @media print {
   .project-list__project {
-    page-break-inside: avoid;
-    break-inside: avoid;
+    /* page-break-inside: avoid; */
+    /* break-inside: avoid; */
     margin-bottom: 0;
   }
   /* project-list tr,
@@ -55,6 +55,13 @@ project-list tbody td {
     page-break-inside: avoid;
     break-inside: avoid;
   } */
+
+  project-list thead {
+    display: table-header-group;
+  }
+  project-list tfoot {
+    display: table-footer-group;
+  }
 
   /* Simulate page break page border */
   project-list thead td {
@@ -67,9 +74,17 @@ project-list tbody td {
   project-list tfoot td {
     /* font-size: 1px; */
     /* padding-top: 1px; */
+
+    /* Option 2 */
     font-size: 1cm;
     line-height: 0;
-    padding-top: 1cm;
+    height: 1cm;
+    /* padding-top: 1cm; */
+  }
+
+  .header-space,
+  .footer-space {
+    height: 0.5cm;
   }
 }
 
