@@ -6,6 +6,7 @@
 @media print {
   .project-list__project {
     page-break-inside: avoid;
+    break-inside: avoid-page;
   }
 }
 

@@ -1,7 +1,7 @@
 @page {
   size: 21cm 29.7cm;
-  /* margin: 2cm; */
-  /* padding-left: 2cm; */
+  margin: 0cm;
+  /* margin: 3cm 3cm 3cm 3cm; */
 }
 
 @media print {
@@ -13,6 +13,9 @@
     width: 100% !important;
     padding-left: 2cm;
     padding-right: 2cm;
+  }
+  body {
+    padding-top: 3cm;
   }
 
   header,
@@ -33,9 +36,8 @@
   }
 
   /* .page {
-      margin: 2cm;
-      padding-left: 2cm;
-    } */
+    margin: 2cm;
+  } */
 
   cv-page .left {
     padding-right: 1.5cm;
@@ -68,7 +70,6 @@
   cv-page time-line {
     --label-width: 75px;
     --base-padding: 4px;
-    /* --line-correction: 5px; */
     padding-bottom: 15px;
   }
 

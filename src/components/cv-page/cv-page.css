@@ -1,9 +1,5 @@
 @import url('./cv-page.print.css');
 
-cv-page h3 + .demo-card-list {
-  margin-top: 32px;
-}
-
 cv-page project-list {
   margin-top: 60px;
   margin-bottom: 90px;
@@ -26,7 +22,6 @@ cv-page .page {
 cv-page .right {
   flex-grow: 0;
   flex-shrink: 0;
-  width: 310px;
 }
 
 cv-page .left {
@@ -73,6 +68,9 @@ cv-page .cv-page__profileimg {
 }
 
 @media screen {
+  cv-page .right {
+    width: 310px;
+  }
   .hide-screen {
     display: none;
   }
