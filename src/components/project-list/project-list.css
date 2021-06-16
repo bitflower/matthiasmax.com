@@ -10,15 +10,15 @@
   /* background-color: blue !important; */
 }
 
-/* .no-break-inside {
+.no-break-inside {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
-} */
+}
 
 .unbreakable {
   /* page-break-inside: avoid !important; <-- doesn't work*/
-  display: inline-block;
+  /* display: inline-block; */
 }
 .unbreakable:after {
   content: '';

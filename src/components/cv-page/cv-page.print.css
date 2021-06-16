@@ -13,6 +13,13 @@
     display: none;
   }
 
+  /* Needed for manual adjustion during PDF printing */
+  .page-break {
+    position: relative;
+    break-before: page;
+    display: block;
+  }
+
   .ui-container {
     width: 100% !important;
     padding-left: 2cm;
