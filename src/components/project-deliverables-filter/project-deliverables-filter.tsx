@@ -2,7 +2,7 @@ import { DeliveryType } from '@matthiasmax/cv-api';
 import { Component, Event, EventEmitter, Fragment, h, State } from '@stencil/core';
 
 import { compare } from '../../global/common';
-// import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
+import i18n from '../../stores/i18n.store';
 
 @Component({
   tag: 'project-deliverables-filter',
@@ -26,7 +26,7 @@ export class ProjectDeliverablesFilter {
         </button>
         {this.deliverables.sort(compare()).map(deliverable => (
           <button class="btn btn--secondary btn--small filter-btn" onClick={() => this.onClick(deliverable)}>
-            {deliverable}
+            {(i18n.deliverables as any)[deliverable]}
           </button>
         ))}
       </Fragment>

@@ -1,0 +1,13 @@
+{
+  "deliverables": {
+    "all": "Alle",
+    "content": "Content",
+    "desktop": "Desktop",
+    "library": "Library",
+    "masterRecording": "Audio-Masterdatei",
+    "app": "Mobile App",
+    "pwa": "Progressive Web App (PWA)",
+    "spa": "Single Page Application (SPA)",
+    "website": "Website"
+  }
+}
