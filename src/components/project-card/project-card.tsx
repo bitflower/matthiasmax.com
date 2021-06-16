@@ -43,18 +43,15 @@ export class ProjectCard {
           </div>
         </div>
         <div class="project-card__right kpi-rows">
+          <h2 class="kpi small-kpi">
+            {this.project.deliveryTypes.map(item => (
+              <info-badge class="project-card__info-block-heading-delivarable">{(i18n.deliverables as any)[item]}</info-badge>
+            ))}
+          </h2>
           <div class="kpis equal-kpis">
             <div class="project-card__info-block">
               <h4 class="label">Kunde</h4>
               <h2 class="kpi small-kpi">{this.project.customer}</h2>
-            </div>
-            <div class="project-card__info-block">
-              <h4 class="label">&nbsp;</h4>
-              <h2 class="kpi small-kpi">
-                {this.project.deliveryTypes.map(item => (
-                  <info-badge class="project-card__info-block-heading-delivarable">{(i18n.deliverables as any)[item]}</info-badge>
-                ))}
-              </h2>
             </div>
           </div>
           <div class="kpis equal-kpis kpis-wrap">

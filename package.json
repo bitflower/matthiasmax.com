@@ -52,7 +52,7 @@
   },
   "homepage": "https://stenciljs.com/",
   "dependencies": {
-    "@matthiasmax/cv-api": "^1.0.8",
+    "@matthiasmax/cv-api": "^1.0.9",
     "@stencil/store": "^1.4.1"
   }
 }
