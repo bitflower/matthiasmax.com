@@ -3,8 +3,8 @@
   margin: 0;
   /* Works only when the margin on the print settings of Chrome are on "default" ! */
   margin-top: 0cm !important;
-  margin-bottom: 0cm !important;
-  /* margin-bottom: 2.5cm !important; */
+  /* margin-bottom: 0cm !important; */
+  margin-bottom: 1cm !important;
   padding: 0;
 }
 
@@ -21,6 +21,8 @@
   body {
     /* padding-top: 3cm; */
     /* padding-bottom: 3cm !important; */
+    /* This fixed the `break-inside` not working */
+    max-height: 100%;
   }
 
   header,

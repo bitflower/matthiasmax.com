@@ -84,7 +84,7 @@ export class cvPage {
             <project-list industry={this.selectedIndustry} deliverable={this.selectedDeliverable} />
           </div>
         </ResponsiveContainer>
-        <footer class="cv-page__footer hide-screen">
+        {/* <footer class="cv-page__footer hide-screen">
           <div class="bla">
             <div class="contact-details">
               <div class="col">
@@ -104,7 +104,7 @@ export class cvPage {
               </div>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </Fragment>
     );
   }

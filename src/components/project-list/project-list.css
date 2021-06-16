@@ -4,19 +4,30 @@
 }
 
 .bg-red {
-  background-color: red !important;
+  /* background-color: red !important; */
 }
 .bg-blue {
-  background-color: blue !important;
+  /* background-color: blue !important; */
 }
 
-.no-break-inside {
+/* .no-break-inside {
+  -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
+} */
+
+.unbreakable {
+  /* page-break-inside: avoid !important; <-- doesn't work*/
+  display: inline-block;
+}
+.unbreakable:after {
+  display: block;
+  height: 0px;
+  visibility: hidden;
 }
 
 .my-dummy-block {
-  padding-bottom: 60px;
+  padding-bottom: 1px;
 }
 
 project-list tr,
@@ -52,9 +63,11 @@ project-list tbody td {
 
   /* This has no effect! */
   project-list tfoot td {
+    /* font-size: 1px; */
+    /* padding-top: 1px; */
     font-size: 1cm;
     line-height: 0;
-    padding-top: 1.5cm;
+    padding-top: 1cm;
   }
 }
 

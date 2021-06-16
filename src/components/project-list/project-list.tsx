@@ -54,7 +54,7 @@ export class ProjectList {
           {this.selected.map(project => (
             <tr>
               <td class="project-list__cell" style={{ background: 'red' }}>
-                <div class="my-dummy-block no-break-inside">
+                <div class="my-dummy-block no-break-inside unbreakable">
                   <p>
                     <b>{project.customer}</b>
                   </p>
