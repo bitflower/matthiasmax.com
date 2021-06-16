@@ -6,6 +6,15 @@ interface I18nCV {
   languages: string;
   title: string;
 }
+interface I18nLandingPage {
+  brands: string;
+  cta: string;
+  explore: string;
+  greeting: string;
+  interactiveCV: string;
+  intro: string;
+  intro2: string;
+}
 interface I18nDeliverables {
   all: string;
   app: string;
@@ -42,6 +51,7 @@ export interface I18n {
     plural: string;
   };
   industries: I18nIndustries;
+  landingPage: I18nLandingPage;
 }
 
 export type Languages = 'en' | 'de';

@@ -29,8 +29,15 @@ landing-page .hero hgroup p {
   line-height: 1.6;
   font-weight: 400;
   color: var(--color-dolphin);
-  margin-bottom: 150px;
   max-width: 78%;
+}
+
+landing-page .hero hgroup p:last-of-type {
+  margin-bottom: 150px;
+}
+
+landing-page .landing-page__intro {
+  margin-bottom: 5px;
 }
 
 .btn-get-started,
@@ -47,7 +54,6 @@ landing-page .hero hgroup p {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.56px;
-  /* box-shadow: rgba(2, 8, 20, 0.1) 0px 2px 4px 0px, rgba(2, 8, 20, 0.08) 0px 1px 2px 0px; */
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -84,10 +90,6 @@ landing-page .hero .landing-page__bg {
   margin-top: 20px;
   height: 673px;
 }
-
-/* .landing-page__intro {
-  margin-bottom: 90px;
-} */
 
 @media screen and (max-width: 1024px) {
   landing-page .hero {
@@ -244,7 +246,6 @@ landing-page h2 {
   letter-spacing: -0.018em;
   color: #7a798d;
   margin-top: 0;
-  max-width: 416px;
 }
 
 landing-page h2 strong {

@@ -1,6 +1,8 @@
 import { Component, h } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
+import i18n from '../../stores/i18n.store';
+
 @Component({
   tag: 'landing-page',
   styleUrl: 'landing-page.css',
@@ -16,10 +18,11 @@ export class LandingPage {
         <ResponsiveContainer class="hero">
           <hgroup>
             <h1>Let's build your best digital self.</h1>
-            <h2>Hi 👋 I'm Matt!</h2>
-            <p class="landing-page__intro">I help companies utilize web technologies to their advantage to create real business value.</p>
+            <h2>{i18n.landingPage.greeting}</h2>
+            <p class="landing-page__intro">{i18n.landingPage.intro}</p>
+            <p>{i18n.landingPage.intro2}</p>
             <stencil-route-link url="/contact" class="hero-button" anchorClass="btn-get-started">
-              Start a conversation
+              {i18n.landingPage.cta}
             </stencil-route-link>
           </hgroup>
           <img class="landing-page__bg" src="/assets/img/profile.jpg" loading="lazy" />
@@ -27,7 +30,7 @@ export class LandingPage {
 
         <div class="companies">
           <ResponsiveContainer>
-            <h3>Some brands I've worked with directly or as sub contrator</h3>
+            <h3>{i18n.landingPage.brands}</h3>
             <ul class="brands">
               <li>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 57.2" height="20">
@@ -426,7 +429,7 @@ export class LandingPage {
               </li>
             </ul>
             <p class="cta__secondary">
-              Explore my projects and skills in the <stencil-route-link url="/cv">interactive CV</stencil-route-link>
+              {i18n.landingPage.explore} <stencil-route-link url="/cv">{i18n.landingPage.interactiveCV}</stencil-route-link>
             </p>
           </ResponsiveContainer>
         </div>

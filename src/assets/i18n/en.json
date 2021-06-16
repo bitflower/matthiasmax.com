@@ -30,12 +30,12 @@
     "all": "Alle"
   },
   "landingPage": {
-    "brands": "Marken, mit denen ich direkt oder als Subunternehmer gearbeitet habe",
-    "cta": "Jetzt Zusammenarbeit starten",
-    "explore": "Erfahre mehr über meine Projekte und Skills: ",
-    "greeting": "Hi 👋 Ich bin Matthias!",
-    "interactiveCV": "zum interaktiven CV",
-    "intro": "I helfe Firmen, Webtechnologien zu Ihrem Vorteil zu nutzen, um echten Mehrwert zu erzeugen.",
-    "intro2": "Interdisziplinäre Zusammenarbeit ist in dieser Hinsicht der einzige Weg um erstklassige Ergebnisse zu erzielen. Sowohl als IT-Consultant als auch als professioneller Songwriter habe ich diese Erfahrung wiederholt gemacht."
+    "brands": "Some brands I've worked with directly or as sub contrator",
+    "cta": "Start a conversation",
+    "explore": "Explore my projects and skills in the",
+    "greeting": "Hi 👋 I'm Matt!",
+    "interactiveCV": "interactive CV",
+    "intro": "I help companies utilize web technologies to their advantage to create real business value.",
+    "intro2": "I believe in interdisciplinary collaboration as the only way to achieve superior results. I've seen it happen many times both as IT-Consultant and professional songwriter."
   }
 }
