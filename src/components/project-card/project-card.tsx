@@ -1,7 +1,9 @@
 import { Component, Fragment, h, Prop } from '@stencil/core';
 import { Project } from '@matthiasmax/cv-api';
 import { compare } from '../../global/common';
-// import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
+
+import i18n from '../../stores/i18n.store';
+import { Duration } from '../Duration';
 
 @Component({
   tag: 'project-card',
@@ -50,7 +52,7 @@ export class ProjectCard {
               <h4 class="label">&nbsp;</h4>
               <h2 class="kpi small-kpi">
                 {this.project.deliveryTypes.map(item => (
-                  <info-badge class="project-card__info-block-heading-delivarable">{item}</info-badge>
+                  <info-badge class="project-card__info-block-heading-delivarable">{(i18n.deliverables as any)[item]}</info-badge>
                 ))}
               </h2>
             </div>
@@ -67,7 +69,7 @@ export class ProjectCard {
             <div class="project-card__info-block">
               <h4 class="label">Dauer</h4>
               <h2 class="kpi large-kpi">
-                {this.project.duration[0]} {this.project.duration[1]}
+                <Duration i18nKey={(i18n.common.durations as any)[this.project.duration[1]]} value={this.project.duration[0]} />
               </h2>
             </div>
           </div>

@@ -1,4 +1,24 @@
 {
+  "common": {
+    "durations": {
+      "days": {
+        "singular": "Tag",
+        "plural": "Tage"
+      },
+      "weeks": {
+        "singular": "Woche",
+        "plural": "Wochen"
+      },
+      "months": {
+        "singular": "Monat",
+        "plural": "Monate"
+      },
+      "years": {
+        "singular": "Jahr",
+        "plural": "Jahre"
+      }
+    }
+  },
   "cv": {
     "cv": "Professionelle Laufbahn",
     "education": "Ausbildung",

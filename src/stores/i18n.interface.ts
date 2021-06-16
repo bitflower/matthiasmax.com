@@ -1,3 +1,8 @@
+export interface SingularPlural {
+  singular: string;
+  plural: string;
+}
+
 interface I18nCV {
   cv: string;
   education: string;
@@ -5,6 +10,14 @@ interface I18nCV {
   heading: string;
   languages: string;
   title: string;
+}
+interface I18nCommon {
+  durations: {
+    days: SingularPlural;
+    weeks: SingularPlural;
+    months: SingularPlural;
+    years: SingularPlural;
+  };
 }
 interface I18nLandingPage {
   brands: string;
@@ -39,17 +52,12 @@ interface I18nIndustries {
 }
 
 export interface I18n {
+  common: I18nCommon;
   lang: Languages;
   cv: I18nCV;
-  deliverable: {
-    singular: string;
-    plural: string;
-  };
+  deliverable: SingularPlural;
   deliverables: I18nDeliverables;
-  industry: {
-    singular: string;
-    plural: string;
-  };
+  industry: SingularPlural;
   industries: I18nIndustries;
   landingPage: I18nLandingPage;
 }
