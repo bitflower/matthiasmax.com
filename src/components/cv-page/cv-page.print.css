@@ -1,8 +1,9 @@
 @page {
   size: 21cm 29.7cm;
   margin: 0;
+  /* Works only when the margin on the print settings of Chrome are on "default" ! */
+  margin-bottom: 2cm !important;
   padding: 0;
-  /* margin: 3cm 3cm 3cm 3cm; */
 }
 
 @media print {
@@ -15,10 +16,10 @@
     padding-left: 2cm;
     padding-right: 2cm;
   }
-  /* body {
-    padding-top: 3cm;
-    padding-bottom: 1cm !important;
-  } */
+  body {
+    /* padding-top: 3cm; */
+    /* padding-bottom: 3cm !important; */
+  }
 
   header,
   .cv-page__footer {
