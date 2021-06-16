@@ -15,13 +15,21 @@
     padding-right: 2cm;
   }
 
-  header {
+  header,
+  .cv-page__footer {
     width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
-    top: 1cm;
     left: 0;
+  }
+
+  header {
+    top: 1cm;
+  }
+  .cv-page__footer {
+    bottom: 0.7cm;
+    background: none;
   }
 
   /* .page {
@@ -60,7 +68,7 @@
   cv-page time-line {
     --label-width: 75px;
     --base-padding: 4px;
-    --line-correction: 5px;
+    /* --line-correction: 5px; */
     padding-bottom: 15px;
   }
 
@@ -100,5 +108,16 @@
   site-header,
   footer {
     display: none;
+  }
+
+  .contact-details {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-details .col:last-child {
+    text-align: right;
   }
 }
