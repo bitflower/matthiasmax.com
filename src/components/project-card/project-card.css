@@ -62,7 +62,7 @@ project-card .small-kpi {
 }
 
 project-card .large-kpi {
-  font-size: 180%;
+  font-size: 140%;
 }
 
 project-card .label {
@@ -141,5 +141,10 @@ project-card .kpi-rows .kpis:last-child {
 @media print {
   project-card .project-card__right {
     width: 4cm;
+  }
+
+  project-card .kpi-rows {
+    display: block;
+    padding-top: 30px;
   }
 }
