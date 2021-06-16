@@ -3,6 +3,22 @@
   margin-bottom: 30px;
 }
 
+.bg-red {
+  background-color: red !important;
+}
+.bg-blue {
+  background-color: blue !important;
+}
+
+.no-break-inside {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.my-dummy-block {
+  padding-bottom: 60px;
+}
+
 project-list tr,
 project-list td {
   border: none;

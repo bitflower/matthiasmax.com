@@ -2,7 +2,9 @@
   size: 21cm 29.7cm;
   margin: 0;
   /* Works only when the margin on the print settings of Chrome are on "default" ! */
-  margin-bottom: 2cm !important;
+  margin-top: 0cm !important;
+  margin-bottom: 0cm !important;
+  /* margin-bottom: 2.5cm !important; */
   padding: 0;
 }
 
@@ -50,9 +52,9 @@
     width: 5.1cm;
   }
 
-  main {
+  /* main {
     padding-top: 2.5cm;
-  }
+  } */
 
   .bla {
     width: 100%;

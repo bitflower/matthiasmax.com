@@ -47,21 +47,28 @@ export class ProjectList {
       <table>
         <thead>
           <tr>
-            <td>&nbsp;</td>
+            <td class="bg-red">&nbsp;</td>
           </tr>
         </thead>
         <tbody>
           {this.selected.map(project => (
             <tr>
-              <td class="project-list__cell">
-                <project-card class="project-list__project" project={project} />
+              <td class="project-list__cell" style={{ background: 'red' }}>
+                <div class="my-dummy-block no-break-inside">
+                  <p>
+                    <b>{project.customer}</b>
+                  </p>
+                  <p>{project.title}</p>
+                  <p>{project.description}</p>
+                </div>
+                {/* <project-card class="project-list__project" project={project} /> */}
               </td>
             </tr>
           ))}
         </tbody>
         <tfoot>
           <tr>
-            <td>&nbsp;</td>
+            <td class="bg-blue">&nbsp;</td>
           </tr>
         </tfoot>
       </table>
