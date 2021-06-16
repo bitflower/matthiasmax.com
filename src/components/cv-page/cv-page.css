@@ -36,14 +36,6 @@ cv-page .profile {
   padding-top: 10px;
 }
 
-cv-page .filters {
-  position: sticky;
-  top: 20px;
-  background: var(--color-white);
-  z-index: 1;
-  box-shadow: 0 0 0px 20px white;
-}
-
 cv-page time-line {
   --base-padding: 10px;
   --label-width: 102px;
@@ -56,6 +48,16 @@ cv-page time-line {
 
 cv-page .cv-page__profileimg {
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  cv-page .filters {
+    position: sticky;
+    top: 20px;
+    background: var(--color-white);
+    z-index: 1;
+    box-shadow: 0 0 0px 20px white;
+  }
 }
 
 @media screen and (max-width: 768px) {
