@@ -63,7 +63,7 @@ export class cvPage {
             </div>
           </div>
           <div class="new-page">
-            {/* <h2>{i18n.cv.experience}</h2> */}
+            <h2>{i18n.cv.experience}</h2>
             <div class="filters hide-print">
               <h4>
                 {i18n.industry.plural}: {this.selectedIndustry || i18n.industries.all}
@@ -74,12 +74,12 @@ export class cvPage {
               </h4>
               <project-deliverables-filter onMmChange={this.onDeliverableChange} />
             </div>
-            {/* <p class="cta__secondary">
+            <p class="cta__secondary">
               {i18n.cv.dataSource}{' '}
               <a href="https://github.com/bitflower/CV" target="_blank">
                 GitHub
               </a>
-            </p> */}
+            </p>
 
             <project-list industry={this.selectedIndustry} deliverable={this.selectedDeliverable} />
           </div>
