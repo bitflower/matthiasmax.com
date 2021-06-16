@@ -110,7 +110,7 @@
   }
 
   .new-page {
-    page-break-after: always;
+    page-break-before: always;
   }
 
   site-header,
