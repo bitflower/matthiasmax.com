@@ -33,7 +33,7 @@
     "plural": "Arbeitsergebnisse"
   },
   "deliverables": {
-    "all": "Alle",
+    "all": "Alle (Kein Filter)",
     "content": "Content",
     "desktop": "Desktop",
     "library": "Library",
@@ -48,7 +48,7 @@
     "plural": "Branchen"
   },
   "industries": {
-    "all": "Alle"
+    "all": "Alle (Kein Filter)"
   },
   "landingPage": {
     "brands": "Marken, mit denen ich direkt oder als Subunternehmer gearbeitet habe",
