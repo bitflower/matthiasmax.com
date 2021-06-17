@@ -20,7 +20,7 @@ export class LandingPage {
             <h1>Let's build your best digital self.</h1>
             <h2>{i18n.landingPage.greeting}</h2>
             <p class="landing-page__intro">{i18n.landingPage.intro}</p>
-            <p>{i18n.landingPage.intro2}</p>
+            <p>&bdquo;{i18n.landingPage.intro2}&rdquo; &#8212; Matthias Max</p>
             <stencil-route-link url="/contact" class="hero-button" anchorClass="btn-get-started">
               {i18n.landingPage.cta}
             </stencil-route-link>
