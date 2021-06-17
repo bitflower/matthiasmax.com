@@ -80,11 +80,11 @@ cv-page .cv-page__profileimg {
 
 .scope {
   position: absolute;
-  bottom: 270px;
+  bottom: -10px;
   left: calc(50% + 50px);
 }
 .scope svg {
-  width: 100%;
+  width: 550px;
 }
 
 .education {
@@ -101,13 +101,27 @@ cv-page .cv-page__profileimg {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .scope {
+    left: 50%;
+    bottom: 210px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   cv-page .page {
     flex-direction: column-reverse;
   }
 
-  cv-page .measure-xl {
-    text-align: center;
+  .scope {
+    position: relative;
+    bottom: unset !important;
+    left: unset;
+    /* left: 50%;
+    bottom: 210px !important; */
+  }
+  .scope svg {
+    width: 100% !important;
   }
 }
 
@@ -129,5 +143,14 @@ cv-page .cv-page__profileimg {
   cv-page .time-line__container {
     left: calc(var(--base-padding) * -1);
     width: calc(100% + var(--base-padding));
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .scope {
+    bottom: 50px;
+  }
+  .scope svg {
+    width: 450px;
   }
 }
