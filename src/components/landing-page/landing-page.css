@@ -101,9 +101,10 @@ landing-page .hero .landing-page__bg {
   landing-page .hero .landing-page__bg {
     position: relative;
     height: 450px;
-    left: 50%;
+    left: 60%;
     transform: translate(-25%, -10%);
     margin-top: 0;
+    top: -70px;
   }
 }
 
@@ -114,6 +115,7 @@ landing-page .hero .landing-page__bg {
     transform: none;
     left: auto;
     margin-top: 120px;
+    top: 0;
   }
 
   landing-page .hero hgroup p {
