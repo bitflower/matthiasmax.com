@@ -1,8 +1,9 @@
 import { Component, Fragment, h, State } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
-import { milestones } from '@matthiasmax/cv-api';
+import { milestones, projects } from '@matthiasmax/cv-api';
 
 import i18n from '../../stores/i18n.store';
+import { calcAverageDuration } from './utils';
 
 const lebenslauf = [...milestones.reverse()];
 
@@ -37,14 +38,23 @@ export class cvPage {
           </div>
         </header>
         <ResponsiveContainer>
+          {/* Insert landing page when printing */}
           <div class="new-page hide-screen">
             <landing-page />
           </div>
+
+          {/* Main CV page  */}
           <div class="page new-page">
             <div class="left">
               <h1 class="hide-print">{i18n.cv.heading}</h1>
               <h2 class="cv-page__first-heading">{i18n.cv.cv}</h2>
               <time-line items={lebenslauf} />
+
+              <div class="professional-kpis">
+                <kpi-value label="Projekte" value={projects.length.toString()} />
+                <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} Jahre`} />
+                <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
+              </div>
 
               <h2>{i18n.cv.education}</h2>
               <p>
@@ -65,6 +75,8 @@ export class cvPage {
               </div>
             </div>
           </div>
+
+          {/* Project list with filters  */}
           <div class="new-page">
             <h2>{i18n.cv.experience}</h2>
             <div class="filters hide-print">

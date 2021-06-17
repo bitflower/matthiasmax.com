@@ -80,6 +80,22 @@ cv-page .cv-page__profileimg {
     left: -120px;
     width: calc(100% + 120px);
   }
+
+  .professional-kpis {
+    display: flex;
+  }
+  .professional-kpis kpi-value {
+    margin-right: 25px;
+    background-color: var(--color-white-lilac);
+    border-radius: 20px;
+    padding: 10px 15px;
+  }
+  .professional-kpis kpi-value .label {
+    margin-top: 0;
+  }
+  .professional-kpis kpi-value .kpi {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 1400px) {
