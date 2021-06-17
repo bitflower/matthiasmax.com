@@ -53,12 +53,14 @@ export class ProjectCard {
               <info-badge class="project-card__info-block-heading-delivarable">{(i18n.deliverables as any)[item]}</info-badge>
             ))}
           </h2>
-          <div class="kpis equal-kpis">
-            <div class="project-card__info-block">
-              <h4 class="label">Kunde</h4>
-              <h2 class="kpi small-kpi">{this.project.customer}</h2>
+          {this.project.customer.replace(' ', '').toLowerCase().trim() !== 'opensource' ? (
+            <div class="kpis equal-kpis">
+              <div class="project-card__info-block">
+                <h4 class="label">Kunde</h4>
+                <h2 class="kpi small-kpi">{this.project.customer}</h2>
+              </div>
             </div>
-          </div>
+          ) : null}
           <div class="kpis equal-kpis kpis-wrap">
             <div class="project-card__info-block">
               <h4 class="label">Branche</h4>
