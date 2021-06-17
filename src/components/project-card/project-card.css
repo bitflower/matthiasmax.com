@@ -96,6 +96,10 @@ project-card .kpi-rows .kpis:last-child {
   margin-top: 10px;
 }
 
+.project-card__info-block {
+  padding-right: 5px;
+}
+
 .project-card__info-block-heading-title {
   flex-grow: 1;
 }
