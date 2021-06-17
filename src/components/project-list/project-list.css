@@ -43,7 +43,7 @@ project-list tbody td {
   padding: 5px 0 0 0;
   margin: 0;
 }
-
+/* GOOD SOURCE: https://medium.com/@Idan_Co/the-ultimate-print-html-template-with-header-footer-568f415f6d2a */
 @media print {
   .project-list__project {
     /* page-break-inside: avoid; */
