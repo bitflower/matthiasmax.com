@@ -13,6 +13,12 @@ const sort = (tobesorted: Project[]) => {
   styleUrl: 'project-list.css',
 })
 export class ProjectList {
+  // --------------------------------------------------------------------------
+  //
+  //  Public Properties
+  //
+  // --------------------------------------------------------------------------
+
   @Prop()
   industry?: string;
   @Watch('industry')
@@ -31,6 +37,21 @@ export class ProjectList {
     }
   }
 
+  // --------------------------------------------------------------------------
+  //
+  //  Private Properties
+  //
+  // --------------------------------------------------------------------------
+
+  @State()
+  private selected: Project[] = sort(projects);
+
+  // --------------------------------------------------------------------------
+  //
+  //  Private Methods
+  //
+  // --------------------------------------------------------------------------
+
   private filter() {
     const filteredIndustries1 = !this.industry ? projects : projects.filter(project => project.industry === this.industry);
     const filteredIndustries2 = !this.deliverable
@@ -39,8 +60,11 @@ export class ProjectList {
     this.selected = sort(filteredIndustries2);
   }
 
-  @State()
-  private selected: Project[] = sort(projects);
+  // --------------------------------------------------------------------------
+  //
+  //  Render
+  //
+  // --------------------------------------------------------------------------
 
   render() {
     return (
