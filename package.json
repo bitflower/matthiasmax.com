@@ -41,16 +41,16 @@
     "typescript": "^3.9.5",
     "workbox-build": "4.3.1"
   },
-  "author": "Ionic Team",
+  "author": "Matthias Max",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-site.git"
+    "url": "git+https://github.com/bitflower/matthiasmax.com.git"
   },
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil-site"
+    "url": "https://github.com/bitflower/matthiasmax.com"
   },
-  "homepage": "https://stenciljs.com/",
+  "homepage": "https://matthiasmax.com/",
   "dependencies": {
     "@matthiasmax/cv-api": "^1.0.11",
     "@stencil/store": "^1.4.1"
