@@ -11,7 +11,7 @@ import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 export class AppRoot {
   private scrollY = 0;
   private history?: RouterHistory;
-  elements = ['site-header', 'site-menu', 'app-burger', 'main'];
+  elements = ['site-header', 'app-burger', 'main'];
 
   @Element() el!: HTMLElement;
 

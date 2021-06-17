@@ -106,10 +106,6 @@ export namespace Components {
     }
     interface SiteHeader {
     }
-    interface SiteMenu {
-        "selectedParent"?: SiteStructureItem;
-        "siteStructureList": SiteStructureItem[];
-    }
     interface SiteTopBar {
     }
     interface TimeLine {
@@ -309,12 +305,6 @@ declare global {
         prototype: HTMLSiteHeaderElement;
         new (): HTMLSiteHeaderElement;
     };
-    interface HTMLSiteMenuElement extends Components.SiteMenu, HTMLStencilElement {
-    }
-    var HTMLSiteMenuElement: {
-        prototype: HTMLSiteMenuElement;
-        new (): HTMLSiteMenuElement;
-    };
     interface HTMLSiteTopBarElement extends Components.SiteTopBar, HTMLStencilElement {
     }
     var HTMLSiteTopBarElement: {
@@ -360,7 +350,6 @@ declare global {
         "project-list": HTMLProjectListElement;
         "search-bar": HTMLSearchBarElement;
         "site-header": HTMLSiteHeaderElement;
-        "site-menu": HTMLSiteMenuElement;
         "site-top-bar": HTMLSiteTopBarElement;
         "time-line": HTMLTimeLineElement;
     }
@@ -467,10 +456,6 @@ declare namespace LocalJSX {
     }
     interface SiteHeader {
     }
-    interface SiteMenu {
-        "selectedParent"?: SiteStructureItem;
-        "siteStructureList"?: SiteStructureItem[];
-    }
     interface SiteTopBar {
     }
     interface TimeLine {
@@ -509,7 +494,6 @@ declare namespace LocalJSX {
         "project-list": ProjectList;
         "search-bar": SearchBar;
         "site-header": SiteHeader;
-        "site-menu": SiteMenu;
         "site-top-bar": SiteTopBar;
         "time-line": TimeLine;
     }
@@ -550,7 +534,6 @@ declare module "@stencil/core" {
             "project-list": LocalJSX.ProjectList & JSXBase.HTMLAttributes<HTMLProjectListElement>;
             "search-bar": LocalJSX.SearchBar & JSXBase.HTMLAttributes<HTMLSearchBarElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
-            "site-menu": LocalJSX.SiteMenu & JSXBase.HTMLAttributes<HTMLSiteMenuElement>;
             "site-top-bar": LocalJSX.SiteTopBar & JSXBase.HTMLAttributes<HTMLSiteTopBarElement>;
             "time-line": LocalJSX.TimeLine & JSXBase.HTMLAttributes<HTMLTimeLineElement>;
         }
