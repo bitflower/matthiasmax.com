@@ -43,6 +43,7 @@ export class cvPage {
   private onIndustryChange = (e: CustomEvent<string>) => {
     this.selectedIndustry = e.detail === 'all' ? undefined : e.detail;
   };
+
   private onDeliverableChange = (e: CustomEvent<string>) => {
     this.selectedDeliverable = e.detail === 'all' ? undefined : e.detail;
   };

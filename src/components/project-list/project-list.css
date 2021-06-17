@@ -3,13 +3,6 @@
   margin-bottom: 30px;
 }
 
-.bg-red {
-  /* background-color: red !important; */
-}
-.bg-blue {
-  /* background-color: blue !important; */
-}
-
 .no-break-inside {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;

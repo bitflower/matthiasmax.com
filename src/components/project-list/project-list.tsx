@@ -13,6 +13,8 @@ const sort = (tobesorted: Project[]) => {
   styleUrl: 'project-list.css',
 })
 export class ProjectList {
+  private tableElement: HTMLTableElement | undefined;
+
   // --------------------------------------------------------------------------
   //
   //  Public Properties
@@ -46,6 +48,8 @@ export class ProjectList {
   @State()
   private selected: Project[] = sort(projects);
 
+  private isBreakPageMode: boolean;
+
   // --------------------------------------------------------------------------
   //
   //  Private Methods
@@ -62,26 +66,58 @@ export class ProjectList {
 
   // --------------------------------------------------------------------------
   //
+  //  Life Cycle
+  //
+  // --------------------------------------------------------------------------
+
+  constructor() {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    this.isBreakPageMode = urlSearchParams.get('break-page') === 'true';
+  }
+
+  // --------------------------------------------------------------------------
+  //
+  //  Event Listener
+  //
+  // --------------------------------------------------------------------------
+
+  private onProjectClick(index: number) {
+    if (!this.isBreakPageMode || !this.tableElement) {
+      return;
+    }
+    const a = this.tableElement.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    const theRow = a[index];
+    const card = theRow.getElementsByTagName('project-card')[0];
+    // console.log(`BF YO`, index, card);
+    if (card.style.paddingBottom.length > 0) {
+      card.style.paddingBottom = '';
+    } else {
+      card.style.paddingBottom = '1cm';
+    }
+  }
+
+  // --------------------------------------------------------------------------
+  //
   //  Render
   //
   // --------------------------------------------------------------------------
 
   render() {
     return (
-      <table>
+      <table ref={el => (this.tableElement = el)}>
         <thead>
           <tr>
-            <td class="bg-red">
+            <td>
               &nbsp;
               {/* <div class="footer-space">&nbsp;</div> */}
             </td>
           </tr>
         </thead>
         <tbody>
-          {this.selected.map(project => (
+          {this.selected.map((project, index) => (
             <tr>
-              <td class="project-list__cell" style={{ background: 'red' }}>
-                <project-card class="project-list__project my-dummy-block no-break-inside unbreakable" project={project} />
+              <td class="project-list__cell">
+                <project-card class="project-list__project my-dummy-block no-break-inside unbreakable" project={project} onClick={() => this.onProjectClick(index)} />
               </td>
             </tr>
           ))}
