@@ -71,7 +71,7 @@ export class cvPage {
 
           {/* Main CV page  */}
           <div class="page new-page">
-            <a class="hide-print download-button " href="https://matthiasmax.com/assets/profil_matthiasmax.pdf">
+            <a class="hide-print download-button" rel="noopener" target="_blank" href="https://matthiasmax.com/assets/profil_matthiasmax.pdf">
               <app-icon name="targetblank" /> CV downloaden
             </a>
             <h1 class="hide-print">{i18n.cv.heading}</h1>
