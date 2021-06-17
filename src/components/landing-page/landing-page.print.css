@@ -20,11 +20,11 @@
   }
 
   landing-page .hero .landing-page__bg {
-    height: 9cm;
-    margin-top: 0;
-    position: relative;
-    top: 2cm;
-    transform: none;
+    height: 9cm !important;
+    margin-top: 0 !important;
+    position: relative !important;
+    top: 8cm !important;
+    transform: none !important;
   }
   landing-page .companies {
     border: none !important;
@@ -36,10 +36,6 @@
   }
   landing-page .companies ul li {
     margin-bottom: 5px;
-  }
-
-  landing-page h1 {
-    font-size: 90%;
   }
 
   landing-page .companies {

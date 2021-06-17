@@ -82,7 +82,7 @@ export class cvPage {
               </div>
 
               <div class="scope">
-                <h2>Wirkungsbereich</h2>
+                <h2>Mein idealer Wirkungsbereich</h2>
                 <svg width="100px" viewBox="0 0 804 574" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient x1="3.46944695e-15%" y1="1.69346098%" x2="96.2732842%" y2="97.9667452%" id="linearGradient-1">

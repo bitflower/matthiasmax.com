@@ -101,6 +101,15 @@ cv-page .cv-page__profileimg {
     z-index: 1;
     box-shadow: 0 0 0px 20px white;
   }
+  cv-page time-line {
+    padding-bottom: 90px;
+  }
+  .scope {
+    bottom: -40px;
+  }
+  .languages {
+    padding-bottom: 130px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -172,5 +181,8 @@ cv-page .cv-page__profileimg {
   }
   .scope svg {
     width: 450px;
+  }
+  cv-page time-line {
+    padding-bottom: 90px;
   }
 }

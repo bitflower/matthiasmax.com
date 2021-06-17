@@ -139,10 +139,11 @@
 
   .education {
     max-width: 8cm !important;
+    margin-top: 1cm;
   }
 
   .scope {
-    bottom: 1.2cm !important;
+    bottom: 0 !important;
   }
   .scope svg {
     width: 8cm !important;
