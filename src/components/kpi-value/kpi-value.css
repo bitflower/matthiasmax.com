@@ -1,0 +1,10 @@
+@import url('./kpi-value.print.css');
+
+kpi-value .kpi {
+  font-weight: 900;
+  margin-top: 3px;
+}
+
+kpi-value .normal-kpi {
+  font-size: 140%;
+}

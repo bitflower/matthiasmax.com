@@ -48,34 +48,18 @@ export class ProjectCard {
           </div>
         </div>
         <div class="project-card__right kpi-rows">
-          <h2 class="kpi small-kpi">
-            {this.project.deliveryTypes.map(item => (
-              <info-badge class="project-card__info-block-heading-delivarable">{(i18n.deliverables as any)[item]}</info-badge>
-            ))}
-          </h2>
+          <kpi-value
+            valueFn={() => this.project.deliveryTypes.map(item => <info-badge class="project-card__info-block-heading-delivarable">{(i18n.deliverables as any)[item]}</info-badge>)}
+          />
           {this.project.customer.replace(' ', '').toLowerCase().trim() !== 'opensource' ? (
             <div class="kpis equal-kpis">
-              <div class="project-card__info-block">
-                <h4 class="label">Kunde</h4>
-                <h2 class="kpi small-kpi">{this.project.customer}</h2>
-              </div>
+              <kpi-value label="Kunde" value={this.project.customer} />
             </div>
           ) : null}
           <div class="kpis equal-kpis kpis-wrap">
-            <div class="project-card__info-block">
-              <h4 class="label">Branche</h4>
-              <h2 class="kpi large-kpi">{this.project.industry}</h2>
-            </div>
-            <div class="project-card__info-block">
-              <h4 class="label">Jahr</h4>
-              <h2 class="kpi large-kpi">{this.project.year}</h2>
-            </div>
-            <div class="project-card__info-block">
-              <h4 class="label">Dauer</h4>
-              <h2 class="kpi large-kpi">
-                <Duration i18nKey={(i18n.common.durations as any)[this.project.duration[1]]} value={this.project.duration[0]} />
-              </h2>
-            </div>
+            <kpi-value label="Branche" value={this.project.industry} />
+            <kpi-value label="Jahr" value={this.project.year.toString()} />
+            <kpi-value label="Dauer" valueFn={() => <Duration i18nKey={(i18n.common.durations as any)[this.project.duration[1]]} value={this.project.duration[0]} />} />
           </div>
         </div>
       </Fragment>

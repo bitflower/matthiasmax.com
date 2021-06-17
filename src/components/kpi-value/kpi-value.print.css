@@ -1,0 +1,6 @@
+@media print {
+  kpi-value .label {
+    font-size: 9px;
+    margin-top: 0;
+  }
+}

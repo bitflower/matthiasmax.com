@@ -52,17 +52,8 @@ project-card .kpis-wrap {
   flex-wrap: wrap;
 }
 
-project-card .kpi {
-  font-weight: 900;
-  margin-top: 3px;
-}
-
-project-card .small-kpi {
+project-card kpi-value .normal-kpi {
   font-size: 155%;
-}
-
-project-card .large-kpi {
-  font-size: 140%;
 }
 
 project-card .label {
@@ -171,11 +162,11 @@ project-card .kpi-rows .kpis:last-child {
     margin-top: 0;
   }
 
-  project-card .small-kpi {
+  project-card .large-kpi {
     font-size: 115% !important;
   }
 
-  project-card .large-kpi {
+  project-card .normal-kpi {
     font-size: 110% !important;
   }
 

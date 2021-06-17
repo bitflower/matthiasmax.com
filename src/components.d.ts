@@ -60,6 +60,11 @@ export namespace Components {
     }
     interface InfoBadge {
     }
+    interface KpiValue {
+        "label"?: string;
+        "value"?: string;
+        "valueFn"?: () => any;
+    }
     interface LandingPage {
     }
     interface LifecycleChart {
@@ -220,6 +225,12 @@ declare global {
         prototype: HTMLInfoBadgeElement;
         new (): HTMLInfoBadgeElement;
     };
+    interface HTMLKpiValueElement extends Components.KpiValue, HTMLStencilElement {
+    }
+    var HTMLKpiValueElement: {
+        prototype: HTMLKpiValueElement;
+        new (): HTMLKpiValueElement;
+    };
     interface HTMLLandingPageElement extends Components.LandingPage, HTMLStencilElement {
     }
     var HTMLLandingPageElement: {
@@ -335,6 +346,7 @@ declare global {
         "hubspot-modal": HTMLHubspotModalElement;
         "in-page-navigation": HTMLInPageNavigationElement;
         "info-badge": HTMLInfoBadgeElement;
+        "kpi-value": HTMLKpiValueElement;
         "landing-page": HTMLLandingPageElement;
         "lifecycle-chart": HTMLLifecycleChartElement;
         "lower-content-nav": HTMLLowerContentNavElement;
@@ -407,6 +419,11 @@ declare namespace LocalJSX {
     }
     interface InfoBadge {
     }
+    interface KpiValue {
+        "label"?: string;
+        "value"?: string;
+        "valueFn"?: () => any;
+    }
     interface LandingPage {
     }
     interface LifecycleChart {
@@ -478,6 +495,7 @@ declare namespace LocalJSX {
         "hubspot-modal": HubspotModal;
         "in-page-navigation": InPageNavigation;
         "info-badge": InfoBadge;
+        "kpi-value": KpiValue;
         "landing-page": LandingPage;
         "lifecycle-chart": LifecycleChart;
         "lower-content-nav": LowerContentNav;
@@ -518,6 +536,7 @@ declare module "@stencil/core" {
             "hubspot-modal": LocalJSX.HubspotModal & JSXBase.HTMLAttributes<HTMLHubspotModalElement>;
             "in-page-navigation": LocalJSX.InPageNavigation & JSXBase.HTMLAttributes<HTMLInPageNavigationElement>;
             "info-badge": LocalJSX.InfoBadge & JSXBase.HTMLAttributes<HTMLInfoBadgeElement>;
+            "kpi-value": LocalJSX.KpiValue & JSXBase.HTMLAttributes<HTMLKpiValueElement>;
             "landing-page": LocalJSX.LandingPage & JSXBase.HTMLAttributes<HTMLLandingPageElement>;
             "lifecycle-chart": LocalJSX.LifecycleChart & JSXBase.HTMLAttributes<HTMLLifecycleChartElement>;
             "lower-content-nav": LocalJSX.LowerContentNav & JSXBase.HTMLAttributes<HTMLLowerContentNavElement>;
