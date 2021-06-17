@@ -12,14 +12,33 @@ const lebenslauf = [...milestones.reverse()];
   styleUrl: 'cv-page.css',
 })
 export class cvPage {
+  // --------------------------------------------------------------------------
+  //
+  //  Life Cycle
+  //
+  // --------------------------------------------------------------------------
+
   constructor() {
     document.title = i18n.cv.title;
   }
 
+  // --------------------------------------------------------------------------
+  //
+  //  Private Properties
+  //
+  // --------------------------------------------------------------------------
+
   @State()
   private selectedIndustry: string | undefined = undefined;
+
   @State()
   private selectedDeliverable: string | undefined = undefined;
+
+  // --------------------------------------------------------------------------
+  //
+  //  Event Listener
+  //
+  // --------------------------------------------------------------------------
 
   private onIndustryChange = (e: CustomEvent<string>) => {
     this.selectedIndustry = e.detail === 'all' ? undefined : e.detail;
@@ -27,6 +46,12 @@ export class cvPage {
   private onDeliverableChange = (e: CustomEvent<string>) => {
     this.selectedDeliverable = e.detail === 'all' ? undefined : e.detail;
   };
+
+  // --------------------------------------------------------------------------
+  //
+  //  Render
+  //
+  // --------------------------------------------------------------------------
 
   render() {
     return (
