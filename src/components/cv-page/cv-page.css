@@ -80,8 +80,11 @@ cv-page .cv-page__profileimg {
 
 .scope {
   position: absolute;
-  bottom: 220px;
-  left: 56%;
+  bottom: 270px;
+  left: calc(50% + 50px);
+}
+.scope svg {
+  width: 100%;
 }
 
 .education {
