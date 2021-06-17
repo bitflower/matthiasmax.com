@@ -5,9 +5,9 @@
 - [ ] SEO: Headings!
 - [x] Timeline
 - [ ] CV Startseite
-  - [ ] Landing Page Print Styles und einbauen
+  - [x] Landing Page Print Styles und einbauen
   - [x] Konsolidierte Skills, Tools, etc
-  - [x] Translations
+  - [ ] Translations: Contact
 - [ ] `links` aus CV daten verwenden
 - [ ] PDF Download Button
 - [x] Finish CV data
