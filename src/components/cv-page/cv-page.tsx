@@ -45,8 +45,8 @@ export class cvPage {
 
           {/* Main CV page  */}
           <div class="page new-page">
+            <h1 class="hide-print">{i18n.cv.heading}</h1>
             <div class="left">
-              <h1 class="hide-print">{i18n.cv.heading}</h1>
               <h2 class="cv-page__first-heading">{i18n.cv.cv}</h2>
               <time-line items={lebenslauf} />
 
@@ -245,23 +245,25 @@ export class cvPage {
               <div class="profile">
                 <h2>Matthias Max</h2>
                 <h3>Diplom-Wirtschaftsinformatiker (FH)</h3>
-                <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" />
+                <div class="profile-kpis">
+                  <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" />
 
-                <div class="professional-kpis">
-                  <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
-                  <kpi-value label="Projekte" value={projects.length.toString()} />
-                  <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} Jahre`} />
-                </div>
+                  <div class="professional-kpis">
+                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
+                    <kpi-value label="Projekte" value={projects.length.toString()} />
+                    <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} Jahre`} />
+                  </div>
 
-                <div class="mindset">
-                  <h2>Mindset</h2>
-                  <ul>
-                    <li>Standards und Konsistenz</li>
-                    <li>Clean Code</li>
-                    <li>Code Conventions</li>
-                    <li>Reusability</li>
-                    <li>Open Source</li>
-                  </ul>
+                  <div class="mindset">
+                    <h2>Mindset</h2>
+                    <ul>
+                      <li>Standards und Konsistenz</li>
+                      <li>Clean Code</li>
+                      <li>Code Conventions</li>
+                      <li>Reusability</li>
+                      <li>Open Source</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

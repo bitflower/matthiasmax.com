@@ -13,6 +13,10 @@
     display: none;
   }
 
+  cv-page .page {
+    flex-wrap: unset !important;
+  }
+
   /* Needed for manual adjustion during PDF printing */
   .page-break {
     position: relative;
@@ -50,12 +54,9 @@
     background: none;
   }
 
-  /* .page {
-    margin: 2cm;
-  } */
-
   cv-page .left {
-    padding-right: 1.5cm;
+    padding-right: 1.5cm !important;
+    max-width: unset !important;
   }
 
   cv-page .right {

@@ -19,6 +19,7 @@ cv-page project-deliverables-filter .btn--white {
 cv-page .page {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
 }
 
 cv-page .right {
@@ -29,6 +30,7 @@ cv-page .right {
 cv-page .left {
   flex-grow: 1;
   padding-right: 60px;
+  max-width: 50%;
 }
 
 cv-page .profile {
@@ -110,15 +112,33 @@ cv-page .cv-page__profileimg {
 
 @media screen and (max-width: 768px) {
   cv-page .page {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+
+  cv-page .left {
+    padding-right: 0;
+    order: 1;
+    max-width: 100%;
+  }
+
+  cv-page .right {
+    width: 100% !important;
+    order: 0;
+  }
+
+  cv-page .profile {
+    padding-top: 0;
+  }
+
+  main {
+    padding-top: 0;
   }
 
   .scope {
     position: relative;
     bottom: unset !important;
     left: unset;
-    /* left: 50%;
-    bottom: 210px !important; */
+    width: 100%;
   }
   .scope svg {
     width: 100% !important;
@@ -127,7 +147,7 @@ cv-page .cv-page__profileimg {
 
 @media screen {
   cv-page .right {
-    width: 310px;
+    width: 50%;
   }
   .hide-screen {
     display: none;
