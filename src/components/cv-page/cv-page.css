@@ -93,6 +93,13 @@ cv-page .cv-page__profileimg {
   max-width: 440px;
 }
 
+.download-button {
+  position: absolute;
+  top: -90px;
+  right: 0;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 1024px) {
   cv-page .filters {
     position: sticky;
