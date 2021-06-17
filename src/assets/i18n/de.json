@@ -26,7 +26,7 @@
     "heading": "Web Technologie Consultant und Fullstack Developer",
     "languages": "Fremdsprachen",
     "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer",
-    "dataSource": "Ergebnisse basierend auf den Daten meines CV im JSON-Format:"
+    "dataSource": "Ergebnisse basierend auf den Daten meines CV im JSON-Format"
   },
   "deliverable": {
     "singular": "Arbeitsergebnis",
@@ -58,5 +58,37 @@
     "interactiveCV": "zum interaktiven CV",
     "intro": "I helfe Firmen, Webtechnologien zu Ihrem Vorteil zu nutzen, um echten Mehrwert zu erzeugen.",
     "intro2": "Interdisziplinäre Zusammenarbeit ist in dieser Hinsicht der einzige Weg um erstklassige Ergebnisse zu erzielen. Sowohl als IT-Consultant als auch als professioneller Songwriter habe ich diese Erfahrung wiederholt gemacht."
+  },
+  "task": {
+    "singular": "Tätigkeit",
+    "plural": "Tätigkeiten"
+  },
+  "tasks": {
+    "apidesign": "API Design",
+    "appStore": "App-Store Verwaltung",
+    "cloudhosting": "Hosting (Cloud, OnPremise)",
+    "coaching": "Coaching",
+    "coding": "Entwicklung",
+    "composing": "Komponieren",
+    "customerservice": "Kundenservice",
+    "database": "Datenbankprogrammierung",
+    "datamodelling": "Datenmodellierung",
+    "design": "Design",
+    "designSystem": "Design System",
+    "documentation": "Dokumentation",
+    "frontend": "Frontend",
+    "itarchitecure": "IT Architektur",
+    "musicProduction": "Musikproduktion",
+    "prototyping": "Prototyping",
+    "requirements": "Requirements",
+    "rollout": "Rollout/Deploy",
+    "seo": "SEO",
+    "sounddesign": "Sound Design",
+    "ux": "UI/UX",
+    "visualization": "Visualization",
+    "writing": "Autor",
+    "devOps": "DevOps",
+    "unitTest": "Unit Tests",
+    "qa": "Qualitätssicherung"
   }
 }

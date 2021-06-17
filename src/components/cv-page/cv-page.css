@@ -1,8 +1,9 @@
 @import url('./cv-page.print.css');
 
 cv-page project-list {
-  margin-top: 60px;
-  margin-bottom: 90px;
+  margin-top: 0;
+  /* margin-top: 60px; */
+  /* margin-bottom: 90px; */
   display: block;
 }
 
@@ -35,7 +36,7 @@ cv-page .profile {
 
 cv-page time-line {
   --base-padding: 10px;
-  --label-width: 102px;
+  --label-width: 72px;
   --color: var(--color-dodger-blue);
   --color-tint: var(--color-dodger-blue-tint);
   color: var(--color-gunpowder);

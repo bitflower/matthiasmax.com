@@ -3,10 +3,88 @@
   margin-bottom: 30px;
 }
 
+.bg-red {
+  /* background-color: red !important; */
+}
+.bg-blue {
+  /* background-color: blue !important; */
+}
+
+.no-break-inside {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.unbreakable {
+  /* page-break-inside: avoid !important; <-- doesn't work*/
+  /* display: inline-block; */
+}
+.unbreakable:after {
+  content: '';
+  display: block;
+  /* Didn't work with 0px */
+  height: 1px;
+  visibility: hidden;
+}
+
+.my-dummy-block {
+  padding-bottom: 1px;
+}
+
+project-list tr,
+project-list td {
+  border: none;
+  background-color: transparent !important;
+}
+
+project-list tbody tr,
+project-list tbody td {
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
 @media print {
   .project-list__project {
+    /* page-break-inside: avoid; */
+    /* break-inside: avoid; */
+    margin-bottom: 0;
+  }
+  /* project-list tr,
+  project-list td {
     page-break-inside: avoid;
-    break-inside: avoid-page;
+    break-inside: avoid;
+  } */
+
+  project-list thead {
+    display: table-header-group;
+  }
+  project-list tfoot {
+    display: table-footer-group;
+  }
+
+  /* Simulate page break page border */
+  project-list thead td {
+    font-size: 1px;
+    line-height: 0;
+    padding-top: 0.01cm;
+  }
+
+  /* This has no effect! */
+  project-list tfoot td {
+    /* font-size: 1px; */
+    /* padding-top: 1px; */
+
+    /* Option 2 */
+    font-size: 1cm;
+    line-height: 0;
+    height: 1cm;
+    /* padding-top: 1cm; */
+  }
+
+  .header-space,
+  .footer-space {
+    height: 0.5cm;
   }
 }
 

@@ -1,3 +1,5 @@
+// import { TaskType } from '@matthiasmax/cv-api';
+
 export interface SingularPlural {
   singular: string;
   plural: string;
@@ -51,6 +53,14 @@ interface I18nIndustries {
   spa: string;
   website: string;
 }
+// type I18nTasks = {
+//   [key in keyof typeof TaskType]?: string;
+// };
+// type I18nTasks = {
+//   [key in keyof typeof TaskType]?: string;
+// };
+
+// type I18nTasks = Partial<Record<TaskType, number>>;
 
 export interface I18n {
   common: I18nCommon;
@@ -61,6 +71,9 @@ export interface I18n {
   industry: SingularPlural;
   industries: I18nIndustries;
   landingPage: I18nLandingPage;
+  task: SingularPlural;
+  tasks: any; // TODO: Find better way!
+  // tasks: I18nTasks;
 }
 
 export type Languages = 'en' | 'de';

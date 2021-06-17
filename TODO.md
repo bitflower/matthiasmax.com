@@ -3,10 +3,10 @@
 ## Musts
 
 - [ ] SEO: Headings!
-- [ ] Timeline
+- [x] Timeline
 - [ ] CV Startseite
-- [ ] Konsolidierte Skills, Tools, etc
-- [ ] Translations
+  - [ ] Konsolidierte Skills, Tools, etc
+  - [ ] Translations
 - [ ] `links` aus CV daten verwenden
 - [ ] PDF Download Button
 - [x] Finish CV data
@@ -19,6 +19,8 @@
 - [ ] Clean up all the folders and repos!
 - [ ] Cookie Hinweis
 - [ ] Im PDF: "Interaktiven Online-CV öffnen!"
+- [ ] Print
+  - [ ] "Force page break" Button (Hidden Feature oder so)
 
 ## Ideas
 

@@ -43,6 +43,34 @@ export class ProjectList {
   private selected: Project[] = sort(projects);
 
   render() {
-    return this.selected.map(project => <project-card class="project-list__project" project={project} />);
+    return (
+      <table>
+        <thead>
+          <tr>
+            <td class="bg-red">
+              &nbsp;
+              {/* <div class="footer-space">&nbsp;</div> */}
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          {this.selected.map(project => (
+            <tr>
+              <td class="project-list__cell" style={{ background: 'red' }}>
+                <project-card class="project-list__project my-dummy-block no-break-inside unbreakable" project={project} />
+              </td>
+            </tr>
+          ))}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="bg-blue">
+              &nbsp;
+              {/* <div class="footer-space">&nbsp;</div> */}
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    );
   }
 }

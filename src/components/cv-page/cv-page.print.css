@@ -1,12 +1,23 @@
 @page {
   size: 21cm 29.7cm;
-  margin: 0cm;
-  /* margin: 3cm 3cm 3cm 3cm; */
+  margin: 0 !important;
+  /* Works only when the margin on the print settings of Chrome are on "default" ! */
+  /* margin-top: 0cm !important; */
+  /* margin-bottom: 0cm !important; */
+  margin-bottom: 0.75cm !important;
+  padding: 0;
 }
 
 @media print {
   .hide-print {
     display: none;
+  }
+
+  /* Needed for manual adjustion during PDF printing */
+  .page-break {
+    position: relative;
+    break-before: page;
+    display: block;
   }
 
   .ui-container {
@@ -15,7 +26,10 @@
     padding-right: 2cm;
   }
   body {
-    padding-top: 3cm;
+    /* padding-top: 3cm; */
+    /* padding-bottom: 3cm !important; */
+    /* This fixed the `break-inside` not working */
+    max-height: 100%;
   }
 
   header,
@@ -25,13 +39,14 @@
     display: flex;
     align-items: center;
     left: 0;
+    padding: 0;
   }
 
   header {
     top: 1cm;
   }
   .cv-page__footer {
-    bottom: 0.7cm;
+    bottom: 0;
     background: none;
   }
 
@@ -47,9 +62,9 @@
     width: 5.1cm;
   }
 
-  main {
+  /* main {
     padding-top: 2.5cm;
-  }
+  } */
 
   .bla {
     width: 100%;
@@ -103,7 +118,7 @@
   }
 
   .new-page {
-    page-break-after: always;
+    page-break-before: always;
   }
 
   site-header,
