@@ -83,9 +83,10 @@
   }
 
   cv-page time-line {
-    --base-padding: 4px;
-    --label-width: 72px;
-    padding-bottom: 15px;
+    --base-padding: 4px !important;
+    --label-width: 72px !important;
+    --line-correction: 5px;
+    padding-bottom: 15px !important;
   }
 
   cv-page .time-line__container {
@@ -113,7 +114,9 @@
 
   p,
   span,
-  div {
+  div,
+  ul,
+  li {
     font-size: 10px !important;
   }
 
@@ -135,5 +138,14 @@
 
   .contact-details .col:last-child {
     text-align: right;
+  }
+
+  .education {
+    max-width: 8cm !important;
+  }
+
+  .scope {
+    bottom: 5cm !important;
+    /* left: 56%; */
   }
 }

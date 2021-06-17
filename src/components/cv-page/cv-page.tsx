@@ -39,9 +39,9 @@ export class cvPage {
         </header>
         <ResponsiveContainer>
           {/* Insert landing page when printing */}
-          <div class="new-page hide-screen">
+          {/* <div class="new-page hide-screen">
             <landing-page />
-          </div>
+          </div> */}
 
           {/* Main CV page  */}
           <div class="page new-page">
@@ -50,28 +50,76 @@ export class cvPage {
               <h2 class="cv-page__first-heading">{i18n.cv.cv}</h2>
               <time-line items={lebenslauf} />
 
-              <div class="professional-kpis">
-                <kpi-value label="Projekte" value={projects.length.toString()} />
-                <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} Jahre`} />
-                <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
+              <div class="key-skills">
+                <h2>Key Skills</h2>
+                <ul>
+                  <li>Softwarearchitektur und -design</li>
+                  <li>Anforderungsanalyse und sprechen "beider Sprachen"</li>
+                  <li>Unternehmerisches Denken</li>
+                  <li>Web-Fullstackentwicklung: Webfrontend mit Backend- und Datenbankentwicklung</li>
+                  <li>Mentorship, Teamkommunikation und Entwicklerführung</li>
+                  <li>Designaffinität und hochwertige UI/UX-Umsetzung</li>
+                  <li>Qualitätssicherung</li>
+                  <li>Mentorship und Schulung von Technologiethemen</li>
+                  <li>Refaktoring und Weiterentwicklung von Altsystemen</li>
+                </ul>
               </div>
 
-              <h2>{i18n.cv.education}</h2>
-              <p>
-                Studium der Wirtschaftsinformatik - Fachhochschule Pforzheim, 2001 – 2006 <br />
-                Thema der Diplomarbeit: <i>Impactanalyse von Systemausfällen auf Service Level Agreements mit 3D Visualisierung in Java</i>
-              </p>
-              <h2>{i18n.cv.languages}</h2>
-              <p>
-                Englisch: fließend in Wort und Schrift <br />
-                Französisch: Schulkenntnisse
-              </p>
+              <div class="key-tech">
+                <h2>Technologien & Sprachen Fokus</h2>
+                <ul>
+                  <li>Agile: Azure DevOps, GitHub, JIRA, SAFe, Scrum</li>
+                  <li>API & Transport: API-First, REST, WebSocket</li>
+                  <li>Cloud: AWS, Azure, Heroku, MongoDB Atlas</li>
+                  <li>CMS: Wordpress, Markdown, CaseOS</li>
+                  <li>Datenbank: MongoDB, MS SQL-Server, MySQL, Oracle, IndexedDB</li>
+                  <li>Frontend: Angular 11+, Web Components, SSG, Hybrid-Apps</li>
+                  <li>Mobile Apps: CapacitorJS, Ionic</li>
+                  <li>Server: .Net, ExpressJS, IIS, NodeJS, PHP</li>
+                </ul>
+              </div>
+
+              <div class="scope">
+                <h2>Wirkungsbereich</h2>
+                <p>CHART</p>
+              </div>
+
+              <div class="education">
+                <h2>{i18n.cv.education}</h2>
+                <p>
+                  Studium der Wirtschaftsinformatik - Fachhochschule Pforzheim, 2001 – 2006 <br />
+                  Thema der Diplomarbeit: <i>Impactanalyse von Systemausfällen auf Service Level Agreements mit 3D Visualisierung in Java</i>
+                </p>
+              </div>
+              <div class="languages">
+                <h2>{i18n.cv.languages}</h2>
+                <p>
+                  Englisch: fließend in Wort und Schrift <br />
+                  Französisch: Schulkenntnisse
+                </p>
+              </div>
             </div>
             <div class="right">
               <div class="profile">
                 <h2>Matthias Max</h2>
                 <h3>Diplom-Wirtschaftsinformatiker (FH)</h3>
                 <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" />
+
+                <div class="professional-kpis">
+                  <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
+                  <kpi-value label="Projekte" value={projects.length.toString()} />
+                  <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} Jahre`} />
+                </div>
+
+                <div class="mindset">
+                  <h2>Mindset</h2>
+                  <ul>
+                    <li>Standards und Konsistenz</li>
+                    <li>Clean Code</li>
+                    <li>Reusability</li>
+                    <li>Open Source</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

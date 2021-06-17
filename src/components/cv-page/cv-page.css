@@ -18,6 +18,7 @@ cv-page project-deliverables-filter .btn--white {
 
 cv-page .page {
   display: flex;
+  position: relative;
 }
 
 cv-page .right {
@@ -41,11 +42,50 @@ cv-page time-line {
   --color-tint: var(--color-dodger-blue-tint);
   color: var(--color-gunpowder);
   font-size: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 cv-page .cv-page__profileimg {
   width: 100%;
+}
+
+.professional-kpis {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.professional-kpis kpi-value {
+  margin-right: 5px;
+  margin-bottom: 25px;
+  background-color: var(--color-white-lilac);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.professional-kpis kpi-value .label {
+  margin-top: 0;
+}
+.professional-kpis kpi-value .kpi {
+  margin-bottom: 0;
+}
+
+.mindset {
+  margin-top: 10px;
+  text-align: center;
+}
+.mindset ul {
+  list-style: none;
+}
+
+.scope {
+  position: absolute;
+  bottom: 220px;
+  left: 56%;
+}
+
+.education {
+  max-width: 440px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -79,22 +119,6 @@ cv-page .cv-page__profileimg {
   cv-page .time-line__container {
     left: -120px;
     width: calc(100% + 120px);
-  }
-
-  .professional-kpis {
-    display: flex;
-  }
-  .professional-kpis kpi-value {
-    margin-right: 25px;
-    background-color: var(--color-white-lilac);
-    border-radius: 20px;
-    padding: 10px 15px;
-  }
-  .professional-kpis kpi-value .label {
-    margin-top: 0;
-  }
-  .professional-kpis kpi-value .kpi {
-    margin-bottom: 0;
   }
 }
 
