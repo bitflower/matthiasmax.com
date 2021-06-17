@@ -1,3 +1,5 @@
+@import url('landing-page.print.css');
+
 landing-page {
   display: block;
   overflow: hidden;
@@ -132,7 +134,7 @@ landing-page .companies {
 landing-page .companies h3 {
   font-weight: 600;
   font-size: 20px;
-  max-width: 320px;
+  max-width: 351px;
   margin-bottom: 40px;
 }
 

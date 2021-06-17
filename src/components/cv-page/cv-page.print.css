@@ -9,10 +9,6 @@
 }
 
 @media print {
-  .hide-print {
-    display: none;
-  }
-
   cv-page .page {
     flex-wrap: unset !important;
   }
@@ -95,29 +91,29 @@
     width: calc(100% + 10px);
   }
 
-  h1 {
+  h1:not(.no-print-font) {
     font-size: 14px !important;
     line-height: 17px !important;
     margin-bottom: 6px;
   }
 
-  h2 {
+  h2:not(.no-print-font) {
     font-size: 13px !important;
     margin-bottom: 6px;
-    color: var(--color-dodger-blue);
+    /* color: var(--color-dodger-blue); */
   }
 
-  h3 {
+  h3:not(.no-print-font) {
     font-size: 10px !important;
     color: var(--color-gandalf);
     margin-top: 6px;
   }
 
-  p,
-  span,
-  div,
-  ul,
-  li {
+  p:not(.no-print-font),
+  span:not(.no-print-font),
+  div:not(.no-print-font),
+  ul:not(.no-print-font),
+  li:not(.no-print-font) {
     font-size: 10px !important;
   }
 

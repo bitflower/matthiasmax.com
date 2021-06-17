@@ -39,9 +39,9 @@ export class cvPage {
         </header>
         <ResponsiveContainer>
           {/* Insert landing page when printing */}
-          {/* <div class="new-page hide-screen">
+          <div class="new-page hide-screen">
             <landing-page />
-          </div> */}
+          </div>
 
           {/* Main CV page  */}
           <div class="page new-page">

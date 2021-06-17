@@ -1,0 +1,51 @@
+@media print {
+  landing-page .hero {
+    display: flex;
+    padding: 0;
+  }
+
+  landing-page .hero hgroup h1 {
+    font-size: 46px !important;
+    max-width: 349px;
+  }
+  landing-page .hero hgroup h2 {
+    font-size: 24px;
+  }
+  landing-page .hero hgroup p {
+    font-size: 16px !important;
+  }
+
+  landing-page .hero hgroup p:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  landing-page .hero .landing-page__bg {
+    height: 9cm;
+    margin-top: 0;
+    position: relative;
+    top: 2cm;
+    transform: none;
+  }
+  landing-page .companies {
+    border: none !important;
+  }
+
+  landing-page .companies ul {
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+  }
+  landing-page .companies ul li {
+    margin-bottom: 5px;
+  }
+
+  landing-page h1 {
+    font-size: 90%;
+  }
+
+  landing-page .companies {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+}
