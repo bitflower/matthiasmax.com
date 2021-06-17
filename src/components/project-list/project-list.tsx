@@ -71,6 +71,7 @@ export class ProjectList {
   // --------------------------------------------------------------------------
 
   constructor() {
+    // Open the /cv?break-page=true url to enable the page break mode
     const urlSearchParams = new URLSearchParams(window.location.search);
     this.isBreakPageMode = urlSearchParams.get('break-page') === 'true';
   }

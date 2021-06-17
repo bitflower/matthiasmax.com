@@ -14,7 +14,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: 'https://stenciljs.com/',
+      baseUrl: 'https://matthiasmax.com/',
       prerenderConfig: './prerender.config.ts',
       serviceWorker: {
         unregister: true,
