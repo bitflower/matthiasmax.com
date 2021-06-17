@@ -37,6 +37,9 @@ export class cvPage {
           </div>
         </header>
         <ResponsiveContainer>
+          <div class="new-page hide-screen">
+            <landing-page />
+          </div>
           <div class="page new-page">
             <div class="left">
               <h1 class="hide-print">{i18n.cv.heading}</h1>
@@ -46,7 +49,7 @@ export class cvPage {
               <h2>{i18n.cv.education}</h2>
               <p>
                 Studium der Wirtschaftsinformatik - Fachhochschule Pforzheim, 2001 – 2006 <br />
-                Thema der Diplomarbeit: TITEL DIPLOMARBEIT
+                Thema der Diplomarbeit: <i>Impactanalyse von Systemausfällen auf Service Level Agreements mit 3D Visualisierung in Java</i>
               </p>
               <h2>{i18n.cv.languages}</h2>
               <p>
