@@ -125,6 +125,7 @@ export class AppRoot {
             </footer>
           </main>
         </site-root>
+        <dsgvo-notice />
       </SiteProviderConsumer.Provider>
     );
   }

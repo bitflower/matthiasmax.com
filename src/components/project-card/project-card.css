@@ -29,16 +29,11 @@ project-card .dots {
   top: 0;
 }
 
-.content-card {
+project-card .content-card {
   position: relative;
   margin-top: 32px;
-  background: var(--color-almost-white-gray);
   margin-right: 35px;
-  box-shadow: -1px 5px 17px 6px #dadada;
-  padding: 20px 30px;
-  border-radius: 15px;
 }
-
 project-card .equal-kpis {
   justify-content: space-between;
 }
@@ -126,11 +121,6 @@ project-card .kpi-rows .kpis:last-child {
   project-card .project-card__left {
     padding-right: 0;
   }
-
-  .content-card {
-    padding: 15px 20px;
-    margin-right: 19px;
-  }
 }
 
 @media print {
@@ -141,16 +131,12 @@ project-card .kpi-rows .kpis:last-child {
 
   project-card .kpi-rows {
     display: block;
-    /* padding-top: 30px; */
   }
 
-  .content-card {
+  project-card .content-card {
     position: unset;
     margin-top: 0;
     margin-right: 0;
-    padding: 0;
-    box-shadow: none;
-    background: none;
   }
 
   project-card .dots-block {

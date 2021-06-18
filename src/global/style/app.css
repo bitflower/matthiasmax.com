@@ -12,6 +12,7 @@
 @import './typography.css';
 @import './utils.css';
 @import './print-utils.css';
+@import './card.css';
 
 * {
   box-sizing: border-box;

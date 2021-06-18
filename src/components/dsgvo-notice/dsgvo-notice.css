@@ -1,0 +1,23 @@
+dsgvo-notice .notice {
+  position: fixed;
+  bottom: 30px;
+  max-width: 640px;
+  left: 50%;
+  transform: translateX(-320px);
+  z-index: 10;
+}
+
+dsgvo-notice button {
+  float: right;
+}
+
+dsgvo-notice .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-woodsmoke);
+  opacity: 0.18;
+  z-index: 9;
+}

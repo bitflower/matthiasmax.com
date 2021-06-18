@@ -43,6 +43,8 @@ export namespace Components {
         "name"?: string;
         "sourceUrl"?: string;
     }
+    interface DsgvoNotice {
+    }
     interface FeaturePill {
         "link": string;
     }
@@ -184,6 +186,12 @@ declare global {
     var HTMLDemoCardElement: {
         prototype: HTMLDemoCardElement;
         new (): HTMLDemoCardElement;
+    };
+    interface HTMLDsgvoNoticeElement extends Components.DsgvoNotice, HTMLStencilElement {
+    }
+    var HTMLDsgvoNoticeElement: {
+        prototype: HTMLDsgvoNoticeElement;
+        new (): HTMLDsgvoNoticeElement;
     };
     interface HTMLFeaturePillElement extends Components.FeaturePill, HTMLStencilElement {
     }
@@ -330,6 +338,7 @@ declare global {
         "cv-page": HTMLCvPageElement;
         "deliverable-list": HTMLDeliverableListElement;
         "demo-card": HTMLDemoCardElement;
+        "dsgvo-notice": HTMLDsgvoNoticeElement;
         "feature-pill": HTMLFeaturePillElement;
         "guide-callout": HTMLGuideCalloutElement;
         "highlight-code": HTMLHighlightCodeElement;
@@ -388,6 +397,8 @@ declare namespace LocalJSX {
         "imgPath"?: string;
         "name"?: string;
         "sourceUrl"?: string;
+    }
+    interface DsgvoNotice {
     }
     interface FeaturePill {
         "link"?: string;
@@ -474,6 +485,7 @@ declare namespace LocalJSX {
         "cv-page": CvPage;
         "deliverable-list": DeliverableList;
         "demo-card": DemoCard;
+        "dsgvo-notice": DsgvoNotice;
         "feature-pill": FeaturePill;
         "guide-callout": GuideCallout;
         "highlight-code": HighlightCode;
@@ -514,6 +526,7 @@ declare module "@stencil/core" {
             "cv-page": LocalJSX.CvPage & JSXBase.HTMLAttributes<HTMLCvPageElement>;
             "deliverable-list": LocalJSX.DeliverableList & JSXBase.HTMLAttributes<HTMLDeliverableListElement>;
             "demo-card": LocalJSX.DemoCard & JSXBase.HTMLAttributes<HTMLDemoCardElement>;
+            "dsgvo-notice": LocalJSX.DsgvoNotice & JSXBase.HTMLAttributes<HTMLDsgvoNoticeElement>;
             "feature-pill": LocalJSX.FeaturePill & JSXBase.HTMLAttributes<HTMLFeaturePillElement>;
             "guide-callout": LocalJSX.GuideCallout & JSXBase.HTMLAttributes<HTMLGuideCalloutElement>;
             "highlight-code": LocalJSX.HighlightCode & JSXBase.HTMLAttributes<HTMLHighlightCodeElement>;

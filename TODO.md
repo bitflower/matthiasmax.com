@@ -4,9 +4,9 @@
 
 - DSGVO !
   - [ ] Cookie Hinweis
-- [ ] LinkedIn hinzufügen
 - [ ] SEO: Headings!
 - [ ] `links` aus CV daten verwenden
+- [x] LinkedIn hinzufügen
 - [x] Finish CV data
   - [x] From power point
   - [ ] Korrekturlesen

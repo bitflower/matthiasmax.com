@@ -11,7 +11,7 @@ export class ContactPage {
   @Element() el!: Element;
 
   constructor() {
-    document.title = `Get in touch with Matthias Max Web Technologies Expert`;
+    document.title = i18n.contact.title;
   }
 
   render() {

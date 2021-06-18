@@ -50,7 +50,8 @@
     "website": "Website"
   },
   "global": {
-    "sayHello": "Sag Hallo!"
+    "sayHello": "Sag Hallo!",
+    "dsgvo": "Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies sowie Google Analytics. Durch die weitere Nutzung dieser Webseite stimmen Sie der Verwendung von Cookies zu. Detaillierte Informationen dazu erhalten Sie in unserer Datenschutzerklärung."
   },
   "industry": {
     "singular": "Branche",

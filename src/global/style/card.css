@@ -1,0 +1,21 @@
+.content-card {
+  background: var(--color-almost-white-gray);
+  box-shadow: -1px 5px 17px 6px #dadada;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .content-card {
+    padding: 15px 20px;
+    margin-right: 19px;
+  }
+}
+
+@media print {
+  .content-card {
+    padding: 0;
+    box-shadow: none;
+    background: none;
+  }
+}
