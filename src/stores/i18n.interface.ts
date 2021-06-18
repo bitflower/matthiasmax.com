@@ -9,6 +9,7 @@ interface I18nContact {
   claim: string;
   welcomeOffice: string;
   dropLine: string;
+  title: string;
 }
 interface I18nCV {
   cv: string;
