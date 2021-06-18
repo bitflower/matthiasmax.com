@@ -2,40 +2,37 @@
 
 ## Musts
 
+- DSGVO !
+  - [ ] Cookie Hinweis
+- [ ] LinkedIn hinzufügen
 - [ ] SEO: Headings!
-- [x] Timeline
-- [ ] CV Startseite
-  - [x] Landing Page Print Styles und einbauen
-  - [x] Konsolidierte Skills, Tools, etc
-  - [ ] Translations: Contact
 - [ ] `links` aus CV daten verwenden
-- [ ] PDF Download Button
 - [x] Finish CV data
   - [x] From power point
   - [ ] Korrekturlesen
   - [ ] Sub-Contract Fakt checken /Visualisieren
-- [ ] Im PDF: "Interaktiven Online-CV öffnen!"
-- [ ] Print
-  - [ ] "Force page break" Button (Hidden Feature oder so)
+- [x] Timeline
+- [x] CV Startseite
+  - [x] Landing Page Print Styles und einbauen
+  - [x] Konsolidierte Skills, Tools, etc
+  - [x] Translations: Contact
+- [x] PDF Download Button
+- [x] Im PDF: "Interaktiven Online-CV öffnen!"
+- [x] Print
+  - [x] "Force page break" Button (Hidden Feature oder so)
 
 ## Release
 
-- [ ] Connect domain
-- [ ] Analytics
+- [x] Connect domain
+- [x] Analytics
 - [ ] Fix all Stencil images, etc
+  - [ ] Homescreen Icon fehlt
 - [ ] Clean up all the folders and repos!
-- [ ] Cookie Hinweis
 
 ## Ideas
 
 - [x] Make CV interactive with filters, charts, etc
-- [ ] Contact form (UseBasin oder andere)
+- [ ] Contact form (UseBasin, FormSPree oder andere)
 - [ ] Offer mentorship program like Matt Farley
 - [ ] Make start-ups (CaseOS) visible like Matt Farley
 
-## Blog posts
-
-- [ ] Explain MM logo:
-  - [ ] Ms from my name
-  - [ ] chart curve => going up
-  - [ ] sich umarmende Ms = collaboration
