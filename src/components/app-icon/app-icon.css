@@ -33,6 +33,12 @@ app-icon .icon-twitter {
   height: 14px;
 }
 
+app-icon .icon-linkedin {
+  fill: var(--color-woodsmoke);
+  width: 23px;
+  height: 24px;
+}
+
 app-icon .icon-menu {
   fill: var(--color-dodger-blue);
   width: 17px;

@@ -110,6 +110,11 @@ export class AppRoot {
                       </a>
                     </li>
                     <li>
+                      <a rel="noopener" class="link--external" target="_blank" href="https://www.linkedin.com/in/bitflower/" aria-label="LinkedIn">
+                        <app-icon name="linkedin"></app-icon>
+                      </a>
+                    </li>
+                    <li>
                       <a rel="noopener" class="link--external" target="_blank" href="https://github.com/bitflower" aria-label="Github">
                         <app-icon name="github"></app-icon>
                       </a>
