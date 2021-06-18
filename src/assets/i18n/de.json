@@ -19,6 +19,11 @@
       }
     }
   },
+  "contact": {
+    "claim": "Ich glaube an diesen Ansatz. Deshalb freue ich mich auf einen Austausch über Ihre Business Herausforderungen, Technologie, Digitalstrategie, Design oder App-Ideen.",
+    "welcomeOffice": "Kommen Sie doch mal auf einen Kaffee vorbei!",
+    "dropLine": "Oder schreiben Sie mir:"
+  },
   "cv": {
     "cv": "Professionelle Laufbahn",
     "education": "Ausbildung",
@@ -42,6 +47,9 @@
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
     "website": "Website"
+  },
+  "global": {
+    "sayHello": "Sag Hallo!"
   },
   "industry": {
     "singular": "Branche",

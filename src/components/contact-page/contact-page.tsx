@@ -1,6 +1,8 @@
 import { Component, Element, h } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
+import i18n from '../../stores/i18n.store';
+
 @Component({
   tag: 'contact-page',
   styleUrl: 'contact-page.css',
@@ -16,12 +18,10 @@ export class ContactPage {
     return (
       <ResponsiveContainer>
         <h2>&bdquo;The best ideas start as conversations&rdquo; &#8212; Jonathan Ive.</h2>
-        <p class="landing-page_intro">
-          I strongly believe in that approach. I'm looking forward to exchange thoughts about your business challenges, technology, digital strategy, design, app ideas.
-        </p>
-        <h3 class="contact-page__first-heading">You're welcome to have a coffee with me at my office:</h3>
+        <p class="landing-page_intro">{i18n.contact.claim}</p>
+        <h3 class="contact-page__first-heading">{i18n.contact.welcomeOffice}</h3>
         <p>
-          bitflower e.K. / attn. Matthias Max
+          bitflower e.K. / Matthias Max
           <br />
           Tafingerstraße 14
           <br />
@@ -30,7 +30,7 @@ export class ContactPage {
           Germany
           <br />
         </p>
-        <h3>Or drop me a line at:</h3>
+        <h3>{i18n.contact.dropLine}</h3>
         <p>
           Email:&nbsp;
           <a href="mailto:hi@bitflower.net" target="blank">

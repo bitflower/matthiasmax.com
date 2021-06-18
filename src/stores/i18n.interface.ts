@@ -5,6 +5,11 @@ export interface SingularPlural {
   plural: string;
 }
 
+interface I18nContact {
+  claim: string;
+  welcomeOffice: string;
+  dropLine: string;
+}
 interface I18nCV {
   cv: string;
   education: string;
@@ -21,6 +26,9 @@ interface I18nCommon {
     months: SingularPlural;
     years: SingularPlural;
   };
+}
+interface I18nGlobal {
+  sayHello: string;
 }
 interface I18nLandingPage {
   brands: string;
@@ -64,6 +72,8 @@ interface I18nIndustries {
 
 export interface I18n {
   common: I18nCommon;
+  contact: I18nContact;
+  global: I18nGlobal;
   lang: Languages;
   cv: I18nCV;
   deliverable: SingularPlural;

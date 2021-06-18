@@ -1,4 +1,29 @@
 {
+  "common": {
+    "durations": {
+      "days": {
+        "singular": "Tag",
+        "plural": "Tage"
+      },
+      "weeks": {
+        "singular": "Woche",
+        "plural": "Wochen"
+      },
+      "months": {
+        "singular": "Monat",
+        "plural": "Monate"
+      },
+      "years": {
+        "singular": "Jahr",
+        "plural": "Jahre"
+      }
+    }
+  },
+  "contact": {
+    "claim": "I strongly believe in that approach. I'm looking forward to exchange thoughts about your business challenges, technology, digital strategy, design, app ideas.",
+    "welcomeOffice": "You're welcome to have a coffee with me at my office:",
+    "dropLine": "Or drop me a line at:"
+  },
   "cv": {
     "cv": "Professionelle Laufbahn",
     "education": "Ausbildung",
@@ -22,6 +47,9 @@
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
     "website": "Website"
+  },
+  "global": {
+    "sayHello": "Say Hello"
   },
   "industry": {
     "singular": "Branche",
