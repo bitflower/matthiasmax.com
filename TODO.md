@@ -2,6 +2,9 @@
 
 ## Musts
 
+- [ ] Bug: Cookie Consent on Mobile
+- [ ] Bug: Something is not clickable (David)
+- [ ] Bug: SVG Font
 - [ ] SEO: Headings!
 - [ ] `links` aus CV daten verwenden
 - [x] DSGVO Cookie Hinweis

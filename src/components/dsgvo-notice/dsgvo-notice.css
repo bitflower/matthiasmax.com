@@ -1,10 +1,17 @@
-dsgvo-notice .notice {
+dsgvo-notice {
+  display: flex;
   position: fixed;
   bottom: 30px;
-  max-width: 640px;
-  left: 50%;
-  transform: translateX(-320px);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   z-index: 10;
+}
+
+dsgvo-notice .notice {
+  max-width: 640px;
+  z-index: 10;
+  margin: 0 30px;
 }
 
 dsgvo-notice button {

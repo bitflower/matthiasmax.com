@@ -121,6 +121,10 @@ project-card .kpi-rows .kpis:last-child {
   project-card .project-card__left {
     padding-right: 0;
   }
+
+  project-card .content-card {
+    margin-right: 19px;
+  }
 }
 
 @media print {
