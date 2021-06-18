@@ -12,6 +12,10 @@
 .landing-page_intro {
   max-width: 530px;
 }
+.contact-page__officeimg {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
 
 @media screen and (max-width: 1200px) {
   .contact-page__logo-bg {

@@ -10,6 +10,7 @@ interface I18nContact {
   welcomeOffice: string;
   dropLine: string;
   title: string;
+  heading: string;
 }
 interface I18nCV {
   cv: string;

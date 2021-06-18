@@ -2,10 +2,9 @@
 
 ## Musts
 
-- DSGVO !
-  - [ ] Cookie Hinweis
 - [ ] SEO: Headings!
 - [ ] `links` aus CV daten verwenden
+- [x] DSGVO Cookie Hinweis
 - [x] LinkedIn hinzufügen
 - [x] Finish CV data
   - [x] From power point

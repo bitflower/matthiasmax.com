@@ -17,10 +17,13 @@ export class ContactPage {
   render() {
     return (
       <ResponsiveContainer>
+        <h1>{i18n.contact.heading}</h1>
         <h2>&bdquo;The best ideas start as conversations&rdquo; &#8212; Jonathan Ive.</h2>
         <p class="landing-page_intro">{i18n.contact.claim}</p>
         <h3 class="contact-page__first-heading">{i18n.contact.welcomeOffice}</h3>
         <p>
+          <img class="contact-page__officeimg" src="/assets/img/office.jpeg" loading="lazy" />
+          <br />
           bitflower e.K. / Matthias Max
           <br />
           Tafingerstraße 14
