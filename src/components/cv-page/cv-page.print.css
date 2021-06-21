@@ -2,8 +2,6 @@
   size: 21cm 29.7cm;
   margin: 0 !important;
   /* Works only when the margin on the print settings of Chrome are on "default" ! */
-  /* margin-top: 0cm !important; */
-  /* margin-bottom: 0cm !important; */
   margin-bottom: 0.75cm !important;
   padding: 0;
 }
@@ -26,8 +24,6 @@
     padding-right: 2cm;
   }
   body {
-    /* padding-top: 3cm; */
-    /* padding-bottom: 3cm !important; */
     /* This fixed the `break-inside` not working */
     max-height: 100%;
   }
@@ -58,10 +54,6 @@
   cv-page .right {
     width: 5.1cm;
   }
-
-  /* main {
-    padding-top: 2.5cm;
-  } */
 
   .bla {
     width: 100%;
@@ -100,7 +92,6 @@
   h2:not(.no-print-font) {
     font-size: 13px !important;
     margin-bottom: 6px;
-    /* color: var(--color-dodger-blue); */
   }
 
   h3:not(.no-print-font) {
