@@ -54,7 +54,6 @@ time-line {
   width: var(--line-width);
   height: calc(100% - (2 * var(--base-padding)) - (2 * var(--border-width)));
   background-color: var(--color-tint);
-  opacity: 0.38;
   top: calc(var(--base-padding) + var(--border-width));
 }
 

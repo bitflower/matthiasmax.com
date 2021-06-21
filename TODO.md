@@ -35,6 +35,7 @@
 ## Ideas
 
 - [x] Make CV interactive with filters, charts, etc
+- [ ] "About" page => showcase Lighthouse score, Made with X description etc
 - [ ] Contact form (UseBasin, FormSPree oder andere)
 - [ ] Offer mentorship program like Matt Farley
 - [ ] Make start-ups (CaseOS) visible like Matt Farley
