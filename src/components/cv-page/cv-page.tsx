@@ -275,7 +275,7 @@ export class cvPage {
                 <h2>Matthias Max</h2>
                 <h3>Diplom-Wirtschaftsinformatiker (FH)</h3>
                 <div class="profile-kpis">
-                  <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" />
+                  <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
 
                   <div class="professional-kpis">
                     <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
