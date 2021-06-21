@@ -2,11 +2,11 @@
 
 ## Musts
 
-- [ ] Bug: Cookie Consent on Mobile
-- [ ] Bug: Something is not clickable (David)
-- [ ] Bug: SVG Font
 - [ ] SEO: Headings!
 - [ ] `links` aus CV daten verwenden
+- [x] Bug: Cookie Consent on Mobile
+- [x] Bug: Something is not clickable (David)
+- [x] Bug: SVG Font
 - [x] DSGVO Cookie Hinweis
 - [x] LinkedIn hinzufügen
 - [x] Finish CV data
@@ -28,7 +28,8 @@
 - [x] Connect domain
 - [x] Analytics
 - [ ] Fix all Stencil images, etc
-  - [ ] Homescreen Icon fehlt
+  - [x] Homescreen Icon fehlt
+  - [ ] Homescreen ist häßlich
 - [ ] Clean up all the folders and repos!
 
 ## Ideas
