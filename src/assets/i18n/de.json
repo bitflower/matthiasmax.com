@@ -24,7 +24,9 @@
     "welcomeOffice": "Kommen Sie doch mal auf einen Kaffee vorbei!",
     "dropLine": "Oder schreiben Sie mir:",
     "title": "Kontakt mit Matthias Max Web Technologies Expert aufnehmen",
-    "heading": "Kontakt aufnehmen"
+    "heading": "Kontakt aufnehmen",
+    "commutingArea": "Einzugsgebiet",
+    "commutingAreaDescription": "Ich biete meine Dienstleistungen rund um Web Consulting und Fullstack Development im Raum Stuttgart/Karlsruhe/Heilbronn oder Remote an."
   },
   "cv": {
     "cv": "Professionelle Laufbahn",

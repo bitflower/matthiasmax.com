@@ -11,6 +11,8 @@ interface I18nContact {
   dropLine: string;
   title: string;
   heading: string;
+  commutingArea: string;
+  commutingAreaDescription: string;
 }
 interface I18nCV {
   cv: string;

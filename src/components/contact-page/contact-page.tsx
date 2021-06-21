@@ -51,6 +51,8 @@ export class ContactPage {
           </a>
           <br />
         </p>
+        <h3>{i18n.contact.commutingArea}</h3>
+        <p>{i18n.contact.commutingAreaDescription}</p>
         <svg class="contact-page__logo-bg" width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
           <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
             <g id="logo-new" transform="translate(0.000000, 128.000000)">
