@@ -313,7 +313,7 @@ export class cvPage {
             </div>
             <p class="cta__secondary">
               {i18n.cv.dataSource}{' '}
-              <a href="https://github.com/bitflower/CV" target="_blank">
+              <a rel="noopener" href="https://github.com/bitflower/CV" target="_blank">
                 GitHub
               </a>
             </p>
