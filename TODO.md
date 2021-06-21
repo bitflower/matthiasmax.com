@@ -4,15 +4,15 @@
 
 - [ ] SEO: Headings!
 - [ ] `links` aus CV daten verwenden
+- [ ] Finish CV data
+  - [x] From power point
+  - [ ] Korrekturlesen
+  - [ ] Sub-Contract Fakt checken /Visualisieren
 - [x] Bug: Cookie Consent on Mobile
 - [x] Bug: Something is not clickable (David)
 - [x] Bug: SVG Font
 - [x] DSGVO Cookie Hinweis
 - [x] LinkedIn hinzufügen
-- [x] Finish CV data
-  - [x] From power point
-  - [ ] Korrekturlesen
-  - [ ] Sub-Contract Fakt checken /Visualisieren
 - [x] Timeline
 - [x] CV Startseite
   - [x] Landing Page Print Styles und einbauen
@@ -27,9 +27,9 @@
 
 - [x] Connect domain
 - [x] Analytics
-- [ ] Fix all Stencil images, etc
+- [x] Fix all Stencil images, etc
   - [x] Homescreen Icon fehlt
-  - [ ] Homescreen ist häßlich
+  - [x] Homescreen ist häßlich
 - [ ] Clean up all the folders and repos!
 
 ## Ideas
