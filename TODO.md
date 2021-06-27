@@ -2,6 +2,24 @@
 
 ## Musts
 
+- [ ] Englische Version
+  - [ ] matthiasmax.de: Redirect wenn nicht deutsch
+  - [ ] Language Select toggle
+  - [ ] CV Data
+    - [ ] Career
+    - [ ] Projects
+    - [ ] Skills
+    - [ ] Technologien
+    - [ ] Mind Set
+    - [ ] Ausbildung
+    - [ ] Projektinhalte: alles ...
+  - [ ] Nicht Javascript Inhalte prüfen / übersetzen
+    - [ ] HTML  Attrbut `lang`
+    - [ ] `title`
+    - [ ] `description`
+    - [ ] `og:description`
+    - [ ] Was wird noch benötigt?
+  - [ ] Google Analytics: ein oder 2 IDs?
 - [ ] RSS Feed
 - [ ] Impressum / Datenschutzerklärung
 - [ ] SEO: Headings!
