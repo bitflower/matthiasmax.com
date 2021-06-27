@@ -40,3 +40,4 @@
 - [ ] Offer mentorship program like Matt Farley
 - [ ] Make start-ups (CaseOS) visible like Matt Farley
 
+ 
