@@ -4,6 +4,9 @@ import dotenvPlugin from 'rollup-plugin-dotenv';
 export const config: Config = {
   taskQueue: 'async',
   buildEs5: true,
+  env: {
+    LANG: process.env.LANG,
+  },
   extras: {
     cssVarsShim: true,
     dynamicImportShim: true,
