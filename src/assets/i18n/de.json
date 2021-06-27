@@ -17,6 +17,16 @@
         "singular": "Jahr",
         "plural": "Jahre"
       }
+    },
+    "languages": {
+      "english": "Englisch",
+      "french": "Französisch",
+      "german": "Deutsch"
+    },
+    "languageCapability": {
+      "native": "Muttersprache",
+      "pro": "verhandlungssicher",
+      "basic": "Schulkenntnisse"
     }
   },
   "contact": {
@@ -37,7 +47,8 @@
     "experience": "Projekterfahrung",
     "heading": "Web Technologie Consultant und Fullstack Developer",
     "languages": "Fremdsprachen",
-    "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer"
+    "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer",
+    "degree": "Diplom-Wirtschaftsinformatiker (FH)"
   },
   "deliverable": {
     "singular": "Arbeitsergebnis",

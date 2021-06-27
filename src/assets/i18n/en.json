@@ -17,6 +17,16 @@
         "singular": "year",
         "plural": "years"
       }
+    },
+    "languages": {
+      "english": "English",
+      "french": "French",
+      "german": "German"
+    },
+    "languageCapability": {
+      "native": "Native language",
+      "pro": "Fluent",
+      "basic": "Basics"
     }
   },
   "contact": {
@@ -31,13 +41,14 @@
   },
   "cv": {
     "cv": "Professional career",
-    "dataSource": "You can find my CV data set as JSON file on",
+    "dataSource": "Results based on data of my CV in JSON format",
     "downloadCV": "Download CV",
     "education": "Education",
     "experience": "Project experience",
     "heading": "Web technology consultant and full stack developer",
     "languages": "Languages",
-    "title": "CV of Matthias Max - Web technology consultant and full stack developer"
+    "title": "CV of Matthias Max - Web technology consultant and full stack developer",
+    "degree": "Graduated with a Diploma in Business-IT (FH)"
   },
   "deliverable": {
     "singular": "Deliverable",

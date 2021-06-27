@@ -24,6 +24,7 @@ interface I18nCV {
   heading: string;
   languages: string;
   title: string;
+  degree: string;
 }
 interface I18nCommon {
   durations: {
@@ -31,6 +32,16 @@ interface I18nCommon {
     weeks: SingularPlural;
     months: SingularPlural;
     years: SingularPlural;
+  };
+  languages: {
+    english: string;
+    french: string;
+    german: string;
+  };
+  languageCapability: {
+    native: string;
+    pro: string;
+    basic: string;
   };
 }
 interface I18nGlobal {

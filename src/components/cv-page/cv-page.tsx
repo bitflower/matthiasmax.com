@@ -265,15 +265,16 @@ export class cvPage {
               <div class="languages">
                 <h2>{i18n.cv.languages}</h2>
                 <p>
-                  Englisch: fließend in Wort und Schrift <br />
-                  Französisch: Schulkenntnisse
+                  {i18n.common.languages.german}: {i18n.common.languageCapability.native} <br />
+                  {i18n.common.languages.english}: {i18n.common.languageCapability.pro} <br />
+                  {i18n.common.languages.french}: {i18n.common.languageCapability.basic}
                 </p>
               </div>
             </div>
             <div class="right">
               <div class="profile">
                 <h2>Matthias Max</h2>
-                <h3>Diplom-Wirtschaftsinformatiker (FH)</h3>
+                <h3>{i18n.cv.degree}</h3>
                 <div class="profile-kpis">
                   <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
 
