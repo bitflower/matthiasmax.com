@@ -2,6 +2,7 @@
 
 ## Musts
 
+- [ ] Impressum / Datenschutzerklärung
 - [ ] SEO: Headings!
 - [ ] `links` aus CV daten verwenden
 - [ ] Finish CV data

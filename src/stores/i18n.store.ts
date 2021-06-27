@@ -9,7 +9,7 @@ import en from '../assets/i18n/en.json';
 
 // Read language from environment variable: LANG=de npm run build
 const LANG = process.env.LANG;
-const initialState = LANG === 'de' ? de : en;
+const initialState = !LANG || LANG === 'de' ? de : en;
 
 const { state, onChange } = createStore<I18n>({
   lang: LANG, // TODO: war 'en'

@@ -2,65 +2,66 @@
   "common": {
     "durations": {
       "days": {
-        "singular": "Tag",
-        "plural": "Tage"
+        "singular": "day",
+        "plural": "days"
       },
       "weeks": {
-        "singular": "Woche",
-        "plural": "Wochen"
+        "singular": "week",
+        "plural": "weeks"
       },
       "months": {
-        "singular": "Monat",
-        "plural": "Monate"
+        "singular": "month",
+        "plural": "months"
       },
       "years": {
-        "singular": "Jahr",
-        "plural": "Jahre"
+        "singular": "year",
+        "plural": "years"
       }
     }
   },
   "contact": {
     "claim": "I strongly believe in that approach. I'm looking forward to exchange thoughts about your business challenges, technology, digital strategy, design, app ideas.",
-    "welcomeOffice": "You're welcome to have a coffee with me at my office:",
+    "welcomeOffice": "You're welcome to have a coffee with me at my office!",
     "dropLine": "Or drop me a line at:",
     "title": "Get in touch with Matthias Max Web Technologies Expert",
-    "heading": "Kontakt aufnehmen",
-    "commutingArea": "Einzugsgebiet",
-    "commutingAreaDescription": "Ich biete meine Dienstleistungen rund um Web Consulting und Fullstack Development im Raum Stuttgart/Karlsruhe/Heilbronn oder Remote an."
+    "heading": "Get in touch",
+    "commutingArea": "Where I work",
+    "commutingAreaDescription": "I offer my web consulting and full stack development services in the Stuttgart/Karlsruhe/Heilbronn area or remote."
   },
   "cv": {
-    "cv": "Professionelle Laufbahn",
-    "education": "Ausbildung",
-    "experience": "Projekterfahrung",
-    "heading": "Web Technologie Consultant und Fullstack Developer",
-    "languages": "Fremdsprachen",
-    "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer",
-    "dataSource": "Meinen CV-Datensatz im JSON-Format finden Sie auf"
+    "cv": "Professional career",
+    "education": "Education",
+    "experience": "Project experience",
+    "heading": "Web technology consultant and full stack developer",
+    "languages": "Languages",
+    "title": "CV of Matthias Max - Web technology consultant and full stack developer",
+    "dataSource": "You can find my CV data set as JSON file on"
   },
   "deliverable": {
-    "singular": "Arbeitsergebnis",
-    "plural": "Arbeitsergebnisse"
+    "singular": "Deliverable",
+    "plural": "Deliverables"
   },
   "deliverables": {
-    "all": "Alle",
+    "all": "All (No filter)",
     "content": "Content",
     "desktop": "Desktop",
     "library": "Library",
-    "masterRecording": "Audio-Masterdatei",
+    "masterRecording": "Audio master file",
     "app": "Mobile App",
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
     "website": "Website"
   },
   "global": {
-    "sayHello": "Say Hello"
+    "sayHello": "Say Hello",
+    "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy."
   },
   "industry": {
-    "singular": "Branche",
-    "plural": "Branchen"
+    "singular": "Industry",
+    "plural": "Industries"
   },
   "industries": {
-    "all": "Alle"
+    "all": "All (No filter)"
   },
   "landingPage": {
     "brands": "Some brands I've worked with directly or as sub contrator",
@@ -72,25 +73,25 @@
     "intro2": "I believe in interdisciplinary collaboration as the only way to achieve superior results. I've seen it happen many times both as IT-Consultant and professional songwriter."
   },
   "task": {
-    "singular": "Tätigkeit",
-    "plural": "Tätigkeiten"
+    "singular": "Task",
+    "plural": "Tasks"
   },
   "tasks": {
     "apidesign": "API Design",
-    "appStore": "App-Store Verwaltung",
+    "appStore": "App store administration",
     "cloudhosting": "Hosting (Cloud, OnPremise)",
     "coaching": "Coaching",
-    "coding": "Entwicklung",
-    "composing": "Komponieren",
-    "customerservice": "Kundenservice",
-    "database": "Datenbankprogrammierung",
-    "datamodelling": "Datenmodellierung",
+    "coding": "Development",
+    "composing": "Composing",
+    "customerservice": "Customer service",
+    "database": "Database developement",
+    "datamodelling": "Data nmodeling",
     "design": "Design",
     "designSystem": "Design System",
-    "documentation": "Dokumentation",
+    "documentation": "Documentation",
     "frontend": "Frontend",
-    "itarchitecure": "IT Architektur",
-    "musicProduction": "Musikproduktion",
+    "itarchitecure": "IT Architecture",
+    "musicProduction": "Music production",
     "prototyping": "Prototyping",
     "requirements": "Requirements",
     "rollout": "Rollout/Deploy",
@@ -98,9 +99,9 @@
     "sounddesign": "Sound Design",
     "ux": "UI/UX",
     "visualization": "Visualization",
-    "writing": "Autor",
+    "writing": "Author",
     "devOps": "DevOps",
     "unitTest": "Unit Tests",
-    "qa": "Qualitätssicherung"
+    "qa": "Quality assurance"
   }
 }
