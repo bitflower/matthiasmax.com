@@ -30,12 +30,13 @@
   },
   "cv": {
     "cv": "Professional career",
+    "dataSource": "You can find my CV data set as JSON file on",
+    "downloadCV": "Download CV",
     "education": "Education",
     "experience": "Project experience",
     "heading": "Web technology consultant and full stack developer",
     "languages": "Languages",
-    "title": "CV of Matthias Max - Web technology consultant and full stack developer",
-    "dataSource": "You can find my CV data set as JSON file on"
+    "title": "CV of Matthias Max - Web technology consultant and full stack developer"
   },
   "deliverable": {
     "singular": "Deliverable",

@@ -30,12 +30,13 @@
   },
   "cv": {
     "cv": "Professionelle Laufbahn",
+    "dataSource": "Ergebnisse basierend auf den Daten meines CV im JSON-Format",
+    "downloadCV": "CV downloaden",
     "education": "Ausbildung",
     "experience": "Projekterfahrung",
     "heading": "Web Technologie Consultant und Fullstack Developer",
     "languages": "Fremdsprachen",
-    "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer",
-    "dataSource": "Ergebnisse basierend auf den Daten meines CV im JSON-Format"
+    "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer"
   },
   "deliverable": {
     "singular": "Arbeitsergebnis",

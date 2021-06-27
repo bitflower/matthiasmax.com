@@ -16,12 +16,13 @@ interface I18nContact {
 }
 interface I18nCV {
   cv: string;
+  dataSource: string;
+  downloadCV: string;
   education: string;
   experience: string;
   heading: string;
   languages: string;
   title: string;
-  dataSource: string;
 }
 interface I18nCommon {
   durations: {
