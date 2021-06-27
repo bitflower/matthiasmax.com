@@ -5,6 +5,7 @@
   "description": "Matthias Max Web Technologies Expert Site",
   "scripts": {
     "build": "npm run site.structure && npm run docs && stencil build --prerender",
+    "build-en": "MMLANG=en npm run site.structure && npm run docs && stencil build --prerender",
     "build.ci": "npm run site.structure && npm run docs && stencil build --ci --prerender",
     "docs": "tsc --p ./scripts && node ./scripts/markdown-to-html && node ./scripts/blog-list",
     "prerender": "stencil build --prerender",

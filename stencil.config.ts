@@ -1,11 +1,14 @@
 import { Config } from '@stencil/core';
 import dotenvPlugin from 'rollup-plugin-dotenv';
 
+const LANG = process.env.MMLANG || 'de';
+console.log(`Rendering Language: `, LANG);
+
 export const config: Config = {
   taskQueue: 'async',
   buildEs5: true,
   env: {
-    LANG: process.env.LANG,
+    LANG: LANG,
   },
   extras: {
     cssVarsShim: true,
@@ -14,6 +17,7 @@ export const config: Config = {
     scriptDataOpts: true,
     shadowDomShim: true,
   },
+  srcIndexHtml: `src/index.${LANG}.html`,
   outputTargets: [
     {
       type: 'www',
