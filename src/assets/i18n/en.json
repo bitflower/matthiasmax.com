@@ -24,7 +24,9 @@
     "welcomeOffice": "You're welcome to have a coffee with me at my office:",
     "dropLine": "Or drop me a line at:",
     "title": "Get in touch with Matthias Max Web Technologies Expert",
-    "heading": "Kontakt aufnehmen"
+    "heading": "Kontakt aufnehmen",
+    "commutingArea": "Einzugsgebiet",
+    "commutingAreaDescription": "Ich biete meine Dienstleistungen rund um Web Consulting und Fullstack Development im Raum Stuttgart/Karlsruhe/Heilbronn oder Remote an."
   },
   "cv": {
     "cv": "Professionelle Laufbahn",
@@ -68,5 +70,37 @@
     "interactiveCV": "interactive CV",
     "intro": "I help companies utilize web technologies to their advantage to create real business value.",
     "intro2": "I believe in interdisciplinary collaboration as the only way to achieve superior results. I've seen it happen many times both as IT-Consultant and professional songwriter."
+  },
+  "task": {
+    "singular": "Tätigkeit",
+    "plural": "Tätigkeiten"
+  },
+  "tasks": {
+    "apidesign": "API Design",
+    "appStore": "App-Store Verwaltung",
+    "cloudhosting": "Hosting (Cloud, OnPremise)",
+    "coaching": "Coaching",
+    "coding": "Entwicklung",
+    "composing": "Komponieren",
+    "customerservice": "Kundenservice",
+    "database": "Datenbankprogrammierung",
+    "datamodelling": "Datenmodellierung",
+    "design": "Design",
+    "designSystem": "Design System",
+    "documentation": "Dokumentation",
+    "frontend": "Frontend",
+    "itarchitecure": "IT Architektur",
+    "musicProduction": "Musikproduktion",
+    "prototyping": "Prototyping",
+    "requirements": "Requirements",
+    "rollout": "Rollout/Deploy",
+    "seo": "SEO",
+    "sounddesign": "Sound Design",
+    "ux": "UI/UX",
+    "visualization": "Visualization",
+    "writing": "Autor",
+    "devOps": "DevOps",
+    "unitTest": "Unit Tests",
+    "qa": "Qualitätssicherung"
   }
 }

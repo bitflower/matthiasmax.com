@@ -5,10 +5,15 @@ import { createStore } from '@stencil/store';
 import { I18n, Languages } from './i18n.interface';
 
 import de from '../assets/i18n/de.json';
+import en from '../assets/i18n/en.json';
+
+// Read language from environment variable: LANG=de npm run build
+const LANG = process.env.LANG;
+const initialState = LANG === 'de' ? de : en;
 
 const { state, onChange } = createStore<I18n>({
-  lang: 'de', // TODO: war 'en'
-  ...(de as Partial<I18n>),
+  lang: LANG, // TODO: war 'en'
+  ...(initialState as Partial<I18n>),
 } as I18n);
 
 // const esI18n = async (): Promise<I18n> => {
