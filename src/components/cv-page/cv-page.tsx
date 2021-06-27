@@ -99,7 +99,7 @@ export class cvPage {
                 <ul>
                   <li>Agile: Azure DevOps, GitHub, JIRA, SAFe, Scrum</li>
                   <li>API: API-First, json-schema, Swagger</li>
-                  <li>Cloud: AWS, Azure, Heroku, MongoDB Atlas</li>
+                  <li>Cloud: AWS, Azure, Docker, Heroku, MongoDB Atlas</li>
                   <li>CMS: Wordpress, Markdown, CaseOS</li>
                   <li>Datenbank: MongoDB, MS SQL-Server, MySQL, Oracle, IndexedDB</li>
                   <li>Frontend: Angular 11+, Web Components, SSG, Hybrid-Apps</li>
@@ -111,7 +111,7 @@ export class cvPage {
               </div>
 
               <div class="scope">
-                <h2>Mein idealer Wirkungsbereich</h2>
+                <h2>{i18n.cv.impact}</h2>
                 <svg width="100px" viewBox="0 0 804 574" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient x1="3.46944695e-15%" y1="1.69346098%" x2="96.2732842%" y2="97.9667452%" id="linearGradient-1">
@@ -174,19 +174,12 @@ export class cvPage {
                       opacity="0.5"
                       transform="translate(579.102933, 206.461786) rotate(-90.000000) translate(-579.102933, -206.461786) "
                     ></path>
-                    <text
-                      id="Branchen--&amp;-Fachkenn"
-                      font-family="SFUIDisplay-Medium, SF UI Display"
-                      font-size="24"
-                      font-weight="400"
-                      letter-spacing="-0.416347831"
-                      fill="#03060B"
-                    >
+                    <text font-family="SFUIDisplay-Medium, SF UI Display" font-size="24" font-weight="400" letter-spacing="-0.416347831" fill="#03060B">
                       <tspan x="500.141476" y="132">
-                        Branchen- &amp;
+                        {i18n.cv.impactAreas.business1} &amp;
                       </tspan>
                       <tspan x="496.50004" y="161">
-                        Fachkenntnis
+                        {i18n.cv.impactAreas.business2}
                       </tspan>
                     </text>
                     <path
@@ -198,42 +191,28 @@ export class cvPage {
                       opacity="0.5"
                       transform="translate(513.819241, 415.687536) rotate(51.000000) translate(-513.819241, -415.687536) "
                     ></path>
-                    <text
-                      id="Konzeption-&amp;-Design"
-                      font-family="SFUIDisplay-Medium, SF UI Display"
-                      font-size="24"
-                      font-weight="400"
-                      letter-spacing="-0.416347831"
-                      fill="#03060B"
-                    >
+                    <text font-family="SFUIDisplay-Medium, SF UI Display" font-size="24" font-weight="400" letter-spacing="-0.416347831" fill="#03060B">
                       <tspan x="461.111036" y="480">
-                        Konzeption
+                        {i18n.cv.impactAreas.design1}
                       </tspan>
                       <tspan x="472.589219" y="509">
-                        &amp; Design
+                        &amp; {i18n.cv.impactAreas.design2}
                       </tspan>
                     </text>
-                    <text
-                      id="Technologie-&amp;-Entwic"
-                      font-family="SFUIDisplay-Medium, SF UI Display"
-                      font-size="24"
-                      font-weight="400"
-                      letter-spacing="-0.416347831"
-                      fill="#03060B"
-                    >
+                    <text font-family="SFUIDisplay-Medium, SF UI Display" font-size="24" font-weight="400" letter-spacing="-0.416347831" fill="#03060B">
                       <tspan x="148.991085" y="280">
-                        Technologie
+                        {i18n.cv.impactAreas.technology1}
                       </tspan>
                       <tspan x="138.350792" y="309">
-                        &amp; Entwicklung
+                        &amp; {i18n.cv.impactAreas.technology2}
                       </tspan>
                     </text>
-                    <text id="Digitale-Lösung" font-family="SFUIDisplay-Bold, SF UI Display" font-size="24" font-weight="bold" letter-spacing="-0.416347831" fill="#03060B">
+                    <text font-family="SFUIDisplay-Bold, SF UI Display" font-size="24" font-weight="bold" letter-spacing="-0.416347831" fill="#03060B">
                       <tspan x="76.5573452" y="154">
-                        Digitale
+                        {i18n.cv.impactAreas.product1}
                       </tspan>
                       <tspan x="78.0683995" y="183">
-                        Lösung
+                        {i18n.cv.impactAreas.product2}
                       </tspan>
                     </text>
                     <path
@@ -279,9 +258,9 @@ export class cvPage {
                   <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
 
                   <div class="professional-kpis">
-                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} Jahre`} />
+                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} ${i18n.common.durations.years}`} />
                     <kpi-value label="Projekte" value={projects.length.toString()} />
-                    <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} Jahre`} />
+                    <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} ${i18n.common.durations.years}`} />
                   </div>
 
                   <div class="mindset">

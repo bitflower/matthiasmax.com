@@ -48,7 +48,18 @@
     "heading": "Web Technologie Consultant und Fullstack Developer",
     "languages": "Fremdsprachen",
     "title": "CV von Matthias Max - Web Technologie Consultant und Fullstack Developer",
-    "degree": "Diplom-Wirtschaftsinformatiker (FH)"
+    "degree": "Diplom-Wirtschaftsinformatiker (FH)",
+    "impact": "Mein idealer Wirkungsbereich",
+    "impactAreas": {
+      "technology1": "Technologie",
+      "technology2": "Entwicklung",
+      "business1": "Branchen-",
+      "business2": "Fachkenntnis",
+      "design1": "Konzeption",
+      "design2": "Design",
+      "product1": "Digitale",
+      "product2": "Lösung"
+    }
   },
   "deliverable": {
     "singular": "Arbeitsergebnis",

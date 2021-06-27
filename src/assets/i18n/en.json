@@ -48,7 +48,18 @@
     "heading": "Web technology consultant and full stack developer",
     "languages": "Languages",
     "title": "CV of Matthias Max - Web technology consultant and full stack developer",
-    "degree": "Graduated with a Diploma in Business-IT (FH)"
+    "degree": "Graduated with a Diploma in Business-IT (FH)",
+    "impact": "My impact sweet spot",
+    "impactAreas": {
+      "technology1": "Technology",
+      "technology2": "Development",
+      "business1": "Industry",
+      "business2": "Expert Knowledge",
+      "design1": "Concepts",
+      "design2": "Design",
+      "product1": "Digital",
+      "product2": "Product"
+    }
   },
   "deliverable": {
     "singular": "Deliverable",

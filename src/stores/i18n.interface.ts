@@ -25,6 +25,17 @@ interface I18nCV {
   languages: string;
   title: string;
   degree: string;
+  impact: string;
+  impactAreas: {
+    technology1: string;
+    technology2: string;
+    business1: string;
+    business2: string;
+    design1: string;
+    design2: string;
+    product1: string;
+    product2: string;
+  };
 }
 interface I18nCommon {
   durations: {
