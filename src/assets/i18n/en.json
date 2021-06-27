@@ -56,9 +56,10 @@
   },
   "global": {
     "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy.",
-    "sayHello": "Say Hello",
+    "dsgvoOk": "Ok",
+    "mobile": "Mobile",
     "phone": "Phone",
-    "mobile": "Mobile"
+    "sayHello": "Say Hello"
   },
   "industry": {
     "singular": "Industry",

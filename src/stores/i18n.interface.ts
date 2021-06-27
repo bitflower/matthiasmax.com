@@ -35,9 +35,10 @@ interface I18nCommon {
 }
 interface I18nGlobal {
   dsgvo: string;
-  sayHello: string;
-  phone: string;
+  dsgvoOk: string;
   mobile: string;
+  phone: string;
+  sayHello: string;
 }
 interface I18nLandingPage {
   brands: string;
