@@ -21,12 +21,13 @@
   },
   "contact": {
     "claim": "Ich glaube an diesen Ansatz. Deshalb freue ich mich auf einen Austausch über Ihre Business Herausforderungen, Technologie, Digitalstrategie, Design oder App-Ideen.",
-    "welcomeOffice": "Kommen Sie doch mal auf einen Kaffee vorbei!",
-    "dropLine": "Oder schreiben Sie mir:",
-    "title": "Kontakt mit Matthias Max Web Technologies Expert aufnehmen",
-    "heading": "Kontakt aufnehmen",
     "commutingArea": "Einzugsgebiet",
-    "commutingAreaDescription": "Ich biete meine Dienstleistungen rund um Web Consulting und Fullstack Development im Raum Stuttgart/Karlsruhe/Heilbronn oder Remote an."
+    "commutingAreaDescription": "Ich biete meine Dienstleistungen rund um Web Consulting und Fullstack Development im Raum Stuttgart/Karlsruhe/Heilbronn oder Remote an.",
+    "dropLine": "Oder schreiben Sie mir:",
+    "heading": "Kontakt aufnehmen",
+    "link": "kontakt",
+    "title": "Kontakt mit Matthias Max Web Technologies Expert aufnehmen",
+    "welcomeOffice": "Kommen Sie doch mal auf einen Kaffee vorbei!"
   },
   "cv": {
     "cv": "Professionelle Laufbahn",

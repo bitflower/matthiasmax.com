@@ -21,12 +21,13 @@
   },
   "contact": {
     "claim": "I strongly believe in that approach. I'm looking forward to exchange thoughts about your business challenges, technology, digital strategy, design, app ideas.",
-    "welcomeOffice": "You're welcome to have a coffee with me at my office!",
-    "dropLine": "Or drop me a line at:",
-    "title": "Get in touch with Matthias Max Web Technologies Expert",
-    "heading": "Get in touch",
     "commutingArea": "Where I work",
-    "commutingAreaDescription": "I offer my web consulting and full stack development services in the Stuttgart/Karlsruhe/Heilbronn area or remote."
+    "commutingAreaDescription": "I offer my web consulting and full stack development services in the Stuttgart/Karlsruhe/Heilbronn area or remote.",
+    "dropLine": "Or drop me a line at:",
+    "heading": "Get in touch",
+    "link": "contact",
+    "title": "Get in touch with Matthias Max Web Technologies Expert",
+    "welcomeOffice": "You're welcome to have a coffee with me at my office!"
   },
   "cv": {
     "cv": "Professional career",

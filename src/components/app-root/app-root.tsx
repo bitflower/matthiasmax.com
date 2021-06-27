@@ -1,8 +1,11 @@
 import '@stencil/router';
+import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 import { LocationSegments, RouterHistory } from '@stencil/router';
 import { Component, Element, Listen, State, h } from '@stencil/core';
+
 import SiteProviderConsumer, { SiteState } from '../../global/site-provider-consumer';
-import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
+
+import i18n from '../../stores/i18n.store';
 
 @Component({
   tag: 'app-root',
@@ -94,7 +97,7 @@ export class AppRoot {
                 <stencil-route url="/blog/:pageName" routeRender={({ match }) => <blog-component page={match!.url}></blog-component>} />
 
                 <stencil-route url="/cv" component="cv-page" />
-                <stencil-route url="/contact" component="contact-page" />
+                <stencil-route url={`/${i18n.contact}`} component="contact-page" />
                 <stencil-route component="notfound-page"></stencil-route>
               </stencil-route-switch>
             </stencil-router>

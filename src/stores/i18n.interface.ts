@@ -7,12 +7,13 @@ export interface SingularPlural {
 
 interface I18nContact {
   claim: string;
-  welcomeOffice: string;
-  dropLine: string;
-  title: string;
-  heading: string;
   commutingArea: string;
   commutingAreaDescription: string;
+  dropLine: string;
+  heading: string;
+  link: string;
+  title: string;
+  welcomeOffice: string;
 }
 interface I18nCV {
   cv: string;
