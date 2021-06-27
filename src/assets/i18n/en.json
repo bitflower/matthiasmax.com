@@ -54,8 +54,10 @@
     "website": "Website"
   },
   "global": {
+    "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy.",
     "sayHello": "Say Hello",
-    "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy."
+    "phone": "Phone",
+    "mobile": "Mobile"
   },
   "industry": {
     "singular": "Industry",

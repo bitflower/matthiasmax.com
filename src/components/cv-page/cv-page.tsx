@@ -72,7 +72,7 @@ export class cvPage {
           {/* Main CV page  */}
           <div class="page new-page">
             <a class="hide-print download-button" rel="noopener" target="_blank" href="https://matthiasmax.com/assets/profil_matthiasmax.pdf">
-              <app-icon name="targetblank" /> CV downloaden
+              <app-icon name="targetblank" /> {i18n.cv.downloadCV}
             </a>
             <h1 class="hide-print">{i18n.cv.heading}</h1>
             <div class="left">
@@ -330,9 +330,9 @@ export class cvPage {
                 74372 Sersheim
               </div>
               <div class="col">
-                Telefon: (07042) 7042 77 00 973
+                {i18n.global.phone}: (+49 7042) 77 00 973
                 <br />
-                Mobil: (0171) 41 77 266
+                {i18n.global.mobile}: (+49 171) 41 77 266
               </div>
               <div class="col">
                 matthias.max@bitflower.net
