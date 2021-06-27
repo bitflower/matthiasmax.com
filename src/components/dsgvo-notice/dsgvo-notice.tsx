@@ -41,7 +41,7 @@ export class DsgvoNotice {
         <div class="notice content-card">
           <p>{i18n.global.dsgvo}</p>
           <button class="btn btn--primary btn--small" onClick={this.onAccept}>
-            Einverstanden
+            {i18n.global.dsgvoOk}
           </button>
         </div>
       </Fragment>
