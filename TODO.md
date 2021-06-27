@@ -3,7 +3,7 @@
 ## Musts
 
 - [ ] Englische Version
-  - [ ] matthiasmax.de: Redirect wenn nicht deutsch
+  - [ ] matthiasmax.de: Redirect wenn nicht deutsch (https://github.com/deckgo/deckdeckgo/blob/main/studio/src/app/services/lang/lang.service.ts)
   - [ ] Language Select toggle
   - [ ] CV Data
     - [ ] Career

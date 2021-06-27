@@ -21,7 +21,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: 'https://matthiasmax.com/',
+      baseUrl: `https://matthiasmax.${LANG === 'de' ? 'de' : 'com'}/`,
       prerenderConfig: './prerender.config.ts',
       serviceWorker: {
         unregister: true,
