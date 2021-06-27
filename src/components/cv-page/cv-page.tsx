@@ -258,9 +258,12 @@ export class cvPage {
                   <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
 
                   <div class="professional-kpis">
-                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} ${i18n.common.durations.years}`} />
+                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} ${i18n.common.durations.years.plural}`} />
                     <kpi-value label="Projekte" value={projects.length.toString()} />
-                    <kpi-value label="&#8709; Dauer" value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} ${i18n.common.durations.years}`} />
+                    <kpi-value
+                      label="&#8709; Dauer"
+                      value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} ${i18n.common.durations.years.plural}`}
+                    />
                   </div>
 
                   <div class="mindset">

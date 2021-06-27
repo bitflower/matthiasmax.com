@@ -14,10 +14,10 @@
     - [ ] Ausbildung
     - [ ] Projektinhalte: alles ...
   - [ ] Nicht Javascript Inhalte prüfen / übersetzen
-    - [ ] HTML  Attrbut `lang`
-    - [ ] `title`
-    - [ ] `description`
-    - [ ] `og:description`
+    - [x] HTML  Attrbut `lang`
+    - [x] `title`
+    - [x] `description`
+    - [x] `og:description`
     - [ ] Was wird noch benötigt?
   - [ ] Google Analytics: ein oder 2 IDs?
 - [ ] RSS Feed
