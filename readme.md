@@ -6,9 +6,11 @@ This is the source code of the website of [Matthias Max](https://matthiasmax.com
 
 ## Building the Site
 
-To build the site from the source, ensure you're using the most recent versions of Node and Npm, and pull the latest from master. Next, run `npm install`, `npm run docs` to build the docs files and `npm start` to launch the site in development mode.
+To build the site from the source, ensure you're using the most recent versions of Node and Npm, and pull the latest from master. Next, run `npm install` and `npm start` to launch the site in development mode.
 
+## Hosting
 
+The app is hosted on [Vercel](https://vercel.com) on two app instances. One for [matthiasmax.de](https://matthiasmax.de) the German version and one for [matthiasmax.com](https://matthiasmax.com) the English version. The translation / i18n language selection is set with an environment flag `MMLANG` during build.
 ## Related
 
  - [bitflower site](https://bitflower.net/)
