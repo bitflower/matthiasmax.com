@@ -1,3 +1,7 @@
+blog-list .intro-paragraph {
+  margin-bottom: 100px;
+}
+
 blog-list app-icon {
   margin-left: 4px;
 }
@@ -9,7 +13,7 @@ blog-list .ui-container {
 
 blog-list .post-meta {
   text-transform: uppercase;
-  color: #92A1B3;
+  color: #92a1b3;
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -21,11 +25,11 @@ blog-list .post-title a {
   text-decoration: none;
 }
 
-blog-list .post-title a:hover h1 {
+blog-list .post-title a:hover h2 {
   color: var(--color-gunpowder);
 }
 
-blog-list h1 {
+blog-list .blog-item h2 {
   font-size: 32px;
   line-height: 38px;
   font-weight: 600;
@@ -39,7 +43,7 @@ blog-list .blog-item {
 blog-list .blog-item p {
   font-size: 16px;
   line-height: 1.8;
-  color: #27323F;
+  color: #27323f;
   margin: 22px 0;
 }
 
@@ -62,8 +66,8 @@ blog-list .blog-content .post-meta {
   margin-bottom: 80px;
 }
 
-blog-list h2,
-blog-list h3 {
+blog-list h3,
+blog-list h4 {
   margin-bottom: 0;
   margin-top: 27px;
   padding-top: 25px;
@@ -93,7 +97,7 @@ blog-list .post-author-name:hover {
 }
 
 blog-list .post-date::before {
-  content: "|";
+  content: '|';
   padding-right: 12px;
 }
 
@@ -113,19 +117,24 @@ blog-list .share-links .sticky {
 
 blog-list .share-links a svg {
   transition: fill 0.2s;
-  fill: #CED6E0;
+  fill: #ced6e0;
   width: 24px;
   height: 24px;
 }
 
-blog-list .share-links a:hover svg{
-  fill: #B2BECD;
+blog-list .share-links a:hover svg {
+  fill: #b2becd;
 }
 
 blog-list .share-links a + a {
   margin-top: 12px;
 }
 
+@media screen and (max-width: 768px) {
+  blog-list h1.hero-heading {
+    max-width: 360px;
+  }
+}
 
 @media screen and (max-width: 840px) {
   blog-list .ui-container {
@@ -151,7 +160,6 @@ blog-list .share-links a + a {
 
   blog-list .share-links a + a {
     margin-top: 0;
-    margin-lefT: 12px;
+    margin-left: 12px;
   }
-
 }

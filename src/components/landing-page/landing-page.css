@@ -17,20 +17,7 @@ landing-page .hero hgroup {
   z-index: 2;
 }
 
-landing-page .hero hgroup h1 {
-  font-size: 64px;
-  line-height: 100%;
-  margin-bottom: 32px;
-  margin-top: 64px;
-  letter-spacing: -0.04em;
-  font-weight: 800;
-}
-
 landing-page .hero hgroup p {
-  font-size: 20px;
-  line-height: 1.6;
-  font-weight: 400;
-  color: var(--color-dolphin);
   max-width: 75%;
 }
 
@@ -38,6 +25,9 @@ landing-page .hero hgroup p:last-of-type {
   margin-top: 30px;
   margin-bottom: 120px;
   font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
+  color: #7a798d;
 }
 
 landing-page .landing-page__intro {
@@ -245,15 +235,6 @@ landing-page section p + stencil-route-link {
   margin-top: 20px;
 }
 
-landing-page h2 {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: -0.018em;
-  color: #7a798d;
-  margin-top: 0;
-}
-
 landing-page h2 strong {
   font-weight: 600;
   color: #100f22;
@@ -447,10 +428,6 @@ landing-page .video-thumbnail:hover svg circle {
   landing-page .hero svg {
     transform: translate(-50%, -50%);
     margin-top: 66px;
-  }
-
-  landing-page .hero hgroup h1 {
-    font-size: 48px;
   }
 
   landing-page .companies {

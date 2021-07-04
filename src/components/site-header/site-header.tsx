@@ -64,6 +64,15 @@ export class SiteHeader {
 
         <div class="header-menu">
           <stencil-route-link
+            url="/blog"
+            onClick={() => {
+              this.hideNav();
+            }}
+          >
+            Blog
+          </stencil-route-link>
+
+          <stencil-route-link
             url="/cv"
             onClick={() => {
               this.hideNav();
@@ -81,15 +90,6 @@ export class SiteHeader {
           >
             {i18n.global.sayHello}
           </stencil-route-link>
-
-          {/* <stencil-route-link
-            url="/blog"
-            onClick={() => {
-              this.hideNav();
-            }}
-          >
-            Blog
-          </stencil-route-link> */}
 
           <ul class="external-links list--unstyled">
             <li>

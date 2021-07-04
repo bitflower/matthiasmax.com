@@ -17,9 +17,9 @@ export class LandingPage {
       <div>
         <ResponsiveContainer class="hero">
           <hgroup>
-            <h1 class="no-print-font">Let's build your best digital self.</h1>
-            <h2 class="no-print-font">{i18n.landingPage.greeting}</h2>
-            <p class="landing-page__intro no-print-font">{i18n.landingPage.intro}</p>
+            <h1 class="no-print-font hero-heading">Let's build your best digital self.</h1>
+            <h2 class="no-print-font hero-subheading">{i18n.landingPage.greeting}</h2>
+            <p class="landing-page__intro intro-paragraph no-print-font">{i18n.landingPage.intro}</p>
             <p class="no-print-font">&bdquo;{i18n.landingPage.intro2}&rdquo; &#8212; Matthias Max</p>
             <stencil-route-link url={`/${i18n.contact.link}`} class="hero-button hide-print" anchorClass="btn-get-started">
               {i18n.landingPage.cta}
