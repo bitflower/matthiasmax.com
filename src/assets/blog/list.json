@@ -5,14 +5,14 @@
     "url": "/blog/fast-non-blocking-data-aggregations-with-web-workers",
     "author": "Matthias Max",
     "twitter": "bitflowertweets",
-    "description": "Data-centered applications involve quite an amount of processing power to create valueable insights from large data sets. In this post I will explain how this processing can be moved to the client side. By loading of the heavy bits of aggregation calculations to a non-blocking Web Worker thread we can keep the UI responsive.",
+    "description": "Data-centered applications involve quite an amount of processing power to create valueable insights from large data sets. In this post I will explain how this processing can be moved to the client side. By loading of the heavy bits of calculations to a non-blocking Web Worker thread we can keep the UI responsive.",
     "img": "/assets/img/blog/posts/fakurian-design-bMSA5-tLFao-unsplash.jpg",
     "tags": "performance, web worker, data, aggregation",
     "relatedProjects": "234, 456",
     "filePath": "/assets/blog/how-to-aggregate-data-in-a-web-worker.json"
   },
   {
-    "title": "How to hit a 100% score on Google PageInsights",
+    "title": "How to hit a 100% score on Google Page Insights",
     "date": "June 18, 2021",
     "url": "/blog/how-to-hit-a-100-percent-score-on-page-insights",
     "author": "Matthias Max",

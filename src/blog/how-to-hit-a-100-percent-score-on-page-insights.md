@@ -1,5 +1,5 @@
 ---
-title: How to hit a 100% score on Google PageInsights
+title: How to hit a 100% score on Google Page Insights
 date: June 18, 2021
 url: /blog/how-to-hit-a-100-percent-score-on-page-insights
 author: Matthias Max
