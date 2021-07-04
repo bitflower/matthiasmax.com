@@ -438,6 +438,10 @@ landing-page .video-thumbnail:hover svg circle {
 }
 
 @media screen and (max-width: 960px) {
+  landing-page .companies {
+    padding-bottom: 120px;
+  }
+
   landing-page .companies ul {
     flex-wrap: wrap;
     align-items: center;
@@ -448,6 +452,18 @@ landing-page .video-thumbnail:hover svg circle {
 
   landing-page .companies ul li {
     padding: 20px;
+  }
+
+  landing-page .blog {
+    padding-top: 80px;
+  }
+
+  landing-page .blog-posts blog-list {
+    display: block;
+  }
+
+  landing-page .blog-posts blog-list .blog-item {
+    width: 100%;
   }
 }
 
