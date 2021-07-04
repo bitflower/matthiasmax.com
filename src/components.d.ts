@@ -23,6 +23,10 @@ export namespace Components {
         "page"?: string;
     }
     interface BlogList {
+        "max"?: number | undefined;
+    }
+    interface BlogPage {
+        "max"?: number | undefined;
     }
     interface ContactPage {
     }
@@ -150,6 +154,12 @@ declare global {
     var HTMLBlogListElement: {
         prototype: HTMLBlogListElement;
         new (): HTMLBlogListElement;
+    };
+    interface HTMLBlogPageElement extends Components.BlogPage, HTMLStencilElement {
+    }
+    var HTMLBlogPageElement: {
+        prototype: HTMLBlogPageElement;
+        new (): HTMLBlogPageElement;
     };
     interface HTMLContactPageElement extends Components.ContactPage, HTMLStencilElement {
     }
@@ -332,6 +342,7 @@ declare global {
         "app-root": HTMLAppRootElement;
         "blog-component": HTMLBlogComponentElement;
         "blog-list": HTMLBlogListElement;
+        "blog-page": HTMLBlogPageElement;
         "contact-page": HTMLContactPageElement;
         "contributor-list": HTMLContributorListElement;
         "custom-clock": HTMLCustomClockElement;
@@ -378,6 +389,10 @@ declare namespace LocalJSX {
         "page"?: string;
     }
     interface BlogList {
+        "max"?: number | undefined;
+    }
+    interface BlogPage {
+        "max"?: number | undefined;
     }
     interface ContactPage {
     }
@@ -479,6 +494,7 @@ declare namespace LocalJSX {
         "app-root": AppRoot;
         "blog-component": BlogComponent;
         "blog-list": BlogList;
+        "blog-page": BlogPage;
         "contact-page": ContactPage;
         "contributor-list": ContributorList;
         "custom-clock": CustomClock;
@@ -520,6 +536,7 @@ declare module "@stencil/core" {
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "blog-component": LocalJSX.BlogComponent & JSXBase.HTMLAttributes<HTMLBlogComponentElement>;
             "blog-list": LocalJSX.BlogList & JSXBase.HTMLAttributes<HTMLBlogListElement>;
+            "blog-page": LocalJSX.BlogPage & JSXBase.HTMLAttributes<HTMLBlogPageElement>;
             "contact-page": LocalJSX.ContactPage & JSXBase.HTMLAttributes<HTMLContactPageElement>;
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
             "custom-clock": LocalJSX.CustomClock & JSXBase.HTMLAttributes<HTMLCustomClockElement>;

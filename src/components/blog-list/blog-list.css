@@ -1,7 +1,3 @@
-blog-list .intro-paragraph {
-  margin-bottom: 100px;
-}
-
 blog-list app-icon {
   margin-left: 4px;
 }
@@ -54,7 +50,6 @@ blog-list .read-more a {
   font-size: 16px;
 }
 
-blog-list .blog-index,
 blog-list .blog-content {
   max-width: 640px;
   margin-left: auto;
@@ -128,12 +123,6 @@ blog-list .share-links a:hover svg {
 
 blog-list .share-links a + a {
   margin-top: 12px;
-}
-
-@media screen and (max-width: 768px) {
-  blog-list h1.hero-heading {
-    max-width: 360px;
-  }
 }
 
 @media screen and (max-width: 840px) {

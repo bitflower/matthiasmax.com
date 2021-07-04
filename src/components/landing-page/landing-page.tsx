@@ -434,6 +434,15 @@ export class LandingPage {
           </ResponsiveContainer>
         </div>
 
+        <div class="blog hide-print">
+          <ResponsiveContainer>
+            <h3 class="no-print-font">{i18n.landingPage.blog}</h3>
+            <ul class="blog-posts">
+              <blog-list max={1} />
+            </ul>
+          </ResponsiveContainer>
+        </div>
+
         {/* <div>
           <p>
             As a former professional platin songwriter and EDM artist I know what it means to "deliver creativity" and to turn challenges into success.

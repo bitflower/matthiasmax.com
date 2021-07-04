@@ -118,7 +118,6 @@ landing-page .hero .landing-page__bg {
 landing-page .companies {
   position: relative;
   padding-bottom: 80px;
-  border-bottom: 1px solid var(--color-whisper);
 }
 
 landing-page .companies h3 {
@@ -444,6 +443,10 @@ landing-page .video-thumbnail:hover svg circle {
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
+  }
+
+  landing-page .blog {
+    border-bottom: 1px solid var(--color-whisper);
   }
 
   landing-page section {

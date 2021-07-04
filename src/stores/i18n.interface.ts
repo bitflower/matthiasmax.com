@@ -63,6 +63,7 @@ interface I18nGlobal {
   sayHello: string;
 }
 interface I18nLandingPage {
+  blog: string;
   brands: string;
   cta: string;
   explore: string;

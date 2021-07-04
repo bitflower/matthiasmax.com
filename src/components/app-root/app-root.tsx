@@ -93,7 +93,7 @@ export class AppRoot {
               <stencil-route-switch>
                 <stencil-route url="/" component="landing-page" exact={true} />
 
-                <stencil-route url="/blog" component="blog-list" exact={true} />
+                <stencil-route url="/blog" component="blog-page" exact={true} />
                 <stencil-route url="/blog/:pageName" routeRender={({ match }) => <blog-component page={match!.url}></blog-component>} />
 
                 <stencil-route url="/cv" component="cv-page" />
