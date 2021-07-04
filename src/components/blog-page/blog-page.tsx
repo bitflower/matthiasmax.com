@@ -28,7 +28,7 @@ export class BlogPage {
       <ResponsiveContainer>
         <div class="blog-index">
           <h1 class="hero-heading">Let's get better together.</h1>
-          <h2 class="no-print-font hero-subheading">I learned a lot from the community. This is where I give back.</h2>
+          <h2 class="no-print-font hero-subheading">I've learned a lot from the community. This blog is where I give back.</h2>
           <p class="intro-paragraph no-print-font">
             &bdquo;Sharing is caring&rdquo; &#8212; they say. And I couldn't agree more. From time to time I share my knowledge, experiences and thoughts on topics like business,
             technology and design. Feel free to&nbsp;

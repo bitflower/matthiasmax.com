@@ -3,6 +3,7 @@ import { Component, h, Prop } from '@stencil/core';
 import blogStructure from '../../assets/blog/list.json';
 import { BlogPostInterface } from '../../global/definitions';
 
+import i18n from '../../stores/i18n.store';
 @Component({
   tag: 'blog-list',
   styleUrl: 'blog-list.css',
@@ -17,6 +18,9 @@ export class BlogList {
   @Prop()
   max?: number | undefined;
 
+  @Prop()
+  itemCssClass?: string;
+
   // --------------------------------------------------------------------------
   //
   //  Render
@@ -26,7 +30,7 @@ export class BlogList {
   render() {
     return (blogStructure as BlogPostInterface[]).slice(0, this.max || blogStructure.length).map(post => {
       return (
-        <div class="blog-item">
+        <div class={`blog-item ${this.itemCssClass}`}>
           <stencil-route-link url={post.url} class="post-title">
             <h2>{post.title}</h2>
           </stencil-route-link>
@@ -41,7 +45,7 @@ export class BlogList {
           </span>
           <p>{post.description}</p>
           <stencil-route-link url={post.url} class="read-more">
-            Read more
+            {i18n.blog.readMore}
           </stencil-route-link>
         </div>
       );

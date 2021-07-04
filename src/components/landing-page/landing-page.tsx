@@ -436,10 +436,11 @@ export class LandingPage {
 
         <div class="blog hide-print">
           <ResponsiveContainer>
-            <h3 class="no-print-font">{i18n.landingPage.blog}</h3>
-            <ul class="blog-posts">
-              <blog-list max={1} />
-            </ul>
+            <h2 class="hero-heading">Let's get better together.</h2>
+            <p class="no-print-font">{i18n.landingPage.blog}</p>
+            <div class="blog-posts">
+              <blog-list max={2} itemCssClass="content-card" />
+            </div>
           </ResponsiveContainer>
         </div>
 

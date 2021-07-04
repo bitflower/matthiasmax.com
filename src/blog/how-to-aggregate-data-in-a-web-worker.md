@@ -1,10 +1,10 @@
 ---
-title: Fast unblocking data aggregations with Web Workers
+title: Fast non-blocking data aggregations with Web Workers
 date: July 04, 2021
-url: /blog/fast-unblocking-data-aggregations-with-web-workers
+url: /blog/fast-non-blocking-data-aggregations-with-web-workers
 author: Matthias Max
 twitter: bitflowertweets
-description: When you’re building an app that requires a large library of components in a single file download, you’re often forced to sacrifice performance - and specifically startup time - for the sake of accessing all those components. The two are often mutually exclusive. Choose to easily have all the components available, or choose blazing fast startup, but it’s difficult to get both. At least that’s the experience for many.
+description: Data-centered applications involve quite an amount of processing power to create valueable insights from large data sets. In this post I will explain how this processing can be moved to the client side. By loading of the heavy bits of aggregation calculations to a non-blocking Web Worker thread we can keep the UI responsive.
 img: /assets/img/blog/posts/fakurian-design-bMSA5-tLFao-unsplash.jpg
 tags: performance, web worker, data, aggregation
 relatedProjects: 234, 456

@@ -1,4 +1,7 @@
 {
+  "blog": {
+    "readMore": "Weiter lesen ..."
+  },
   "common": {
     "durations": {
       "days": {
@@ -91,7 +94,7 @@
     "all": "Alle (Kein Filter)"
   },
   "landingPage": {
-    "blog": "The latest and greatest shared knowledge",
+    "blog": "In meinem englisch-sprachigen Blog teile ich Insights aus meinem täglichen in der digitalen Welt.",
     "brands": "Firmen, mit denen ich direkt oder als Subunternehmer gearbeitet habe",
     "cta": "Gespräch vereinbaren",
     "explore": "Erfahre mehr über meine Projekte und Skills: ",

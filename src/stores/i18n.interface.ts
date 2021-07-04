@@ -5,6 +5,9 @@ export interface SingularPlural {
   plural: string;
 }
 
+interface I18nBlog {
+  readMore: string;
+}
 interface I18nContact {
   claim: string;
   commutingArea: string;
@@ -104,6 +107,7 @@ interface I18nIndustries {
 // type I18nTasks = Partial<Record<TaskType, number>>;
 
 export interface I18n {
+  blog: I18nBlog;
   common: I18nCommon;
   contact: I18nContact;
   global: I18nGlobal;

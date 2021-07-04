@@ -23,6 +23,7 @@ export namespace Components {
         "page"?: string;
     }
     interface BlogList {
+        "itemCssClass"?: string;
         "max"?: number | undefined;
     }
     interface BlogPage {
@@ -389,6 +390,7 @@ declare namespace LocalJSX {
         "page"?: string;
     }
     interface BlogList {
+        "itemCssClass"?: string;
         "max"?: number | undefined;
     }
     interface BlogPage {
