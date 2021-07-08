@@ -5,7 +5,7 @@
     "url": "/blog/transparenz-im-shopfloor-wie-remondis-mit-case-os-produktionsdaten-auswertet",
     "author": "Matthias Max",
     "twitter": "bitflowertweets",
-    "description": "Jedes Unternehmen muss heute - zumindest in Teilen - zum Softwareunternehmen werden. Die Herausforderungen und die Komplexität der digitalen Produktenticklung stellen aber eine ganze eigene Disziplin dar. Neben Ihrer Branchen-Kernkompotenz muss sich ihr Unternehmen quasi \"nebenher\" auch noch um Cloud, APIs, Schnittstellen, UX/UI, Javascript, Frameworks und DevOps kümmern. Ganz schön anstrengend!",
+    "description": "Der Bedarf nach Transparenz im Shopfloor nimmt stetig zu. Die aktuellen Produktionszahlen tragen bei der Führung des Unternehmens maßgeblich zu sinnvollen wirtschaftlichen Entscheidungen bei. Der weltweit größte Dienstleister für Recycling, Service und Wasser REMONDIS hat am Standort Heilbronn nun eine Lösung mit CaseOS® entwickelt, die zuverlässig, in Echtzeit und ohne manuellen Aufwand die Ballenproduktion überwacht und Transparenz schafft.",
     "img": "/assets/img/blog/posts/remondis-case-os.jpg",
     "tags": "OPC UA, IoT, IIoT, KPI, Dashboard, Industrie 4.0, Produktionsdaten, Sensor, Siemens S7, PLC, Subscription",
     "relatedProjects": 0,
