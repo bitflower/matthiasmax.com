@@ -1,5 +1,29 @@
 [
   {
+    "title": "Transparenz im Shopfloor - Wie REMONDIS mit CaseOS® Produktionsdaten auswertet",
+    "date": "July 08, 2021",
+    "url": "/blog/transparenz-im-shopfloor-wie-remondis-mit-case-os-produktionsdaten-auswertet",
+    "author": "Matthias Max",
+    "twitter": "bitflowertweets",
+    "description": "Jedes Unternehmen muss heute - zumindest in Teilen - zum Softwareunternehmen werden. Die Herausforderungen und die Komplexität der digitalen Produktenticklung stellen aber eine ganze eigene Disziplin dar. Neben Ihrer Branchen-Kernkompotenz muss sich ihr Unternehmen quasi \"nebenher\" auch noch um Cloud, APIs, Schnittstellen, UX/UI, Javascript, Frameworks und DevOps kümmern. Ganz schön anstrengend!",
+    "img": "/assets/img/blog/posts/remondis-case-os.jpg",
+    "tags": "OPC UA, IoT, IIoT, KPI, Dashboard, Industrie 4.0, Produktionsdaten, Sensor, Siemens S7, PLC, Subscription",
+    "relatedProjects": 0,
+    "filePath": "/assets/blog/wie-remondis-mit-case-os-produktionsdaten-monitored.json"
+  },
+  {
+    "title": "Case OS - Das Betriebssystem für Ihre Use Cases",
+    "date": "July 07, 2021",
+    "url": "/blog/case-os-das-betriebssystem-fuer-ihre-use-cases",
+    "author": "Matthias Max",
+    "twitter": "bitflowertweets",
+    "description": "Jedes Unternehmen muss heute - zumindest in Teilen - zum Softwareunternehmen werden. Die Herausforderungen und die Komplexität der digitalen Produktenticklung stellen aber eine ganze eigene Disziplin dar. Neben Ihrer Branchen-Kernkompotenz muss sich ihr Unternehmen quasi \"nebenher\" auch noch um Cloud, APIs, Schnittstellen, UX/UI, Javascript, Frameworks und DevOps kümmern. Ganz schön anstrengend!",
+    "img": "/assets/img/blog/posts/case-os-logo.png",
+    "tags": "performance, web worker, data, aggregation",
+    "relatedProjects": 0,
+    "filePath": "/assets/blog/case-os.json"
+  },
+  {
     "title": "Fast non-blocking data aggregations with Web Workers",
     "date": "July 04, 2021",
     "url": "/blog/fast-non-blocking-data-aggregations-with-web-workers",
