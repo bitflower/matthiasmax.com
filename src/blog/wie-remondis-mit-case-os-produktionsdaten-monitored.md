@@ -22,13 +22,14 @@ Weiter führte er aus: <i>"Transparenz bei den Produktionszahlen ist aber nicht 
 
 ## Die Gegebenheiten
 
-Das Gute vorweg: Die Voraussetzungen für eine digitale Lösung waren mit der vorhandenen Siemens S7-gesteuerten Ballenpressenanlage geschaffen. Da die Anlage bereits mit Konnektivtät in Form einer OPC UA Schnittstelle ausgestattet war, konnten Sensorwerte direkt gelesen werden. Mit dem CaseOS® OPC UA Adapter war somit eine reibungslose Datenanbindung möglich.
+Die Voraussetzungen für eine digitale Lösung waren mit der vorhandenen Siemens S7-gesteuerten Ballenpressenanlage geschaffen. Da die Anlage bereits mit Konnektivtät in Form einer OPC UA Schnittstelle ausgestattet war, konnten Sensorwerte direkt gelesen werden. Mit dem CaseOS® OPC UA Adapter war somit eine reibungslose Datenanbindung möglich.
 
-Anhand der bestehenden Excelauswertungen konnten die Business-Anforderungen für das neue digitale Dashboard abgeleitet werden. Zu den Anforderungen zählt die Zeitreihenanalyse mit der Möglichkeit zeitlich zu filtern. Sowohl eine Tabellenansicht als auch Diagramme waren gefordert. Außerdem eine Jahresplannungssicht mit Fokus auf die Monatsergebnisse, die es erlaubt, bestimmte Szenarien parametriesiert durchzuspielen und die Auswirkung auf Kennzahlen / KPIs zu simulieren.
+Anhand der bestehenden Excelauswertungen konnten die Business-Anforderungen für das neue digitale Dashboard abgeleitet werden. Zu den Anforderungen zählt die Zeitreihenanalyse mit der Möglichkeit zeitlich zu filtern. Sowohl eine Tabellenansicht als auch Diagramme waren gefordert. Außerdem eine Jahresplannungssicht mit Fokus auf die Monatsergebnisse, die es erlaubt, bestimmte Szenarien parametrisiert durchzuspielen und die Auswirkung auf Kennzahlen / KPIs zu simulieren.
 
 ## Die Lösung
 
-- automatisiertes Sytem das selbständig Daten auswertet und zur Visualisierung anbietet
+- automatisiertes Sytem das selbstständig Daten auswertet und zur Visualisierung anbietet
+- 
 
 ## Setup
 
@@ -122,6 +123,12 @@ Datenexport-Modul für Tabellen und Diagramme
 # Testimonial
 
 "Total klasse! So wollte ich das haben." - Tobias Kutz, REMONDIS Süd GmbH, Niederlassungsleiter Heilbronn
+
+# Dateien
+
+<video controls="true">
+  <source src="/assets/img/blog/posts/case-os-remondis-showcase.mp4" type="video/mp4">
+</video>
 
 # Weitere Informationen zu CaseOS®
 
