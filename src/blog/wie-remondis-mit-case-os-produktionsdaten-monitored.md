@@ -36,19 +36,27 @@ CaseOS® ermöglicht ein schnelles Setup (oft innerhalb eines Tages abhängig vo
 
 ### On-Premise Hosting
 
+In Abstimmung mit Remondis wurde eine Cloud-Architektur gewählt, die im folgenden Diagramm dargestellt wird.
+
 ![On-Premise Architektur](/assets/img/blog/posts/on-premise-hosting.png)
+
+### CaseOS® Systemarchitektur
+
+Die CaseOS® Systemarchitektur deckt mit ihren Basismodulen viele Anforderungen ab. Eigene Module können jederzeit entwickelt werden. Das Schichtmodell und das offene API-Design sorgen dafür, dass Erweiterungen von Entwicklern Sprachen-unabhängig entwickelt werden können.
+
+![CaseOS Core Systemarchitektur](/assets/img/blog/posts/co-arc.png)
 
 ## Eingesetzte Module
 
-Die Dashboard-Lösung für REMONDIS nutzt viele der Basis-Module von CaseOS®. Die Basis-Module erlauben es, sich direkt mit der fachlichen Anforderung und deren Lösungsimplementierung zu befassen. Es kann sehr viel Zeit gespart und es bleibt mehr Kapazität für die Entwicklung einer zufriedenstellenden Individualsoftware.
+Die Dashboard-Lösung für REMONDIS nutzt viele der Basis-Module von CaseOS®. Die Basis-Module erlauben es, sich direkt mit der fachlichen Anforderung und deren Lösungsimplementierung zu befassen. Es kann Zeit bei der Entwicklung technischer Notwendigkeiten gespart werden und es bleibt mehr Kapazität für die Entwicklung der wertstiftenden Business-Features.
 
 ### OPC UA Konnektor
 
-OPC UA Konnektivität Out-of-the-box
+Konfigurierbare Modul für die OPC UA Konnektivität
 
 - Ignore-Regeln
 - Datenanreicherung
-- Datenpufferung zum Schutz von Ausfällen des Anwednungsservers
+- Datenpufferung zum Schutz von Ausfällen des Anwendungsservers
 
 ### Dynamische REST-Services
 
@@ -62,27 +70,28 @@ Konfigurierbare Datenschemata mit autom. REST-Schnittstelle
 Echtzeitverbindung zwischen Browser und Server
 
 - Anlagendaten erscheinen nahezu in Echtzeit auf dem Bildschirm
-- Alle verbundenen Clients sind stets synchron
+- Alle verbundenen Clients sind stets synchron & aktuell
 
 ### Benutzer- und Rechteverwaltung
 
-Benutzerauthentifizierung 
+Benutzerauthentifizierung und -autorisierung
 
-- für die Anmeldung am System
-- für die Berechtigung von Funktionen
+- Benutzer können sich am System anmelden
+- Benutzer haben einen definierten Handlungsspielraum
+- Attribut- & Rollenbasierte Berechtigungen
 
 ### AtomicUI View Engine
 
 Frei-konfigurierbare Seiten und visuelle Blöcke
 
 - Atoms (Buttons, Checkboxen, Dropdownliste)
-- komplexe Busines-Logik Blöcke
+- komplexe UI-Blöcke die aus Atomen bestehen
 
 ### Kundenspezifische Komponenten
 
 Entwicklung maßgescheiderter Web-Komponenten
 
-- zur Abbildung von nicht-Basisfuntionalität
+- zur Abbildung von Individualfunktionalität
 - Entwicklung von individuellen KPI-Berechnungen
 
 ### Logikregeln zur Zeitstrahlanalyse
@@ -91,6 +100,8 @@ Fertige Aggregationsregeln für die Analyse von Zeitbasierten Daten
 
 - Summe
 - Durchschnitt
+- Zeitraumfilter
+- Charts mit Legende & Labels
 
 ### OpenCI
 
@@ -101,9 +112,9 @@ Erscheinungsbild der Lösung ist 100% dem Corporate Design angepasst
 - Abstände
 - Logos und Illustrationen
 
-### Daten-Export und -Druck
+### Daten-Export und Drucken
 
-Datenexport-Modul in Tabellen und Diagrammen
+Datenexport-Modul für Tabellen und Diagramme
 
 - Export zu CSV & Bildformaten
 - Drucken
@@ -111,3 +122,18 @@ Datenexport-Modul in Tabellen und Diagrammen
 # Testimonial
 
 "Total klasse! So wollte ich das haben." - Tobias Kutz, REMONDIS Süd GmbH, Niederlassungsleiter Heilbronn
+
+# Weitere Informationen zu CaseOS®
+
+Ihre Fragen zu CaseOS® beantworten wir gerne in einem persönlichen Gespräch. Oder Sie vereinbaren einen Termin für eine Produktpräsentation mit uns.
+
+CaseOS® ist eine eingetragene Wortmarke.
+## Kontakt
+
+bitflower - beautiful coding
+Tafingerstraße 14
+71665 Vaihingen/Enz
+
+Ansprechpartner: Matthias Max
+Email: matthias.max@bitflower.net
+Mobil: +49 171 41 77 266
