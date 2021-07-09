@@ -24,7 +24,7 @@ Weiter führte er aus: <i>"Transparenz bei den Produktionszahlen ist aber nicht 
 
 Das Gute vorweg: Die Voraussetzungen für eine digitale Lösung waren mit der vorhandenen Siemens S7-gesteuerten Ballenpressenanlage geschaffen. Da die Anlage bereits mit Konnektivtät in Form einer OPC UA Schnittstelle ausgestattet war, konnten Sensorwerte direkt gelesen werden. Mit dem CaseOS® OPC UA Adapter war somit eine reibungslose Datenanbindung möglich.
 
-Anhand der bestehenden Excelauswertungen konnten die Business-Anforderungen für das neue digitale Dashboard abgeleitet werden. Zu den Anforderungen zählten die Zeitreihenanalyse mit der Möglichkeit zeitlich zu filtern. Sowohl eine Tabellenansicht als auch Diagramme waren gefordert. Außerdem eine Jahresplannungssicht mit Fokus auf die Monatsergbenisse, die es erlaubt, bestimmte Szenarien parametriesiert durchzuspielen und die Auswirkung auf Kennzahlen / KPIs zu simulieren.
+Anhand der bestehenden Excelauswertungen konnten die Business-Anforderungen für das neue digitale Dashboard abgeleitet werden. Zu den Anforderungen zählt die Zeitreihenanalyse mit der Möglichkeit zeitlich zu filtern. Sowohl eine Tabellenansicht als auch Diagramme waren gefordert. Außerdem eine Jahresplannungssicht mit Fokus auf die Monatsergebnisse, die es erlaubt, bestimmte Szenarien parametriesiert durchzuspielen und die Auswirkung auf Kennzahlen / KPIs zu simulieren.
 
 ## Die Lösung
 
@@ -32,7 +32,7 @@ Anhand der bestehenden Excelauswertungen konnten die Business-Anforderungen für
 
 ## Setup
 
-CaseOS® ermöglicht ein schnelles Setup (oft innerhalb eines Tages abhängig von der Unternehmens IT). Es integrert sich nahtlos in die bestehende Unternehmens IT und kann native oder als Docker-Netzwerk betrieben werden. Mit diesem On-Premise-Ansatz bleibt die Datenhoheit zu 100% beim Unternehmen, auf die Flexibilität der Cloud-Groundladen muss aber trotzdem nicht verzichtet werden.
+CaseOS® ermöglicht ein schnelles Setup (oft innerhalb eines Tages abhängig von der Unternehmens IT). Es integriert sich nahtlos in die bestehende Unternehmens IT und kann nativ oder als Docker-Netzwerk betrieben werden. Mit diesem On-Premise-Ansatz bleibt die Datenhoheit zu 100% beim Unternehmen, auf die Flexibilität der Cloud-Vielfalt muss aber trotzdem nicht verzichtet werden.
 
 ### On-Premise Hosting
 
@@ -85,7 +85,7 @@ Entwicklung maßgescheiderter Web-Komponenten
 - zur Abbildung von nicht-Basisfuntionalität
 - Entwicklung von individuellen KPI-Berechnungen
 
-### Logikregeln für Zeitstrahlanalyse
+### Logikregeln zur Zeitstrahlanalyse
 
 Fertige Aggregationsregeln für die Analyse von Zeitbasierten Daten
 
