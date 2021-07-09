@@ -120,15 +120,26 @@ Datenexport-Modul für Tabellen und Diagramme
 - Export zu CSV & Bildformaten
 - Drucken
 
-# Testimonial
+## Testimonial
 
 "Total klasse! So wollte ich das haben." - Tobias Kutz, REMONDIS Süd GmbH, Niederlassungsleiter Heilbronn
 
-# Dateien
+## Dateien
 
+### Showcase Video
+
+<p>
 <video controls="true">
   <source src="/assets/img/blog/posts/case-os-remondis-showcase.mp4" type="video/mp4">
 </video>
+</p>
+
+### Bilder
+
+![Remondis Solution Screen 1](/assets/img/blog/posts/re01-login.png)
+![Remondis Solution Screen 2](/assets/img/blog/posts/re02-month.png)
+![Remondis Solution Screen 3](/assets/img/blog/posts/re03-year.png)
+![Remondis Solution Screen 4](/assets/img/blog/posts/remondis-bg.png)
 
 # Weitere Informationen zu CaseOS®
 

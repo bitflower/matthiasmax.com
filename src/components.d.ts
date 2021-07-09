@@ -55,6 +55,9 @@ export namespace Components {
     }
     interface GuideCallout {
     }
+    interface HeroBlock {
+        "caption": string;
+    }
     interface HighlightCode {
     }
     interface HubspotModal {
@@ -216,6 +219,12 @@ declare global {
         prototype: HTMLGuideCalloutElement;
         new (): HTMLGuideCalloutElement;
     };
+    interface HTMLHeroBlockElement extends Components.HeroBlock, HTMLStencilElement {
+    }
+    var HTMLHeroBlockElement: {
+        prototype: HTMLHeroBlockElement;
+        new (): HTMLHeroBlockElement;
+    };
     interface HTMLHighlightCodeElement extends Components.HighlightCode, HTMLStencilElement {
     }
     var HTMLHighlightCodeElement: {
@@ -353,6 +362,7 @@ declare global {
         "dsgvo-notice": HTMLDsgvoNoticeElement;
         "feature-pill": HTMLFeaturePillElement;
         "guide-callout": HTMLGuideCalloutElement;
+        "hero-block": HTMLHeroBlockElement;
         "highlight-code": HTMLHighlightCodeElement;
         "hubspot-modal": HTMLHubspotModalElement;
         "in-page-navigation": HTMLInPageNavigationElement;
@@ -422,6 +432,9 @@ declare namespace LocalJSX {
     }
     interface GuideCallout {
         "onToggleModal"?: (event: CustomEvent<any>) => void;
+    }
+    interface HeroBlock {
+        "caption"?: string;
     }
     interface HighlightCode {
     }
@@ -506,6 +519,7 @@ declare namespace LocalJSX {
         "dsgvo-notice": DsgvoNotice;
         "feature-pill": FeaturePill;
         "guide-callout": GuideCallout;
+        "hero-block": HeroBlock;
         "highlight-code": HighlightCode;
         "hubspot-modal": HubspotModal;
         "in-page-navigation": InPageNavigation;
@@ -548,6 +562,7 @@ declare module "@stencil/core" {
             "dsgvo-notice": LocalJSX.DsgvoNotice & JSXBase.HTMLAttributes<HTMLDsgvoNoticeElement>;
             "feature-pill": LocalJSX.FeaturePill & JSXBase.HTMLAttributes<HTMLFeaturePillElement>;
             "guide-callout": LocalJSX.GuideCallout & JSXBase.HTMLAttributes<HTMLGuideCalloutElement>;
+            "hero-block": LocalJSX.HeroBlock & JSXBase.HTMLAttributes<HTMLHeroBlockElement>;
             "highlight-code": LocalJSX.HighlightCode & JSXBase.HTMLAttributes<HTMLHighlightCodeElement>;
             "hubspot-modal": LocalJSX.HubspotModal & JSXBase.HTMLAttributes<HTMLHubspotModalElement>;
             "in-page-navigation": LocalJSX.InPageNavigation & JSXBase.HTMLAttributes<HTMLInPageNavigationElement>;
