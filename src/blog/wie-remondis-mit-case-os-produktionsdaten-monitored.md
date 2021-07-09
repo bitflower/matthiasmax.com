@@ -1,5 +1,5 @@
 ---
-title: Transparenz im Shopfloor - Wie REMONDIS mit CaseOS® Produktionsdaten auswertet
+title: Digitalisierung in der Produktion Transparenz im Shopfloor - Wie REMONDIS mit CaseOS® Produktionsdaten auswertet
 date: July 08, 2021
 url: /blog/transparenz-im-shopfloor-wie-remondis-mit-case-os-produktionsdaten-auswertet
 author: Matthias Max
@@ -8,6 +8,7 @@ description: Der Bedarf nach Transparenz im Shopfloor nimmt stetig zu. Die aktue
 img: /assets/img/blog/posts/remondis-case-os.jpg
 tags: OPC UA, IoT, IIoT, KPI, Dashboard, Industrie 4.0, Produktionsdaten, Sensor, Siemens S7, PLC, Subscription
 relatedProjects: 0
+format: wide
 ---
 
 ![Remondis + CaseOS](/assets/img/blog/posts/remondis-case-os.jpg)
@@ -29,7 +30,21 @@ Anhand der bestehenden Excelauswertungen konnten die Business-Anforderungen für
 ## Die Lösung
 
 - automatisiertes Sytem das selbstständig Daten auswertet und zur Visualisierung anbietet
-- 
+
+
+5-Zeiler Beschreibung => Danach die Details
+
+
+## Testimonial
+
+"Total klasse! So wollte ich das haben." - Tobias Kutz, REMONDIS Süd GmbH, Niederlassungsleiter Heilbronn
+
+Evtl Bild
+Weißraum
+Linie
+
+
+Der Blick hinter die Kulissen ....
 
 ## Setup
 
@@ -119,10 +134,6 @@ Datenexport-Modul für Tabellen und Diagramme
 
 - Export zu CSV & Bildformaten
 - Drucken
-
-## Testimonial
-
-"Total klasse! So wollte ich das haben." - Tobias Kutz, REMONDIS Süd GmbH, Niederlassungsleiter Heilbronn
 
 ## Dateien
 

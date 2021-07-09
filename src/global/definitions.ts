@@ -15,7 +15,7 @@ export interface MarkdownHeading {
 }
 
 export interface SiteStructureItem {
-  text: string,
+  text: string;
   url?: string;
   filePath?: string;
   children?: SiteStructureItem[];
@@ -30,4 +30,7 @@ export interface BlogPostInterface {
   description: string;
   img: string;
   filePath?: string;
+  tags?: string;
+  relatedProjects?: string;
+  format?: string; // 'wide' or empty/'normal'
 }

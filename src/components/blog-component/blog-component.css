@@ -44,10 +44,14 @@ blog-component .blog-item a {
 
 blog-component .blog-index,
 blog-component .blog-content {
-  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 160px;
+}
+
+blog-component .blog-index,
+blog-component .blog-content.normal {
+  max-width: 640px;
 }
 
 blog-component .blog-content .post-meta {
