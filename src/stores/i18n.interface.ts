@@ -9,6 +9,9 @@ interface I18nContact {
   claim: string;
   commutingArea: string;
   commutingAreaDescription: string;
+  donate: string;
+  buyMeACoffee: string;
+  buyMeACoffeeLink: string;
   dropLine: string;
   heading: string;
   link: string;

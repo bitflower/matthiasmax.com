@@ -37,7 +37,10 @@
     "heading": "Get in touch",
     "link": "contact",
     "title": "Get in touch with Matthias Max Web Technologies Expert",
-    "welcomeOffice": "You're welcome to have a coffee with me at my office!"
+    "welcomeOffice": "You're welcome to have a coffee with me at my office!",
+    "donate": "Did I help you with one of my online resources?",
+    "buyMeACoffee": "Feel free to ",
+    "buyMeACoffeeLink": "buy me a coffee ;-)"
   },
   "cv": {
     "cv": "Professional career",
