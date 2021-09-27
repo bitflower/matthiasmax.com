@@ -1,4 +1,7 @@
 {
+  "blog": {
+    "readMore": "Read more"
+  },
   "common": {
     "durations": {
       "days": {
@@ -94,6 +97,7 @@
     "all": "All (No filter)"
   },
   "landingPage": {
+    "blog": "Check out my blog where I share insights from my daily live in the digital world.",
     "brands": "Some brands I've worked with directly or as sub contrator",
     "cta": "Start a conversation",
     "explore": "Explore my projects and skills in the",

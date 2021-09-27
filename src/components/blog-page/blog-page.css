@@ -1,0 +1,28 @@
+blog-page .intro-paragraph {
+  margin-bottom: 100px;
+}
+
+blog-page .ui-container {
+  margin-bottom: 160px;
+  position: relative;
+}
+
+blog-page .blog-index {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 160px;
+}
+
+@media screen and (max-width: 768px) {
+  blog-page h1.hero-heading {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  blog-page .ui-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

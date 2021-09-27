@@ -57,6 +57,7 @@ const BLOG_LIST_FILE = './src/assets/blog/list.json';
       };
 
       data.title = `Blog of Web Technologies Expert Matthias Max - ${data.title.trim()}`;
+      data.tags = data.tags && (data.tags as string).split(',').map(tag => tag.trim());
 
       await writeFile(destinationFileName, JSON.stringify(data), {
         encoding: 'utf8',

@@ -17,20 +17,7 @@ landing-page .hero hgroup {
   z-index: 2;
 }
 
-landing-page .hero hgroup h1 {
-  font-size: 64px;
-  line-height: 100%;
-  margin-bottom: 32px;
-  margin-top: 64px;
-  letter-spacing: -0.04em;
-  font-weight: 800;
-}
-
 landing-page .hero hgroup p {
-  font-size: 20px;
-  line-height: 1.6;
-  font-weight: 400;
-  color: var(--color-dolphin);
   max-width: 75%;
 }
 
@@ -38,6 +25,9 @@ landing-page .hero hgroup p:last-of-type {
   margin-top: 30px;
   margin-bottom: 120px;
   font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
+  color: #7a798d;
 }
 
 landing-page .landing-page__intro {
@@ -127,7 +117,7 @@ landing-page .hero .landing-page__bg {
 
 landing-page .companies {
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 180px;
   border-bottom: 1px solid var(--color-whisper);
 }
 
@@ -149,6 +139,40 @@ landing-page .companies ul {
 
 landing-page .companies ul li {
   display: inherit;
+}
+
+landing-page .blog {
+  border-bottom: 1px solid var(--color-whisper);
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+
+landing-page .blog h2 {
+  margin-bottom: 15px;
+}
+
+/* landing-page .blog-posts {
+
+} */
+
+landing-page .blog-posts blog-list {
+  display: flex;
+  gap: 90px;
+  margin-top: 60px;
+}
+
+landing-page .blog-posts blog-list .blog-item {
+  padding: 50px;
+  width: 50%;
+}
+
+landing-page .blog-posts blog-list .post-meta {
+  justify-content: center;
+}
+
+landing-page .blog-posts blog-list .blog-item h2 {
+  min-height: 115px;
 }
 
 landing-page .cta {
@@ -246,12 +270,7 @@ landing-page section p + stencil-route-link {
 }
 
 landing-page h2 {
-  font-weight: 600;
   font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: -0.018em;
-  color: #7a798d;
-  margin-top: 0;
 }
 
 landing-page h2 strong {
@@ -419,6 +438,10 @@ landing-page .video-thumbnail:hover svg circle {
 }
 
 @media screen and (max-width: 960px) {
+  landing-page .companies {
+    padding-bottom: 120px;
+  }
+
   landing-page .companies ul {
     flex-wrap: wrap;
     align-items: center;
@@ -429,6 +452,18 @@ landing-page .video-thumbnail:hover svg circle {
 
   landing-page .companies ul li {
     padding: 20px;
+  }
+
+  landing-page .blog {
+    padding-top: 80px;
+  }
+
+  landing-page .blog-posts blog-list {
+    display: block;
+  }
+
+  landing-page .blog-posts blog-list .blog-item {
+    width: 100%;
   }
 }
 
@@ -447,10 +482,6 @@ landing-page .video-thumbnail:hover svg circle {
   landing-page .hero svg {
     transform: translate(-50%, -50%);
     margin-top: 66px;
-  }
-
-  landing-page .hero hgroup h1 {
-    font-size: 48px;
   }
 
   landing-page .companies {
@@ -575,22 +606,6 @@ h2 + .feature-list {
   background-image: url('/assets/img/frameworks-sprite.png');
   background-repeat: no-repeat;
   background-size: 35px 140px;
-}
-
-.fw-icon--react {
-  background-position: 0 0;
-}
-
-.fw-icon--angular {
-  background-position: 0 -35px;
-}
-
-.fw-icon--vue {
-  background-position: 0 -70px;
-}
-
-.fw-icon--ember {
-  background-position: 0 -105px;
 }
 
 .card-links {

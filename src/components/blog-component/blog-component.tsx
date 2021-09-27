@@ -1,8 +1,10 @@
+import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 import { Component, Prop, h, Build } from '@stencil/core';
+
 import blogStructure from '../../assets/blog/list.json';
 import { fileNotFound } from '../../global/site-structure-utils';
 import { MarkdownContent, BlogPostInterface } from '../../global/definitions';
-import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
+import { BlogHeaderNormal } from '../BlogHeaderNormal';
 
 @Component({
   tag: 'blog-component',
@@ -74,17 +76,8 @@ export class BlogIndex {
           </div>
         </div>
 
-        <div class="blog-content">
-          <h1>{post.title}</h1>
-          <span class="post-meta">
-            <a href={`http://twitter.com/${post.twitter}`}>
-              <img alt={`Author: ${post.author}`} class="post-author-image" src={`/assets/img/blog/authors/${post.twitter}.jpg`} />
-            </a>
-            <a class="post-author-name" href={`http://twitter.com/${post.twitter}`}>
-              {post.author}
-            </a>
-            <span class="post-date">{post.date}</span>
-          </span>
+        <div class={`blog-content ${!this.data.format || this.data.format === 'normal' ? 'normal' : ''}`}>
+          <BlogHeaderNormal post={post} />
           {toHypertext(content.hypertext)}
         </div>
       </ResponsiveContainer>

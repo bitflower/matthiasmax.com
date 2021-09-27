@@ -7,9 +7,13 @@ blog-component .ui-container {
   position: relative;
 }
 
+blog-component video {
+  width: 100%;
+}
+
 blog-component .post-meta {
   text-transform: uppercase;
-  color: #92A1B3;
+  color: #92a1b3;
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -27,7 +31,7 @@ blog-component h1 {
 blog-component .blog-item p {
   font-size: 16px;
   line-height: 1.8;
-  color: #27323F;
+  color: #27323f;
   margin: 22px 0;
 }
 
@@ -40,10 +44,14 @@ blog-component .blog-item a {
 
 blog-component .blog-index,
 blog-component .blog-content {
-  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 160px;
+}
+
+blog-component .blog-index,
+blog-component .blog-content.normal {
+  max-width: 640px;
 }
 
 blog-component .blog-content .post-meta {
@@ -81,7 +89,7 @@ blog-component .post-author-name:hover {
 }
 
 blog-component .post-date::before {
-  content: "|";
+  content: '|';
   padding-right: 12px;
 }
 
@@ -101,19 +109,18 @@ blog-component .share-links .sticky {
 
 blog-component .share-links a svg {
   transition: fill 0.2s;
-  fill: #CED6E0;
+  fill: #ced6e0;
   width: 24px;
   height: 24px;
 }
 
-blog-component .share-links a:hover svg{
-  fill: #B2BECD;
+blog-component .share-links a:hover svg {
+  fill: #b2becd;
 }
 
 blog-component .share-links a + a {
   margin-top: 12px;
 }
-
 
 @media screen and (max-width: 840px) {
   blog-component .ui-container {
@@ -139,7 +146,6 @@ blog-component .share-links a + a {
 
   blog-component .share-links a + a {
     margin-top: 0;
-    margin-lefT: 12px;
+    margin-left: 12px;
   }
-
 }

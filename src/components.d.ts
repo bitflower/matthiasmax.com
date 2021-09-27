@@ -23,6 +23,11 @@ export namespace Components {
         "page"?: string;
     }
     interface BlogList {
+        "itemCssClass"?: string;
+        "max"?: number | undefined;
+    }
+    interface BlogPage {
+        "max"?: number | undefined;
     }
     interface ContactPage {
     }
@@ -49,6 +54,9 @@ export namespace Components {
         "link": string;
     }
     interface GuideCallout {
+    }
+    interface HeroBlock {
+        "caption": string;
     }
     interface HighlightCode {
     }
@@ -151,6 +159,12 @@ declare global {
         prototype: HTMLBlogListElement;
         new (): HTMLBlogListElement;
     };
+    interface HTMLBlogPageElement extends Components.BlogPage, HTMLStencilElement {
+    }
+    var HTMLBlogPageElement: {
+        prototype: HTMLBlogPageElement;
+        new (): HTMLBlogPageElement;
+    };
     interface HTMLContactPageElement extends Components.ContactPage, HTMLStencilElement {
     }
     var HTMLContactPageElement: {
@@ -204,6 +218,12 @@ declare global {
     var HTMLGuideCalloutElement: {
         prototype: HTMLGuideCalloutElement;
         new (): HTMLGuideCalloutElement;
+    };
+    interface HTMLHeroBlockElement extends Components.HeroBlock, HTMLStencilElement {
+    }
+    var HTMLHeroBlockElement: {
+        prototype: HTMLHeroBlockElement;
+        new (): HTMLHeroBlockElement;
     };
     interface HTMLHighlightCodeElement extends Components.HighlightCode, HTMLStencilElement {
     }
@@ -332,6 +352,7 @@ declare global {
         "app-root": HTMLAppRootElement;
         "blog-component": HTMLBlogComponentElement;
         "blog-list": HTMLBlogListElement;
+        "blog-page": HTMLBlogPageElement;
         "contact-page": HTMLContactPageElement;
         "contributor-list": HTMLContributorListElement;
         "custom-clock": HTMLCustomClockElement;
@@ -341,6 +362,7 @@ declare global {
         "dsgvo-notice": HTMLDsgvoNoticeElement;
         "feature-pill": HTMLFeaturePillElement;
         "guide-callout": HTMLGuideCalloutElement;
+        "hero-block": HTMLHeroBlockElement;
         "highlight-code": HTMLHighlightCodeElement;
         "hubspot-modal": HTMLHubspotModalElement;
         "in-page-navigation": HTMLInPageNavigationElement;
@@ -378,6 +400,11 @@ declare namespace LocalJSX {
         "page"?: string;
     }
     interface BlogList {
+        "itemCssClass"?: string;
+        "max"?: number | undefined;
+    }
+    interface BlogPage {
+        "max"?: number | undefined;
     }
     interface ContactPage {
     }
@@ -405,6 +432,9 @@ declare namespace LocalJSX {
     }
     interface GuideCallout {
         "onToggleModal"?: (event: CustomEvent<any>) => void;
+    }
+    interface HeroBlock {
+        "caption"?: string;
     }
     interface HighlightCode {
     }
@@ -479,6 +509,7 @@ declare namespace LocalJSX {
         "app-root": AppRoot;
         "blog-component": BlogComponent;
         "blog-list": BlogList;
+        "blog-page": BlogPage;
         "contact-page": ContactPage;
         "contributor-list": ContributorList;
         "custom-clock": CustomClock;
@@ -488,6 +519,7 @@ declare namespace LocalJSX {
         "dsgvo-notice": DsgvoNotice;
         "feature-pill": FeaturePill;
         "guide-callout": GuideCallout;
+        "hero-block": HeroBlock;
         "highlight-code": HighlightCode;
         "hubspot-modal": HubspotModal;
         "in-page-navigation": InPageNavigation;
@@ -520,6 +552,7 @@ declare module "@stencil/core" {
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "blog-component": LocalJSX.BlogComponent & JSXBase.HTMLAttributes<HTMLBlogComponentElement>;
             "blog-list": LocalJSX.BlogList & JSXBase.HTMLAttributes<HTMLBlogListElement>;
+            "blog-page": LocalJSX.BlogPage & JSXBase.HTMLAttributes<HTMLBlogPageElement>;
             "contact-page": LocalJSX.ContactPage & JSXBase.HTMLAttributes<HTMLContactPageElement>;
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
             "custom-clock": LocalJSX.CustomClock & JSXBase.HTMLAttributes<HTMLCustomClockElement>;
@@ -529,6 +562,7 @@ declare module "@stencil/core" {
             "dsgvo-notice": LocalJSX.DsgvoNotice & JSXBase.HTMLAttributes<HTMLDsgvoNoticeElement>;
             "feature-pill": LocalJSX.FeaturePill & JSXBase.HTMLAttributes<HTMLFeaturePillElement>;
             "guide-callout": LocalJSX.GuideCallout & JSXBase.HTMLAttributes<HTMLGuideCalloutElement>;
+            "hero-block": LocalJSX.HeroBlock & JSXBase.HTMLAttributes<HTMLHeroBlockElement>;
             "highlight-code": LocalJSX.HighlightCode & JSXBase.HTMLAttributes<HTMLHighlightCodeElement>;
             "hubspot-modal": LocalJSX.HubspotModal & JSXBase.HTMLAttributes<HTMLHubspotModalElement>;
             "in-page-navigation": LocalJSX.InPageNavigation & JSXBase.HTMLAttributes<HTMLInPageNavigationElement>;

@@ -43,6 +43,10 @@
 - [x] Print
   - [x] "Force page break" Button (Hidden Feature oder so)
 
+## Blog
+
+- [ ] tags
+- [ ] related projects
 ## Release
 
 - [x] Connect domain
