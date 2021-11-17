@@ -56,7 +56,7 @@ const BLOG_LIST_FILE = './src/assets/blog/list.json';
         hypertext: convertHtmlToHypertextData(htmlContents),
       };
 
-      data.title = `Blog of Web Technologies Expert Matthias Max - ${data.title.trim()}`;
+      data.title = `Blog of Digitalization Expert Matthias Max - ${data.title.trim()}`;
 
       await writeFile(destinationFileName, JSON.stringify(data), {
         encoding: 'utf8',
