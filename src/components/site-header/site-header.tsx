@@ -58,7 +58,7 @@ export class SiteHeader {
     return (
       <ResponsiveContainer>
         {/* <stencil-route class="burger-menu" url="/docs" component="app-burger" /> */}
-        <stencil-route-link url="/" class="logo-link" anchorTitle="Matthias Max Digitalization Expert logo">
+        <stencil-route-link url="/" class="logo-link" anchorTitle="Matthias Max IT Solution Architect logo">
           <app-icon name="logo" />
         </stencil-route-link>
 

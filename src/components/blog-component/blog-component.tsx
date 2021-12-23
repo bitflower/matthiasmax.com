@@ -93,7 +93,7 @@ export class BlogIndex {
 }
 
 const insertMetaTags = (post: BlogPostInterface) => {
-  createOgTag('og:title', `Matthias Max Digitalization Expert Blog - ${post.title}`);
+  createOgTag('og:title', `Matthias Max IT Solution Architect Blog - ${post.title}`);
   createOgTag('og:description', post.description);
   createOgTag('og:url', window.location.href);
   createOgTag('og:image', `${window.location.origin}${post.img}`);

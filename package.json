@@ -2,7 +2,7 @@
   "name": "@matthiasmax/personal-site",
   "private": true,
   "version": "0.0.1",
-  "description": "Matthias Max Digitalization Expert Site",
+  "description": "Matthias Max IT Solution Architect Site",
   "scripts": {
     "build": "npm run site.structure && npm run docs && stencil build --prerender",
     "build-en": "MMLANG=en npm run site.structure && npm run docs && stencil build --prerender",

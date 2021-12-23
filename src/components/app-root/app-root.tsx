@@ -104,7 +104,7 @@ export class AppRoot {
             <footer>
               <ResponsiveContainer>
                 <div class="footer-col">
-                  <stencil-route-link url="/" anchorTitle="Matthias Max Digitalization Expert logo">
+                  <stencil-route-link url="/" anchorTitle="Matthias Max IT Solution Architect logo">
                     <app-icon name="logo" />
                   </stencil-route-link>
                   <p>© 2021 Matthias Max.</p>
