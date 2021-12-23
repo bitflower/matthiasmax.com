@@ -22,6 +22,10 @@ cv-page .page {
   flex-wrap: wrap;
 }
 
+cv-page .cv-page__main-heading {
+  width: 100%;
+}
+
 cv-page .right {
   flex-grow: 0;
   flex-shrink: 0;

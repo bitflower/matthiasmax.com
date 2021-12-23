@@ -74,7 +74,7 @@ export class cvPage {
             <a class="hide-print download-button" rel="noopener" target="_blank" href="https://matthiasmax.com/assets/profil_matthiasmax.pdf">
               <app-icon name="targetblank" /> {i18n.cv.downloadCV}
             </a>
-            <h1 class="hide-print">{i18n.cv.heading}</h1>
+            <h1 class="hide-print cv-page__main-heading">{i18n.cv.heading}</h1>
             <div class="left">
               <h2 class="cv-page__first-heading">{i18n.cv.cv}</h2>
               <time-line items={lebenslauf} />
