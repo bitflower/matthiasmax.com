@@ -26,7 +26,7 @@ export class ContactPage {
           <br />
           bitflower e.K. / Matthias Max
           <br />
-          Tafingerstraße 14
+          Gerberstraße 1
           <br />
           71665 Vaihingen an der Enz
           <br />
