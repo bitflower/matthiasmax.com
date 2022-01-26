@@ -84,6 +84,7 @@ interface I18nDeliverables {
   pwa: string;
   spa: string;
   website: string;
+  productOwnership: string;
 }
 interface I18nIndustries {
   all: string;

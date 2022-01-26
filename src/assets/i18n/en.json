@@ -77,7 +77,8 @@
     "app": "Mobile App",
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
-    "website": "Website"
+    "website": "Website",
+    "productOwnership": "Product ownership"
   },
   "global": {
     "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy.",
@@ -132,6 +133,12 @@
     "writing": "Author",
     "devOps": "DevOps",
     "unitTest": "Unit Tests",
-    "qa": "Quality assurance"
+    "qa": "Quality assurance",
+    "teamLead": "Team lead",
+    "roadmap": "Road Map Planing",
+    "sprintPlaning": "Sprint Planing",
+    "refinements": "Refinements",
+    "productOwner": "Product owner",
+    "manager": "Manager"
   }
 }

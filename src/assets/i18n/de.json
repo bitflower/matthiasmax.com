@@ -77,7 +77,8 @@
     "app": "Mobile App",
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
-    "website": "Website"
+    "website": "Website",
+    "productOwnership": "Product Ownership"
   },
   "global": {
     "dsgvo": "Um meine Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwende ich Cookies sowie Google Analytics. Durch die weitere Nutzung dieser Webseite stimmen Sie der Verwendung von Cookies zu. Detaillierte Informationen dazu erhalten Sie in meiner Datenschutzerklärung.",
@@ -132,6 +133,12 @@
     "writing": "Autor",
     "devOps": "DevOps",
     "unitTest": "Unit Tests",
-    "qa": "Qualitätssicherung"
+    "qa": "Qualitätssicherung",
+    "teamLead": "Team Lead",
+    "roadmap": "Road Map Planung",
+    "sprintPlaning": "Sprint Planung",
+    "refinements": "Refinements",
+    "productOwner": "Product Owner",
+    "manager": "Manager"
   }
 }
