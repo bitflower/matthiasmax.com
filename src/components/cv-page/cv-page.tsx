@@ -82,8 +82,9 @@ export class cvPage {
               <div class="key-skills">
                 <h2>Key Skills</h2>
                 <ul>
+                  <li>Product Ownership &amp; Product Development</li>
                   <li>Softwarearchitektur und -design</li>
-                  <li>Anforderungsanalyse und sprechen "beider Sprachen"</li>
+                  <li>Anforderungsanalyse und Übersetzen von Businessanforderungen in technische Sprache</li>
                   <li>Unternehmerisches Denken</li>
                   <li>Web-Fullstackentwicklung: Webfrontend mit Backend- und Datenbankentwicklung</li>
                   <li>Teamkommunikation und Entwicklerführung</li>
@@ -97,15 +98,16 @@ export class cvPage {
               <div class="key-tech">
                 <h2>Technologien, Sprachen und Tools</h2>
                 <ul>
-                  <li>Agile: Azure DevOps, GitHub, JIRA, SAFe, Scrum</li>
+                  <li>Agile: Azure DevOps, GitHub, JIRA, SAFe, LeSS, Scrum, OKRs</li>
+                  <li>Collaboration: Mural, Miro, Slack, Presentations</li>
                   <li>API: API-First, json-schema, Swagger</li>
                   <li>Cloud: AWS, Azure, Docker, Heroku, MongoDB Atlas</li>
                   <li>CMS: Wordpress, Markdown, CaseOS</li>
                   <li>Datenbank: MongoDB, MS SQL-Server, MySQL, Oracle, IndexedDB</li>
-                  <li>Frontend: Angular 11+, Web Components, SSG, Hybrid-Apps</li>
+                  <li>Frontend: Angular, Web Components, React, SSG, Hybrid-Apps</li>
                   <li>Mobile Apps: CapacitorJS, Ionic</li>
                   <li>Server: .Net, ExpressJS, IIS, NodeJS, PHP</li>
-                  <li>Transport: OPC UA, REST, WebSocket</li>
+                  <li>Transport: OPC UA, REST, WebSocket, OCPP</li>
                   <li>UI/UX: Figma, Mockups, Sketch, Wireframes</li>
                 </ul>
               </div>
