@@ -44,6 +44,11 @@ landing-page .landing-page__intro {
   margin-bottom: 5px;
 }
 
+landing-page .landing-page__quote {
+  font-style: italic;
+  font-weight: 300 !important;
+}
+
 .btn-get-started,
 .btn-why-stencil {
   transition: all ease 0.15s;
