@@ -22,7 +22,7 @@ export class ProjectDeliverablesFilter {
     return (
       <Fragment>
         <button class="btn btn--white btn--small filter-btn" onClick={() => this.onClick('all')}>
-          Alle
+          {i18n.deliverables.all}
         </button>
         {this.deliverables.sort(compare()).map(deliverable => (
           <button class="btn btn--secondary btn--small filter-btn" onClick={() => this.onClick(deliverable)}>

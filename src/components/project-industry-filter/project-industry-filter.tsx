@@ -2,6 +2,7 @@ import { Component, Event, EventEmitter, Fragment, h, State } from '@stencil/cor
 
 import { compare } from '../../global/common';
 import { getProjects } from '../../utils/language-helpers';
+import i18n from '../../stores/i18n.store';
 // import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
@@ -30,7 +31,7 @@ export class ProjectIndustryFilter {
     return (
       <Fragment>
         <button class="btn btn--white btn--small filter-btn" onClick={() => this.onClick('all')}>
-          Alle
+          {i18n.industries.all}
         </button>
         {this.industries.sort(compare()).map(industry => (
           <button class="btn btn--primary btn--small filter-btn" onClick={() => this.onClick(industry)}>
