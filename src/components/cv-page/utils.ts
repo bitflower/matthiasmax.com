@@ -1,4 +1,4 @@
-import { Project } from '@matthiasmax/cv-api';
+import type { Project } from '@matthiasmax/cv-api';
 
 export const calcAverageDuration = (projects: Project[]) => {
   const inDays: number[] = projects.map(p => {

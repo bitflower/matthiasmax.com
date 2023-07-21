@@ -23,7 +23,7 @@
     "@types/fs-extra": "^9.0.1",
     "@types/glob": "^7.1.2",
     "@types/marked": "^0.7.4",
-    "@types/node": "^14.0.14",
+    "@types/node": "^20.4.2",
     "@types/prismic-dom": "^2.1.1",
     "@types/prismjs": "^1.16.1",
     "algoliasearch": "^4.3.0",
@@ -53,7 +53,7 @@
   },
   "homepage": "https://matthiasmax.com/",
   "dependencies": {
-    "@matthiasmax/cv-api": "^1.0.15",
+    "@matthiasmax/cv-api": "^1.1.1",
     "@stencil/store": "^1.4.1"
   }
 }

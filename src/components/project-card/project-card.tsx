@@ -1,5 +1,5 @@
 import { Component, Fragment, h, Prop } from '@stencil/core';
-import { Project } from '@matthiasmax/cv-api';
+import type { Project } from '@matthiasmax/cv-api';
 import { compare } from '../../global/common';
 
 import i18n from '../../stores/i18n.store';

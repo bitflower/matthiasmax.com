@@ -1,5 +1,6 @@
-import { projects } from '@matthiasmax/cv-api';
 import { Component, h } from '@stencil/core';
+
+import { getProjects } from '../../utils/language-helpers';
 // import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
@@ -13,6 +14,8 @@ export class DeliverableList {
   //
   // --------------------------------------------------------------------------
   render() {
-    return projects.sort((a, b) => (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)).map(project => <project-card project={project} />);
+    return getProjects()
+      .sort((a, b) => (a.title > b.title ? 1 : a.title < b.title ? -1 : 0))
+      .map(project => <project-card project={project} />);
   }
 }

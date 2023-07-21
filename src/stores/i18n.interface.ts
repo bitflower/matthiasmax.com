@@ -1,5 +1,3 @@
-// import { TaskType } from '@matthiasmax/cv-api';
-
 export interface SingularPlural {
   singular: string;
   plural: string;

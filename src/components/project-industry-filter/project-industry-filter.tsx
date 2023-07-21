@@ -1,7 +1,7 @@
-import { projects } from '@matthiasmax/cv-api';
 import { Component, Event, EventEmitter, Fragment, h, State } from '@stencil/core';
 
 import { compare } from '../../global/common';
+import { getProjects } from '../../utils/language-helpers';
 // import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 
 @Component({
@@ -10,7 +10,7 @@ import { compare } from '../../global/common';
 export class ProjectIndustryFilter {
   constructor() {
     const uniqueIndustries = new Set<string>();
-    projects.forEach(project => {
+    getProjects().forEach(project => {
       uniqueIndustries.add(project.industry);
     });
     this.industries = Array.from(uniqueIndustries);

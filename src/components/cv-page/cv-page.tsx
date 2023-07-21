@@ -1,11 +1,12 @@
 import { Component, Fragment, h, State } from '@stencil/core';
 import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
-import { milestones, projects } from '@matthiasmax/cv-api';
 
 import i18n from '../../stores/i18n.store';
+import { getMilestones, getProjects } from '../../utils/language-helpers';
+
 import { calcAverageDuration } from './utils';
 
-const lebenslauf = [...milestones.reverse()];
+const lebenslauf = [...getMilestones().reverse()];
 
 @Component({
   tag: 'cv-page',
@@ -33,6 +34,8 @@ export class cvPage {
 
   @State()
   private selectedDeliverable: string | undefined = undefined;
+
+  private projects = getProjects();
 
   // --------------------------------------------------------------------------
   //
@@ -260,11 +263,11 @@ export class cvPage {
                   <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
 
                   <div class="professional-kpis">
-                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...projects.map(p => p.year))} ${i18n.common.durations.years.plural}`} />
-                    <kpi-value label="Projekte" value={projects.length.toString()} />
+                    <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...this.projects.map(p => p.year))} ${i18n.common.durations.years.plural}`} />
+                    <kpi-value label="Projekte" value={this.projects.length.toString()} />
                     <kpi-value
                       label="&#8709; Dauer"
-                      value={`${Math.round((calcAverageDuration(projects) / 365 + Number.EPSILON) * 100) / 100} ${i18n.common.durations.years.plural}`}
+                      value={`${Math.round((calcAverageDuration(this.projects) / 365 + Number.EPSILON) * 100) / 100} ${i18n.common.durations.years.plural}`}
                     />
                   </div>
 
