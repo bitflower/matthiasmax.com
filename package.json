@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.1",
   "description": "Matthias Max IT Solution Architect Site",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "npm run site.structure && npm run docs && stencil build --prerender",
     "build-en": "MMLANG=en npm run site.structure && npm run docs && stencil build --prerender",
