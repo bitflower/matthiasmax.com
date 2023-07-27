@@ -100,6 +100,12 @@ landing-page .hero .landing-page__bg {
   height: 673px;
 }
 
+@media screen and (max-width: 1200px) {
+  landing-page .hero .landing-page__bg {
+    transform: translate(-32px, -41%);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   landing-page .hero {
     margin-bottom: 0;
