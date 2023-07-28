@@ -521,6 +521,14 @@ landing-page .video-thumbnail:hover svg circle {
   }
 }
 
+@media screen and (max-width: 460px) {
+  /* HERE */
+  landing-page .hero .landing-page__bg {
+    margin-top: 0;
+    top: 58%;
+  }
+}
+
 .feature-list {
   display: flex;
 }
