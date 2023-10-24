@@ -46,8 +46,8 @@ export class ContactPage {
           </a>
           <br />
           LinkedIn:&nbsp;
-          <a href="https://www.linkedin.com/in/bitflower/" target="blank">
-            https://www.linkedin.com/in/bitflower/
+          <a href="https://www.linkedin.com/in/matthiasmax/" target="blank">
+            https://www.linkedin.com/in/matthiasmax/
           </a>
           <br />
         </p>
