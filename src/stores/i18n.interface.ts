@@ -83,6 +83,7 @@ interface I18nDeliverables {
   spa: string;
   website: string;
   productOwnership: string;
+  itArchitecture: string;
 }
 interface I18nIndustries {
   all: string;

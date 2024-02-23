@@ -36,7 +36,7 @@
     "dropLine": "Or drop me a line at:",
     "heading": "Get in touch",
     "link": "contact",
-    "title": "Get in touch with Matthias Max IT Solution Architect",
+    "title": "Get in touch with Matthias Max Enterprise Solution Architect",
     "welcomeOffice": "You're welcome to have a coffee with me at my office!",
     "donate": "Did I help you with one of my online resources?",
     "buyMeACoffee": "Feel free to ",
@@ -48,9 +48,9 @@
     "downloadCV": "Download CV",
     "education": "Education",
     "experience": "Project experience",
-    "heading": "IT Solution Architect",
+    "heading": "Enterprise Solution Architect",
     "languages": "Languages",
-    "title": "CV of Matthias Max - IT Solution Architect",
+    "title": "CV of Matthias Max - Enterprise Solution Architect",
     "degree": "Graduated with a Diploma in Business-IT (FH)",
     "impact": "My impact sweet spot",
     "impactAreas": {
@@ -78,7 +78,8 @@
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
     "website": "Website",
-    "productOwnership": "Product ownership"
+    "productOwnership": "Product ownership",
+    "itArchitecture": "IT Architecture"
   },
   "global": {
     "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy.",

@@ -36,7 +36,7 @@
     "dropLine": "Oder schreiben Sie mir:",
     "heading": "Kontakt aufnehmen",
     "link": "kontakt",
-    "title": "Kontakt mit Matthias Max IT Solution Architect aufnehmen",
+    "title": "Kontakt mit Matthias Max Enterprise Solution Architect aufnehmen",
     "welcomeOffice": "Kommen Sie doch mal auf einen Kaffee vorbei!",
     "donate": "Einer meiner Onlineinhalte hat Ihnen weitergeholfen?",
     "buyMeACoffee": "Ich freue mich jederzeit ",
@@ -48,9 +48,9 @@
     "downloadCV": "CV downloaden",
     "education": "Ausbildung",
     "experience": "Projekterfahrung",
-    "heading": "IT Solution Architect",
+    "heading": "Enterprise Solution Architect",
     "languages": "Fremdsprachen",
-    "title": "CV von Matthias Max - IT Solution Architect",
+    "title": "CV von Matthias Max - Enterprise Solution Architect",
     "degree": "Diplom-Wirtschaftsinformatiker (FH)",
     "impact": "Mein idealer Wirkungsbereich",
     "impactAreas": {
@@ -78,7 +78,8 @@
     "pwa": "Progressive Web App (PWA)",
     "spa": "Single Page Application (SPA)",
     "website": "Website",
-    "productOwnership": "Product Ownership"
+    "productOwnership": "Product Ownership",
+    "itArchitecture": "IT Architektur"
   },
   "global": {
     "dsgvo": "Um meine Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwende ich Cookies sowie Google Analytics. Durch die weitere Nutzung dieser Webseite stimmen Sie der Verwendung von Cookies zu. Detaillierte Informationen dazu erhalten Sie in meiner Datenschutzerklärung.",

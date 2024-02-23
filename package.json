@@ -55,7 +55,7 @@
   },
   "homepage": "https://matthiasmax.com/",
   "dependencies": {
-    "@matthiasmax/cv-api": "^1.1.2",
+    "@matthiasmax/cv-api": "^1.1.5",
     "@stencil/store": "^1.4.1"
   }
 }
