@@ -103,13 +103,13 @@ export class cvPage {
                 <ul>
                   <li>Agile: Azure DevOps, GitHub, JIRA, SAFe, LeSS, Scrum, OKRs</li>
                   <li>Collaboration: Mural, Miro, Slack, Presentations</li>
-                  <li>API: API-First, json-schema, Swagger</li>
-                  <li>Cloud: AWS, Azure, Docker, Heroku, MongoDB Atlas</li>
+                  <li>API: API-First, json-schema, Swagger/OpenAPI</li>
+                  <li>Cloud: AWS, Azure, Docker, Heroku</li>
                   <li>CMS: Wordpress, Markdown, CaseOS</li>
                   <li>Datenbank: MongoDB, MS SQL-Server, MySQL, Oracle, IndexedDB</li>
-                  <li>Frontend: Angular, Web Components, React, SSG, Hybrid-Apps</li>
+                  <li>Frontend: Web Components, React, Angular, Hybrid-Apps</li>
                   <li>Mobile Apps: CapacitorJS, Ionic</li>
-                  <li>Server: .Net, ExpressJS, IIS, NodeJS, PHP</li>
+                  <li>Server: NodeJS, ExpressJS, .Net, PHP, Java</li>
                   <li>Transport: OPC UA, REST, WebSocket, OCPP</li>
                   <li>UI/UX: Figma, Mockups, Sketch, Wireframes</li>
                 </ul>

@@ -1,6 +1,7 @@
 @page {
   size: 21cm 29.7cm;
   margin: 0 !important;
+  margin-top: 0.5cm !important;
   /* Works only when the margin on the print settings of Chrome are on "default" ! */
   margin-bottom: 0.75cm !important;
   padding: 0;
@@ -39,7 +40,7 @@
   }
 
   header {
-    top: 1cm;
+    top: 0cm;
   }
   .cv-page__footer {
     bottom: 0;
@@ -53,6 +54,7 @@
 
   cv-page .right {
     width: 5.1cm;
+    padding-top: 25px;
   }
 
   .bla {
@@ -65,10 +67,11 @@
   .cv-page__kopfzeiletitle {
     flex-grow: 1;
     text-align: right;
+    margin-bottom: 17px;
   }
 
   .cv-page__first-heading {
-    margin-top: 1.7cm;
+    margin-top: 0.7cm;
   }
 
   cv-page time-line {
@@ -81,6 +84,14 @@
   cv-page .time-line__container {
     left: -10px;
     width: calc(100% + 10px);
+  }
+
+  landing-page .landing-page__intro {
+    margin-bottom: 0px !important;
+  }
+
+  landing-page .landing-page__quote {
+    margin-bottom: 0 !important;
   }
 
   h1:not(.no-print-font) {

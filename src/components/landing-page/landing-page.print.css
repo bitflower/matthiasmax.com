@@ -2,6 +2,7 @@
   landing-page .hero {
     display: flex;
     padding: 0;
+    margin-bottom: 120px !important;
   }
 
   landing-page .hero hgroup h1 {
@@ -23,7 +24,7 @@
     height: 9cm !important;
     margin-top: 0 !important;
     position: relative !important;
-    top: 8cm !important;
+    top: 4cm !important;
     transform: none !important;
   }
   landing-page .companies {
@@ -39,9 +40,7 @@
   }
 
   landing-page .companies {
-    position: absolute !important;
-    bottom: 0;
-    width: 100%;
-    left: 0;
+    width: calc(100% + 4cm);
+    margin-left: -2cm;
   }
 }
