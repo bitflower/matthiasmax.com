@@ -62,7 +62,7 @@ export class cvPage {
       <Fragment>
         <header class="hide-screen">
           <div class="bla">
-            <app-icon name="logo" />
+            <app-icon name="logo" class="hide-print" />
             <h1 class="cv-page__kopfzeiletitle">{i18n.cv.heading}</h1>
           </div>
         </header>
