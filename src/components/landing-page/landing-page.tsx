@@ -9,7 +9,7 @@ import i18n from '../../stores/i18n.store';
 })
 export class LandingPage {
   constructor() {
-    document.title = `Matthias Max IT Solution Architect`;
+    document.title = `Matthias Max Enterprise Solution Architect`;
   }
 
   render() {

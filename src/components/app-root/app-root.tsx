@@ -101,10 +101,10 @@ export class AppRoot {
                 <stencil-route component="notfound-page"></stencil-route>
               </stencil-route-switch>
             </stencil-router>
-            <footer>
+            <footer class="hide-print">
               <ResponsiveContainer>
                 <div class="footer-col">
-                  <stencil-route-link url="/" anchorTitle="Matthias Max IT Solution Architect logo">
+                  <stencil-route-link url="/" anchorTitle="Matthias Max Enterprise Solution Architect logo">
                     <app-icon name="logo" />
                   </stencil-route-link>
                   <p>© 2023 Matthias Max.</p>

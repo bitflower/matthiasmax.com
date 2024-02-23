@@ -2,7 +2,7 @@
   "name": "@matthiasmax/personal-site",
   "private": true,
   "version": "0.0.1",
-  "description": "Matthias Max IT Solution Architect Site",
+  "description": "Matthias Max Enterprise Solution Architect Site",
   "engines": {
     "node": ">=18.0.0"
   },

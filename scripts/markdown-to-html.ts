@@ -61,9 +61,9 @@ const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
       };
 
       if (typeof data.title !== 'string') {
-        data.title = 'Matthias Max IT Solution Architect';
+        data.title = 'Matthias Max Enterprise Solution Architect';
       } else {
-        data.title = data.title.trim() + ' - Matthias Max IT Solution Architect';
+        data.title = data.title.trim() + ' - Matthias Max Enterprise Solution Architect';
       }
 
       await writeFile(destinationFileName, JSON.stringify(data), {
