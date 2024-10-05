@@ -97,6 +97,7 @@ export class AppRoot {
                 <stencil-route url="/blog/:pageName" routeRender={({ match }) => <blog-component page={match!.url}></blog-component>} />
 
                 <stencil-route url="/cv" component="cv-page" />
+                <stencil-route url={`/${i18n.global.imprintLink}`} component="imprint-page" />
                 <stencil-route url={`/${i18n.contact.link}`} component="contact-page" />
                 <stencil-route component="notfound-page"></stencil-route>
               </stencil-route-switch>
@@ -107,7 +108,12 @@ export class AppRoot {
                   <stencil-route-link url="/" anchorTitle="Matthias Max Enterprise Solution Architect logo">
                     <app-icon name="logo" />
                   </stencil-route-link>
-                  <p>© {new Date().getFullYear()} Matthias Max.</p>
+                  <p>
+                    <span>© {new Date().getFullYear()} Matthias Max</span> |{' '}
+                    <stencil-route-link url={i18n.global.imprintLink} anchorTitle="Matthias Max Impressum">
+                      {i18n.global.imprint}
+                    </stencil-route-link>
+                  </p>
                   <ul class="external-links list--unstyled">
                     <li>
                       <a rel="noopener" class="link--external" target="_blank" href="https://twitter.com/bitflowertweets" aria-label="Twitter">

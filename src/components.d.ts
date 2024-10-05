@@ -55,6 +55,8 @@ export namespace Components {
     interface HubspotModal {
         "active": boolean;
     }
+    interface ImprintPage {
+    }
     interface InPageNavigation {
         "currentPageUrl": string;
         "pageLinks": MarkdownHeading[];
@@ -217,6 +219,12 @@ declare global {
         prototype: HTMLHubspotModalElement;
         new (): HTMLHubspotModalElement;
     };
+    interface HTMLImprintPageElement extends Components.ImprintPage, HTMLStencilElement {
+    }
+    var HTMLImprintPageElement: {
+        prototype: HTMLImprintPageElement;
+        new (): HTMLImprintPageElement;
+    };
     interface HTMLInPageNavigationElement extends Components.InPageNavigation, HTMLStencilElement {
     }
     var HTMLInPageNavigationElement: {
@@ -343,6 +351,7 @@ declare global {
         "guide-callout": HTMLGuideCalloutElement;
         "highlight-code": HTMLHighlightCodeElement;
         "hubspot-modal": HTMLHubspotModalElement;
+        "imprint-page": HTMLImprintPageElement;
         "in-page-navigation": HTMLInPageNavigationElement;
         "info-badge": HTMLInfoBadgeElement;
         "kpi-value": HTMLKpiValueElement;
@@ -411,6 +420,8 @@ declare namespace LocalJSX {
     interface HubspotModal {
         "active"?: boolean;
         "onToggleModal"?: (event: CustomEvent<any>) => void;
+    }
+    interface ImprintPage {
     }
     interface InPageNavigation {
         "currentPageUrl"?: string;
@@ -490,6 +501,7 @@ declare namespace LocalJSX {
         "guide-callout": GuideCallout;
         "highlight-code": HighlightCode;
         "hubspot-modal": HubspotModal;
+        "imprint-page": ImprintPage;
         "in-page-navigation": InPageNavigation;
         "info-badge": InfoBadge;
         "kpi-value": KpiValue;
@@ -531,6 +543,7 @@ declare module "@stencil/core" {
             "guide-callout": LocalJSX.GuideCallout & JSXBase.HTMLAttributes<HTMLGuideCalloutElement>;
             "highlight-code": LocalJSX.HighlightCode & JSXBase.HTMLAttributes<HTMLHighlightCodeElement>;
             "hubspot-modal": LocalJSX.HubspotModal & JSXBase.HTMLAttributes<HTMLHubspotModalElement>;
+            "imprint-page": LocalJSX.ImprintPage & JSXBase.HTMLAttributes<HTMLImprintPageElement>;
             "in-page-navigation": LocalJSX.InPageNavigation & JSXBase.HTMLAttributes<HTMLInPageNavigationElement>;
             "info-badge": LocalJSX.InfoBadge & JSXBase.HTMLAttributes<HTMLInfoBadgeElement>;
             "kpi-value": LocalJSX.KpiValue & JSXBase.HTMLAttributes<HTMLKpiValueElement>;

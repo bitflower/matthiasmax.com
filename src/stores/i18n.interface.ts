@@ -62,6 +62,8 @@ interface I18nGlobal {
   mobile: string;
   phone: string;
   sayHello: string;
+  imprint: string;
+  imprintLink: string;
 }
 interface I18nLandingPage {
   brands: string;
