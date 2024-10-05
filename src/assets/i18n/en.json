@@ -86,7 +86,9 @@
     "dsgvoOk": "Ok",
     "mobile": "Mobile",
     "phone": "Phone",
-    "sayHello": "Say Hello"
+    "sayHello": "Say Hello",
+    "imprint": "Imprint",
+    "imprintLink": "imprint"
   },
   "industry": {
     "singular": "Industry",

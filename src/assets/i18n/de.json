@@ -86,7 +86,9 @@
     "dsgvoOk": "Einverstanden",
     "mobile": "Mobil",
     "phone": "Telefon",
-    "sayHello": "Sag Hallo!"
+    "sayHello": "Sag Hallo!",
+    "imprint": "Impressum",
+    "imprintLink": "impressum"
   },
   "industry": {
     "singular": "Branche",
