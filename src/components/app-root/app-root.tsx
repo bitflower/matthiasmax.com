@@ -110,7 +110,7 @@ export class AppRoot {
                   </stencil-route-link>
                   <p>
                     <span>© {new Date().getFullYear()} Matthias Max</span> |{' '}
-                    <stencil-route-link url={i18n.global.imprintLink} anchorTitle="Matthias Max Impressum">
+                    <stencil-route-link url={`/${i18n.global.imprintLink}`} anchorTitle="Matthias Max Impressum">
                       {i18n.global.imprint}
                     </stencil-route-link>
                   </p>
