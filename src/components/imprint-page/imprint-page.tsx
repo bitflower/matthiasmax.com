@@ -76,7 +76,7 @@ export class ImprintPage {
               <br />
               bitflower e.K.
               <br />
-              Ludwigstraße 23-2
+              Ludwigstra&szlig;e 23-2
               <br />
               74372 Sersheim
             </p>
@@ -111,7 +111,7 @@ export class ImprintPage {
             <p>
               Matthias Max
               <br />
-              Ludwigstraße 23-2
+              Ludwigstra&szlig;e 23-2
               <br />
               74372 Sersheim
             </p>
