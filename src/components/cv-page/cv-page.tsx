@@ -260,7 +260,7 @@ export class cvPage {
                 <h2>Matthias Max</h2>
                 <h3>{i18n.cv.degree}</h3>
                 <div class="profile-kpis">
-                  <img class="cv-page__profileimg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
+                  <img class="cv-page__profileimg" src="/assets/img/profile.png" loading="lazy" alt="Profilbild von Matthias Max" />
 
                   <div class="professional-kpis">
                     <kpi-value label="Erfahrung" value={`${new Date().getFullYear() - Math.min(...this.projects.map(p => p.year))} ${i18n.common.durations.years.plural}`} />

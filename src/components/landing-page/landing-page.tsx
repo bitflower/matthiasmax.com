@@ -25,7 +25,7 @@ export class LandingPage {
               {i18n.landingPage.cta}
             </stencil-route-link>
           </hgroup>
-          <img class="landing-page__bg" src="/assets/img/profile.jpg" loading="lazy" alt="Profilbild von Matthias Max" />
+          <img class="landing-page__bg" src="/assets/img/profile.png" loading="lazy" alt="Profilbild von Matthias Max" />
         </ResponsiveContainer>
 
         <div class="companies">
