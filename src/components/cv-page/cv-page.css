@@ -41,6 +41,10 @@ cv-page .profile {
   padding-top: 10px;
 }
 
+cv-page .profile-kpis {
+  text-align: center;
+}
+
 cv-page time-line {
   --base-padding: 10px;
   --label-width: 102px;
@@ -52,7 +56,8 @@ cv-page time-line {
 }
 
 cv-page .cv-page__profileimg {
-  width: 100%;
+  max-width: 80%;
+  margin-top: 40px;
 }
 
 .professional-kpis {
