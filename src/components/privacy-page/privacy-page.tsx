@@ -270,54 +270,234 @@ export class PrivacyPage {
           </Fragment>
         ) : (
           <Fragment>
-            <h1>{i18n.global.imprint}</h1>
+            <h1>Privacy Policy</h1>
+            <h2>1. Data Protection at a Glance</h2>
+            <h3>General Information</h3>{' '}
+            <p>
+              The following notes provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data with which you can be
+              personally identified. Detailed information on the subject of data protection can be found in our privacy policy listed below this text.
+            </p>
+            <h3>Data Collection on this Website</h3> <h4>Who is responsible for data collection on this website?</h4>{' '}
+            <p>
+              The data processing on this website is carried out by the website operator. You can find their contact details in the section "Notice concerning the responsible
+              party" in this privacy policy.
+            </p>{' '}
+            <h4>How do we collect your data?</h4>{' '}
+            <p>Your data is collected on the one hand by you providing it to us. This can be, for example, data that you enter in a contact form.</p>{' '}
+            <p>
+              Other data is collected automatically or after your consent when you visit the website by our IT systems. This is mainly technical data (e.g. internet browser,
+              operating system, or time of the page call). This data is collected automatically as soon as you enter this website.
+            </p>{' '}
+            <h4>What do we use your data for?</h4>{' '}
+            <p>Part of the data is collected to ensure the error-free provision of the website. Other data can be used to analyze your user behavior.</p>{' '}
+            <h4>What rights do you have regarding your data?</h4>{' '}
+            <p>
+              You have the right to receive information about the origin, recipient, and purpose of your stored personal data free of charge at any time. You also have the right to
+              request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. You also
+              have the right to request the restriction of the processing of your personal data under certain circumstances. Furthermore, you have the right to lodge a complaint
+              with the competent supervisory authority.
+            </p>{' '}
+            <p>You can contact us at any time regarding this and other questions on the subject of data protection.</p>
+            <h3>Analysis Tools and Tools from Third-Party Providers</h3>{' '}
+            <p>When visiting this website, your surfing behavior can be statistically evaluated. This is mainly done with so-called analysis programs.</p>{' '}
+            <p>Detailed information on these analysis programs can be found in the following privacy policy.</p>
+            <h2>2. Hosting</h2>
+            <p>We host the content of our website with the following provider:</p>
+            <h3>External Hosting</h3>{' '}
+            <p>
+              This website is hosted externally. The personal data collected on this website is stored on the servers of the host(s). This may include IP addresses, contact
+              requests, meta and communication data, contract data, contact details, names, website accesses, and other data generated via a website.
+            </p>{' '}
+            <p>
+              External hosting is carried out for the purpose of fulfilling contracts with our potential and existing customers (Art. 6 para. 1 lit. b GDPR) and in the interest of
+              a secure, fast, and efficient provision of our online offer by a professional provider (Art. 6 para. 1 lit. f GDPR). If a corresponding consent has been requested,
+              the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TDDG, insofar as the consent includes the storage of cookies or
+              access to information in the user's terminal device (e.g. device fingerprinting) within the meaning of the TDDG. The consent can be revoked at any time.
+            </p>{' '}
+            <p>Our host(s) will only process your data to the extent necessary to fulfill their performance obligations and follow our instructions regarding this data.</p>{' '}
+            <p>We use the following host(s):</p>
+            <p>
+              Vercel
+              <br />
+              8 Northumberland Avenue
+              <br />
+              London WC2N 5BY
+              <br />
+              United Kingdom
+            </p>
+            <h2>3. General Information and Mandatory Information</h2>
+            <h3>Data Protection</h3>{' '}
+            <p>
+              The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory
+              data protection regulations and this privacy policy.
+            </p>{' '}
+            <p>
+              When you use this website, various personal data is collected. Personal data is data with which you can be personally identified. This privacy policy explains what
+              data we collect and what we use it for. It also explains how and for what purpose this happens.
+            </p>{' '}
+            <p>
+              We would like to point out that data transmission over the Internet (e.g. when communicating by e-mail) can have security gaps. A complete protection of the data
+              against access by third parties is not possible.
+            </p>
+            <h3>Notice Concerning the Responsible Party</h3> <p>The responsible party for data processing on this website is:</p>{' '}
             <p>
               Matthias Max
               <br />
               bitflower e.K.
               <br />
-              Ludwigstra&szlig;e 23-2
+              Ludwigstraße 23-2
               <br />
               74372 Sersheim
             </p>
-
             <p>
-              Commercial Register: HRA 729998
-              <br />
-              Register Court: Stuttgart
-            </p>
-
-            <h2>Contact</h2>
-            <p>
-              Phone: +49 7042 959424
+              Phone: 01714177266
               <br />
               Email: info@matthiasmax.de
             </p>
-
-            <h2>VAT ID</h2>
             <p>
-              VAT Identification Number according to § 27 a of the German VAT Act:
-              <br />
-              DE282769214
+              The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data (e.g. names, email
+              addresses, etc.).
             </p>
-
-            <h2>Professional Title and Professional Regulations</h2>
+            <h3>Storage Duration</h3>{' '}
             <p>
-              Professional Title:
-              <br />
-              Dipl. Wirtschaftsinformatiker
+              Unless a more specific storage period has been specified within this privacy policy, your personal data will remain with us until the purpose for the data processing
+              no longer applies. If you assert a legitimate request for deletion or revoke your consent to data processing, your data will be deleted unless we have other legally
+              permissible reasons for storing your personal data (e.g. tax or commercial law retention periods); in the latter case, the deletion will take place after these
+              reasons cease to apply.
             </p>
-            <h2>Editorially Responsible</h2>
+            <h3>General Information on the Legal Bases of Data Processing on this Website</h3>{' '}
             <p>
-              Matthias Max
-              <br />
-              Ludwigstra&szlig;e 23-2
-              <br />
-              74372 Sersheim
+              If you have consented to data processing, we process your personal data on the basis of Art. 6 para. 1 lit. a GDPR or Art. 9 para. 2 lit. a GDPR, if special
+              categories of data are processed according to Art. 9 para. 1 GDPR. In the case of explicit consent to the transfer of personal data to third countries, the data
+              processing is also carried out on the basis of Art. 49 para. 1 lit. a GDPR. If you have consented to the storage of cookies or access to information in your terminal
+              device (e.g. via device fingerprinting), the data processing is additionally carried out on the basis of § 25 para. 1 TDDG. The consent can be revoked at any time. If
+              your data is required for the fulfillment of a contract or for the implementation of pre-contractual measures, we process your data on the basis of Art. 6 para. 1
+              lit. b GDPR. Furthermore, we process your data if this is necessary for the fulfillment of a legal obligation on the basis of Art. 6 para. 1 lit. c GDPR. The data
+              processing can also be carried out on the basis of our legitimate interest according to Art. 6 para. 1 lit. f GDPR. Information on the relevant legal bases in each
+              individual case is provided in the following paragraphs of this privacy policy.
             </p>
-
-            <h2>Consumer Dispute Resolution/Universal Arbitration Board</h2>
-            <p>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+            <h3>Recipients of Personal Data</h3>{' '}
+            <p>
+              In the course of our business activities, we work with various external parties. In some cases, it is also necessary to transmit personal data to these external
+              parties. We only pass on personal data to external parties if this is necessary in the context of contract fulfillment, if we are legally obliged to do so (e.g.
+              transfer of data to tax authorities), if we have a legitimate interest in the transfer according to Art. 6 para. 1 lit. f GDPR, or if another legal basis allows the
+              data transfer. When using processors, we only pass on personal data of our customers on the basis of a valid contract for order processing. In the case of joint
+              processing, a contract for joint processing is concluded.
+            </p>
+            <h3>Revocation of Your Consent to Data Processing</h3>{' '}
+            <p>
+              Many data processing operations are only possible with your explicit consent. You can revoke an already given consent at any time. The legality of the data processing
+              carried out until the revocation remains unaffected by the revocation.
+            </p>
+            <h3>Right to Object to Data Collection in Special Cases and to Direct Advertising (Art. 21 GDPR)</h3>{' '}
+            <p>
+              IF THE DATA PROCESSING IS BASED ON ART. 6 PARA. 1 LIT. E OR F GDPR, YOU HAVE THE RIGHT TO OBJECT TO THE PROCESSING OF YOUR PERSONAL DATA AT ANY TIME FOR REASONS
+              ARISING FROM YOUR PARTICULAR SITUATION; THIS ALSO APPLIES TO PROFILING BASED ON THESE PROVISIONS. THE RESPECTIVE LEGAL BASIS ON WHICH A PROCESSING IS BASED CAN BE
+              FOUND IN THIS PRIVACY POLICY. IF YOU OBJECT, WE WILL NO LONGER PROCESS YOUR AFFECTED PERSONAL DATA UNLESS WE CAN DEMONSTRATE COMPELLING LEGITIMATE GROUNDS FOR THE
+              PROCESSING THAT OVERRIDE YOUR INTERESTS, RIGHTS, AND FREEDOMS OR THE PROCESSING IS FOR THE PURPOSE OF ASSERTING, EXERCISING, OR DEFENDING LEGAL CLAIMS (OBJECTION
+              ACCORDING TO ART. 21 PARA. 1 GDPR).
+            </p>{' '}
+            <p>
+              IF YOUR PERSONAL DATA IS PROCESSED FOR DIRECT MARKETING PURPOSES, YOU HAVE THE RIGHT TO OBJECT AT ANY TIME TO THE PROCESSING OF PERSONAL DATA CONCERNING YOU FOR THE
+              PURPOSE OF SUCH ADVERTISING; THIS ALSO APPLIES TO PROFILING INSOFAR AS IT IS ASSOCIATED WITH SUCH DIRECT MARKETING. IF YOU OBJECT, YOUR PERSONAL DATA WILL NO LONGER
+              BE USED FOR DIRECT MARKETING PURPOSES (OBJECTION ACCORDING TO ART. 21 PARA. 2 GDPR).
+            </p>
+            <h3>Right to Lodge a Complaint with the Competent Supervisory Authority</h3>{' '}
+            <p>
+              In the event of violations of the GDPR, the data subjects have the right to lodge a complaint with a supervisory authority, in particular in the member state of their
+              habitual residence, their place of work, or the place of the alleged violation. The right to lodge a complaint is without prejudice to other administrative or
+              judicial remedies.
+            </p>
+            <h3>Right to Data Portability</h3>{' '}
+            <p>
+              You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a
+              common, machine-readable format. If you request the direct transfer of the data to another responsible party, this will only be done to the extent that it is
+              technically feasible.
+            </p>
+            <h3>Information, Correction, and Deletion</h3>{' '}
+            <p>
+              Within the framework of the applicable legal provisions, you have the right to free information about your stored personal data, its origin and recipient, and the
+              purpose of the data processing and, if necessary, a right to correction or deletion of this data at any time. You can contact us at any time regarding this and other
+              questions on the subject of personal data.
+            </p>
+            <h3>Right to Restriction of Processing</h3>{' '}
+            <p>
+              You have the right to request the restriction of the processing of your personal data. You can contact us at any time for this purpose. The right to restriction of
+              processing exists in the following cases:
+            </p>{' '}
+            <ul>
+              {' '}
+              <li>
+                If you dispute the accuracy of your personal data stored with us, we usually need time to verify this. For the duration of the verification, you have the right to
+                request the restriction of the processing of your personal data.
+              </li>{' '}
+              <li>If the processing of your personal data was/is unlawful, you can request the restriction of data processing instead of deletion.</li>{' '}
+              <li>
+                If we no longer need your personal data, but you need it to exercise, defend, or assert legal claims, you have the right to request the restriction of the
+                processing of your personal data instead of deletion.
+              </li>{' '}
+              <li>
+                If you have lodged an objection according to Art. 21 para. 1 GDPR, a balance must be struck between your and our interests. As long as it is not yet clear whose
+                interests prevail, you have the right to request the restriction of the processing of your personal data.
+              </li>{' '}
+            </ul>{' '}
+            <p>
+              If you have restricted the processing of your personal data, this data may only be processed – apart from being stored – with your consent or for the assertion,
+              exercise, or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the
+              European Union or a member state.
+            </p>
+            <h3>SSL or TLS Encryption</h3>{' '}
+            <p>
+              This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content, such as orders or inquiries that you send to us as
+              the site operator. You can recognize an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock
+              symbol in your browser line.
+            </p>{' '}
+            <p>If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.</p>
+            <h2>4. Data Collection on this Website</h2>
+            <h3>Cookies</h3>{' '}
+            <p>
+              Our internet pages use so-called "cookies". Cookies are small data packets and do not cause any damage to your terminal device. They are either temporarily stored for
+              the duration of a session (session cookies) or permanently (permanent cookies) on your terminal device. Session cookies are automatically deleted after your visit.
+              Permanent cookies remain stored on your terminal device until you delete them yourself or an automatic deletion is carried out by your web browser.
+            </p>{' '}
+            <p>
+              Cookies can be from us (first-party cookies) or from third-party companies (so-called third-party cookies). Third-party cookies enable the integration of certain
+              services from third-party companies within websites (e.g. cookies for processing payment services).
+            </p>{' '}
+            <p>
+              Cookies have various functions. Many cookies are technically necessary, as certain website functions would not work without them (e.g. the shopping cart function or
+              the display of videos). Other cookies can be used to evaluate user behavior or for advertising purposes.
+            </p>{' '}
+            <p>
+              Cookies that are necessary to carry out the electronic communication process, to provide certain functions you have requested (e.g. for the shopping cart function),
+              or to optimize the website (e.g. cookies to measure the web audience) are stored on the basis of Art. 6 para. 1 lit. f GDPR, unless another legal basis is specified.
+              The website operator has a legitimate interest in storing necessary cookies for the technically error-free and optimized provision of its services. If consent to the
+              storage of cookies and comparable recognition technologies has been requested, the processing is carried out exclusively on the basis of this consent (Art. 6 para. 1
+              lit. a GDPR and § 25 para. 1 TDDG); the consent can be revoked at any time.
+            </p>{' '}
+            <p>
+              You can set your browser so that you are informed about the setting of cookies and only allow cookies in individual cases, exclude the acceptance of cookies for
+              certain cases or generally, and activate the automatic deletion of cookies when closing the browser. If cookies are deactivated, the functionality of this website may
+              be restricted.
+            </p>{' '}
+            <p>You can find out which cookies and services are used on this website in this privacy policy.</p>
+            <h2>5. Plugins and Tools</h2>
+            <h3>Google Fonts (Local Hosting)</h3>{' '}
+            <p>
+              This site uses so-called Google Fonts, which are provided by Google, for the uniform display of fonts. The Google Fonts are installed locally. There is no connection
+              to Google servers.
+            </p>{' '}
+            <p>
+              Further information on Google Fonts can be found at{' '}
+              <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener noreferrer">
+                https://developers.google.com/fonts/faq
+              </a>{' '}
+              and in Google's privacy policy:{' '}
+              <a href="https://policies.google.com/privacy?hl=en" target="_blank" rel="noopener noreferrer">
+                https://policies.google.com/privacy?hl=en
+              </a>
+              .
+            </p>
           </Fragment>
         )}
       </ResponsiveContainer>
