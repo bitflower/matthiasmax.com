@@ -83,6 +83,8 @@ export namespace Components {
     }
     interface PreFooter {
     }
+    interface PrivacyPage {
+    }
     interface ProGlshader {
         "frag": string;
         "media"?: string;
@@ -279,6 +281,12 @@ declare global {
         prototype: HTMLPreFooterElement;
         new (): HTMLPreFooterElement;
     };
+    interface HTMLPrivacyPageElement extends Components.PrivacyPage, HTMLStencilElement {
+    }
+    var HTMLPrivacyPageElement: {
+        prototype: HTMLPrivacyPageElement;
+        new (): HTMLPrivacyPageElement;
+    };
     interface HTMLProGlshaderElement extends Components.ProGlshader, HTMLStencilElement {
     }
     var HTMLProGlshaderElement: {
@@ -361,6 +369,7 @@ declare global {
         "newsletter-signup": HTMLNewsletterSignupElement;
         "notfound-page": HTMLNotfoundPageElement;
         "pre-footer": HTMLPreFooterElement;
+        "privacy-page": HTMLPrivacyPageElement;
         "pro-glshader": HTMLProGlshaderElement;
         "project-card": HTMLProjectCardElement;
         "project-deliverables-filter": HTMLProjectDeliverablesFilterElement;
@@ -449,6 +458,8 @@ declare namespace LocalJSX {
     }
     interface PreFooter {
     }
+    interface PrivacyPage {
+    }
     interface ProGlshader {
         "frag"?: string;
         "media"?: string;
@@ -511,6 +522,7 @@ declare namespace LocalJSX {
         "newsletter-signup": NewsletterSignup;
         "notfound-page": NotfoundPage;
         "pre-footer": PreFooter;
+        "privacy-page": PrivacyPage;
         "pro-glshader": ProGlshader;
         "project-card": ProjectCard;
         "project-deliverables-filter": ProjectDeliverablesFilter;
@@ -553,6 +565,7 @@ declare module "@stencil/core" {
             "newsletter-signup": LocalJSX.NewsletterSignup & JSXBase.HTMLAttributes<HTMLNewsletterSignupElement>;
             "notfound-page": LocalJSX.NotfoundPage & JSXBase.HTMLAttributes<HTMLNotfoundPageElement>;
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
+            "privacy-page": LocalJSX.PrivacyPage & JSXBase.HTMLAttributes<HTMLPrivacyPageElement>;
             "pro-glshader": LocalJSX.ProGlshader & JSXBase.HTMLAttributes<HTMLProGlshaderElement>;
             "project-card": LocalJSX.ProjectCard & JSXBase.HTMLAttributes<HTMLProjectCardElement>;
             "project-deliverables-filter": LocalJSX.ProjectDeliverablesFilter & JSXBase.HTMLAttributes<HTMLProjectDeliverablesFilterElement>;

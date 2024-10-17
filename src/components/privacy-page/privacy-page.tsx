@@ -4,10 +4,10 @@ import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 import i18n from '../../stores/i18n.store';
 
 @Component({
-  tag: 'imprint-page',
-  styleUrl: 'imprint-page.css',
+  tag: 'privacy-page',
+  styleUrl: 'privacy-page.css',
 })
-export class ImprintPage {
+export class PrivacyPage {
   @Element() el!: Element;
 
   constructor() {
@@ -19,49 +19,6 @@ export class ImprintPage {
       <ResponsiveContainer>
         {i18n.lang === 'de' ? (
           <Fragment>
-            <h1>{i18n.global.imprint}</h1>
-            <p>
-              Matthias Max
-              <br />
-              bitflower e.K.
-              <br />
-              Ludwigstra&szlig;e 23-2
-              <br />
-              74372 Sersheim
-            </p>
-            <p>
-              Handelsregister: HRA 729998
-              <br />
-              Registergericht: Stuttgart
-            </p>
-            <h2>Kontakt</h2>
-            <p>
-              Telefon: +49 7042 959424
-              <br />
-              E-Mail: info@matthiasmax.de
-            </p>
-            <h2>Umsatzsteuer-ID</h2>
-            <p>
-              Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:
-              <br />
-              DE282769214
-            </p>
-            <h2>Berufsbezeichnung und berufsrechtliche Regelungen</h2>
-            <p>
-              Berufsbezeichnung:
-              <br />
-              Dipl. Wirtschaftsinformatiker
-            </p>
-            <h2>Redaktionell verantwortlich</h2>
-            <p>
-              Matthias Max
-              <br />
-              Ludwigstra&szlig;e 23-2
-              <br />
-              74372 Sersheim
-            </p>
-            <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
-            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
             <h1>Datenschutz&shy;erkl&auml;rung</h1>
             <h2>1. Datenschutz auf einen Blick</h2>
             <h3>Allgemeine Hinweise</h3>{' '}

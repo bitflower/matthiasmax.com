@@ -64,6 +64,8 @@ interface I18nGlobal {
   sayHello: string;
   imprint: string;
   imprintLink: string;
+  privacy: string;
+  privacyLink: string;
 }
 interface I18nLandingPage {
   brands: string;

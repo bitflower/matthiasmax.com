@@ -88,7 +88,9 @@
     "phone": "Telefon",
     "sayHello": "Sag Hallo!",
     "imprint": "Impressum",
-    "imprintLink": "impressum"
+    "imprintLink": "impressum",
+    "privacy": "Datenschutz",
+    "privacyLink": "datenschutz"
   },
   "industry": {
     "singular": "Branche",

@@ -98,6 +98,7 @@ export class AppRoot {
 
                 <stencil-route url="/cv" component="cv-page" />
                 <stencil-route url={`/${i18n.global.imprintLink}`} component="imprint-page" />
+                <stencil-route url={`/${i18n.global.privacyLink}`} component="privacy-page" />
                 <stencil-route url={`/${i18n.contact.link}`} component="contact-page" />
                 <stencil-route component="notfound-page"></stencil-route>
               </stencil-route-switch>
@@ -110,8 +111,12 @@ export class AppRoot {
                   </stencil-route-link>
                   <p>
                     <span>© {new Date().getFullYear()} Matthias Max</span> |{' '}
-                    <stencil-route-link url={`/${i18n.global.imprintLink}`} anchorTitle="Matthias Max Impressum">
+                    <stencil-route-link url={`/${i18n.global.imprintLink}`} anchorTitle={`Matthias Max ${i18n.global.imprint}`}>
                       {i18n.global.imprint}
+                    </stencil-route-link>{' '}
+                    |{' '}
+                    <stencil-route-link url={`/${i18n.global.privacyLink}`} anchorTitle={`Matthias Max ${i18n.global.privacy}`}>
+                      {i18n.global.privacy}
                     </stencil-route-link>
                   </p>
                   <ul class="external-links list--unstyled">
