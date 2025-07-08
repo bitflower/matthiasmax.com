@@ -106,9 +106,9 @@ export class PrivacyPage {
               <br />
               bitflower e.K.
               <br />
-              Ludwigstra&szlig;e 23-2
+              Gerberstra&szlig;e 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
             <p>
               Telefon: 01714177266
@@ -345,9 +345,9 @@ export class PrivacyPage {
               <br />
               bitflower e.K.
               <br />
-              Ludwigstraße 23-2
+              Gerberstraße 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
             <p>
               Phone: 01714177266

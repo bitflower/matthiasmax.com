@@ -25,9 +25,9 @@ export class ImprintPage {
               <br />
               bitflower e.K.
               <br />
-              Ludwigstra&szlig;e 23-2
+              Gerberstra&szlig;e 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
             <p>
               Handelsregister: HRA 729998
@@ -56,9 +56,9 @@ export class ImprintPage {
             <p>
               Matthias Max
               <br />
-              Ludwigstra&szlig;e 23-2
+              Gerberstra&szlig;e 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
             <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
             <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
@@ -149,9 +149,9 @@ export class ImprintPage {
               <br />
               bitflower e.K.
               <br />
-              Ludwigstra&szlig;e 23-2
+              Gerberstra&szlig;e 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
             <p>
               Telefon: 01714177266
@@ -319,9 +319,9 @@ export class ImprintPage {
               <br />
               bitflower e.K.
               <br />
-              Ludwigstra&szlig;e 23-2
+              Gerberstra&szlig;e 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
 
             <p>
@@ -354,9 +354,9 @@ export class ImprintPage {
             <p>
               Matthias Max
               <br />
-              Ludwigstra&szlig;e 23-2
+              Gerberstra&szlig;e 1
               <br />
-              74372 Sersheim
+              71665 Vaihingen
             </p>
 
             <h2>Consumer Dispute Resolution/Universal Arbitration Board</h2>

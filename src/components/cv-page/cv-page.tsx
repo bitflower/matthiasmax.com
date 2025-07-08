@@ -313,9 +313,9 @@ export class cvPage {
           <div class="bla">
             <div class="contact-details">
               <div class="col">
-                Ludwigstraße 23-2
+                Gerberstraße 1
                 <br />
-                74372 Sersheim
+                71665 Vaihingen
               </div>
               <div class="col">
                 {i18n.global.phone}: (+49 7042) 77 00 973
