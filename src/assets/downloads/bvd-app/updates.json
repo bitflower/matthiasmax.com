@@ -1,8 +1,8 @@
 {
   "appName": "BVD App",
-  "versionCode": 7,
-  "versionName": "0.1.7",
-  "apkUrl": "https://bitflower.net/assets/downloads/bvd-app/latest.apk?v=7",
-  "sha256": "72389d84fc33712e6ab95324b6200e4c894bb67eda10e2fe5929fdf46337784d",
+  "versionCode": 9,
+  "versionName": "0.2.1",
+  "apkUrl": "https://bitflower.net/assets/downloads/bvd-app/latest.apk?v=9",
+  "sha256": "189ba26b673f62528abd7055974501cf60c38ade036176f162b81702025cc67b",
   "changelog": "Bugfixes & Verbesserungen"
 }
