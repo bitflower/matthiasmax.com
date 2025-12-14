@@ -16,13 +16,15 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "jsx": "react",
-    "jsxFactory": "h"
+    "jsxFactory": "h",
+    "skipLibCheck": true
   },
   "include": [
     "src",
     "types/jsx.d.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "api"
   ]
 }
