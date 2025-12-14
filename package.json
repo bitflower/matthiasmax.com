@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Matthias Max Enterprise Solution Architect Site",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "build": "npm run site.structure && npm run docs && stencil build --prerender",
