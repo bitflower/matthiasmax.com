@@ -29,6 +29,8 @@ export const config: Config = {
       copy: [
         { src: 'cli.ts.deno', dest: 'cli.ts' },
         { src: '../node_modules/@ionic-internal/ionic-ds/www/assets/fonts', dest: 'assets/fonts' },
+        { src: 'assets/downloads/hvhalrbls/.htaccess' },
+        { src: 'assets/downloads/hvhalrbls/.htpasswd' },
       ],
     },
     {
