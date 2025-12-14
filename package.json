@@ -29,6 +29,7 @@
     "@types/node": "^20.4.2",
     "@types/prismic-dom": "^2.1.1",
     "@types/prismjs": "^1.16.1",
+    "@vercel/node": "^5.5.15",
     "copy-text-to-clipboard": "^2.2.0",
     "dotenv": "^8.2.0",
     "front-matter": "^3.2.1",

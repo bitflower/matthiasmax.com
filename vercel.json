@@ -1,3 +1,9 @@
 {
+  "rewrites": [
+    {
+      "source": "/assets/downloads/hvhalrbls/(.*)",
+      "destination": "/api/download?file=hvhalrbls/$1"
+    }
+  ],
   "redirects": []
 }
