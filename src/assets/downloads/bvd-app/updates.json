@@ -1,8 +1,8 @@
 {
-  "appName": "BVD App",
-  "versionCode": 9,
-  "versionName": "0.2.1",
-  "apkUrl": "https://bitflower.net/assets/downloads/bvd-app/latest.apk?v=9",
-  "sha256": "189ba26b673f62528abd7055974501cf60c38ade036176f162b81702025cc67b",
+  "appName": "Battery Monitor",
+  "versionCode": 310,
+  "versionName": "3.1.0",
+  "apkUrl": "https://bitflower.net/assets/downloads/bvd-app/latest.apk?v=310",
+  "sha256": "73e118176fa0a01b7a44629c825ce009e0967f0675fca98ded233a997be7d0c6",
   "changelog": "Bugfixes & Verbesserungen"
 }
